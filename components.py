@@ -1,14 +1,17 @@
 import dash_core_components as dcc
 import dash_html_components as html
-
-
+import data_importing as di
+import seaborn as sns
 
 ## Dash core components to create by cirit
 #for now its
 
 
+data = di.get_data()
+
 
 components  = [];
+
 
 components.append(dcc.Graph( id='example-graph',
                          figure={'data': [

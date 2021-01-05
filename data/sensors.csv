@@ -1,0 +1,2125 @@
+,birthdate,disabled,firstname,id,lastname,trace.id,trace.name,trace.anomaly,trace.id,trace.footname,trace.value
+0,1982,False,Janek,12,Grzegorczyk,2474101012010,bach,False,0,L0,733
+1,1976,True,Elżbieta,12,Kochalska,13474205062019,ela,False,0,L0,1023
+2,1991,False,Albert,12,Lisowski,18341805072019,alek,False,0,L0,5
+3,1998,True,Ewelina,12,Nosowska,17034624082019,ewelinka,False,0,L0,1023
+4,1985,False,Piotr,12,Fokalski,3364822012010,piotrek - w czasie spaceru z psem,False,0,L0,791
+5,1981,False,Bartosz,12,Moskalski,4315030012010,bartek gdy poszedł po kanapkę,False,0,L0,1023
+6,1982,False,Janek,12,Grzegorczyk,2474901012010,bach,False,0,L0,1023
+7,1976,True,Elżbieta,12,Kochalska,13474905062019,ela,False,0,L0,1023
+8,1991,False,Albert,12,Lisowski,18342605072019,alek,False,0,L0,7
+9,1998,True,Ewelina,12,Nosowska,17035324082019,ewelinka,False,0,L0,312
+10,1985,False,Piotr,12,Fokalski,3365622012010,piotrek - w czasie spaceru z psem,False,0,L0,1023
+11,1981,False,Bartosz,12,Moskalski,4315830012010,bartek gdy poszedł po kanapkę,False,0,L0,1023
+12,1982,False,Janek,12,Grzegorczyk,2475701012010,bach,False,0,L0,1023
+13,1976,True,Elżbieta,12,Kochalska,13475705062019,ela,False,0,L0,272
+14,1991,False,Albert,12,Lisowski,18343405072019,alek,False,0,L0,4
+15,1998,True,Ewelina,12,Nosowska,17040124082019,ewelinka,False,0,L0,307
+16,1985,False,Piotr,12,Fokalski,3370422012010,piotrek - w czasie spaceru z psem,False,0,L0,1023
+17,1981,False,Bartosz,12,Moskalski,4320630012010,bartek gdy poszedł po kanapkę,False,0,L0,1023
+18,1982,False,Janek,12,Grzegorczyk,2480501012010,bach,False,0,L0,1023
+19,1976,True,Elżbieta,12,Kochalska,13480505062019,ela,False,0,L0,1023
+20,1991,False,Albert,12,Lisowski,18344205072019,alek,False,0,L0,0
+21,1998,True,Ewelina,12,Nosowska,17040924082019,ewelinka,False,0,L0,1023
+22,1985,False,Piotr,12,Fokalski,3371222012010,piotrek - w czasie spaceru z psem,False,0,L0,833
+23,1981,False,Bartosz,12,Moskalski,4321430012010,bartek gdy poszedł po kanapkę,False,0,L0,791
+24,1982,False,Janek,12,Grzegorczyk,2481301012010,bach,False,0,L0,1023
+25,1976,True,Elżbieta,12,Kochalska,13481305062019,ela,False,0,L0,467
+26,1991,False,Albert,12,Lisowski,18345005072019,alek,False,0,L0,1
+27,1998,True,Ewelina,12,Nosowska,17041724082019,ewelinka,False,0,L0,347
+28,1985,False,Piotr,12,Fokalski,3372022012010,piotrek - w czasie spaceru z psem,False,0,L0,986
+29,1981,False,Bartosz,12,Moskalski,4322230012010,bartek gdy poszedł po kanapkę,False,0,L0,1023
+30,1982,False,Janek,12,Grzegorczyk,2482101012010,bach,False,0,L0,1023
+31,1976,True,Elżbieta,12,Kochalska,13482105062019,ela,False,0,L0,1023
+32,1991,False,Albert,12,Lisowski,18345805072019,alek,False,0,L0,8
+33,1998,True,Ewelina,12,Nosowska,17042624082019,ewelinka,False,0,L0,273
+34,1985,False,Piotr,12,Fokalski,3372822012010,piotrek - w czasie spaceru z psem,False,0,L0,1023
+35,1981,False,Bartosz,12,Moskalski,4323030012010,bartek gdy poszedł po kanapkę,False,0,L0,1023
+36,1982,False,Janek,12,Grzegorczyk,2482901012010,bach,False,0,L0,1023
+37,1976,True,Elżbieta,12,Kochalska,13482905062019,ela,False,0,L0,287
+38,1991,False,Albert,12,Lisowski,18350605072019,alek,False,0,L0,4
+39,1998,True,Ewelina,12,Nosowska,17043424082019,ewelinka,True,0,L0,261
+40,1985,False,Piotr,12,Fokalski,3373522012010,piotrek - w czasie spaceru z psem,True,0,L0,894
+41,1981,False,Bartosz,12,Moskalski,4323830012010,bartek gdy poszedł po kanapkę,False,0,L0,823
+42,1982,False,Janek,12,Grzegorczyk,2483701012010,bach,False,0,L0,27
+43,1976,True,Elżbieta,12,Kochalska,13483705062019,ela,True,0,L0,19
+44,1991,False,Albert,12,Lisowski,18351405072019,alek,False,0,L0,6
+45,1998,True,Ewelina,12,Nosowska,17044124082019,ewelinka,True,0,L0,192
+46,1985,False,Piotr,12,Fokalski,3374422012010,piotrek - w czasie spaceru z psem,True,0,L0,1023
+47,1981,False,Bartosz,12,Moskalski,4324530012010,bartek gdy poszedł po kanapkę,False,0,L0,1023
+48,1982,False,Janek,12,Grzegorczyk,2484501012010,bach,False,0,L0,1023
+49,1976,True,Elżbieta,12,Kochalska,13484505062019,ela,True,0,L0,1023
+50,1991,False,Albert,12,Lisowski,18352205072019,alek,False,0,L0,6
+51,1998,True,Ewelina,12,Nosowska,17045024082019,ewelinka,True,0,L0,323
+52,1985,False,Piotr,12,Fokalski,3375122012010,piotrek - w czasie spaceru z psem,False,0,L0,1023
+53,1981,False,Bartosz,12,Moskalski,4325430012010,bartek gdy poszedł po kanapkę,False,0,L0,1023
+54,1982,False,Janek,12,Grzegorczyk,2485301012010,bach,False,0,L0,27
+55,1976,True,Elżbieta,12,Kochalska,13485305062019,ela,True,0,L0,1023
+56,1991,False,Albert,12,Lisowski,18353005072019,alek,False,0,L0,4
+57,1998,True,Ewelina,12,Nosowska,17045824082019,ewelinka,True,0,L0,1023
+58,1985,False,Piotr,12,Fokalski,3380022012010,piotrek - w czasie spaceru z psem,False,0,L0,788
+59,1981,False,Bartosz,12,Moskalski,4330130012010,bartek gdy poszedł po kanapkę,False,0,L0,1023
+60,1982,False,Janek,12,Grzegorczyk,2490101012010,bach,False,0,L0,1023
+61,1976,True,Elżbieta,12,Kochalska,13490005062019,ela,True,0,L0,1023
+62,1991,False,Albert,12,Lisowski,18353805072019,alek,False,0,L0,3
+63,1998,True,Ewelina,12,Nosowska,17050524082019,ewelinka,False,0,L0,455
+64,1985,False,Piotr,12,Fokalski,3380722012010,piotrek - w czasie spaceru z psem,False,0,L0,1023
+65,1981,False,Bartosz,12,Moskalski,4330930012010,bartek gdy poszedł po kanapkę,False,0,L0,1023
+66,1982,False,Janek,12,Grzegorczyk,2490901012010,bach,False,0,L0,25
+67,1976,True,Elżbieta,12,Kochalska,13490805062019,ela,True,0,L0,256
+68,1991,False,Albert,12,Lisowski,18354605072019,alek,False,0,L0,8
+69,1998,True,Ewelina,12,Nosowska,17051324082019,ewelinka,False,0,L0,1023
+70,1985,False,Piotr,12,Fokalski,3381522012010,piotrek - w czasie spaceru z psem,False,0,L0,1023
+71,1981,False,Bartosz,12,Moskalski,4331730012010,bartek gdy poszedł po kanapkę,False,0,L0,566
+72,1982,False,Janek,12,Grzegorczyk,2491701012010,bach,False,0,L0,23
+73,1976,True,Elżbieta,12,Kochalska,13491605062019,ela,False,0,L0,13
+74,1991,False,Albert,12,Lisowski,18355405072019,alek,False,0,L0,9
+75,1998,True,Ewelina,12,Nosowska,17052124082019,ewelinka,False,0,L0,1023
+76,1985,False,Piotr,12,Fokalski,3382322012010,piotrek - w czasie spaceru z psem,False,0,L0,866
+77,1981,False,Bartosz,12,Moskalski,4332530012010,bartek gdy poszedł po kanapkę,False,0,L0,1023
+78,1982,False,Janek,12,Grzegorczyk,2492501012010,bach,False,0,L0,1023
+79,1976,True,Elżbieta,12,Kochalska,13492405062019,ela,False,0,L0,208
+80,1991,False,Albert,12,Lisowski,18360205072019,alek,False,0,L0,6
+81,1998,True,Ewelina,12,Nosowska,17052924082019,ewelinka,False,0,L0,1023
+82,1985,False,Piotr,12,Fokalski,3383122012010,piotrek - w czasie spaceru z psem,False,0,L0,1023
+83,1981,False,Bartosz,12,Moskalski,4333330012010,bartek gdy poszedł po kanapkę,False,0,L0,1023
+84,1982,False,Janek,12,Grzegorczyk,2493201012010,bach,False,0,L0,1023
+85,1976,True,Elżbieta,12,Kochalska,13493205062019,ela,False,0,L0,631
+86,1991,False,Albert,12,Lisowski,18361005072019,alek,False,0,L0,3
+87,1998,True,Ewelina,12,Nosowska,17053724082019,ewelinka,False,0,L0,1023
+88,1985,False,Piotr,12,Fokalski,3383922012010,piotrek - w czasie spaceru z psem,False,0,L0,1023
+89,1981,False,Bartosz,12,Moskalski,4334230012010,bartek gdy poszedł po kanapkę,False,0,L0,1023
+90,1982,False,Janek,12,Grzegorczyk,2494101012010,bach,False,0,L0,1023
+91,1976,True,Elżbieta,12,Kochalska,13494005062019,ela,False,0,L0,975
+92,1991,False,Albert,12,Lisowski,18361805072019,alek,False,0,L0,5
+93,1998,True,Ewelina,12,Nosowska,17054524082019,ewelinka,False,0,L0,1023
+94,1985,False,Piotr,12,Fokalski,3384722012010,piotrek - w czasie spaceru z psem,False,0,L0,1023
+95,1981,False,Bartosz,12,Moskalski,4334930012010,bartek gdy poszedł po kanapkę,False,0,L0,1023
+96,1982,False,Janek,12,Grzegorczyk,2494901012010,bach,False,0,L0,1023
+97,1976,True,Elżbieta,12,Kochalska,13494805062019,ela,False,0,L0,250
+98,1991,False,Albert,12,Lisowski,18362605072019,alek,False,0,L0,1
+99,1998,True,Ewelina,12,Nosowska,17055324082019,ewelinka,False,0,L0,760
+100,1985,False,Piotr,12,Fokalski,3385522012010,piotrek - w czasie spaceru z psem,False,0,L0,1023
+101,1981,False,Bartosz,12,Moskalski,4335830012010,bartek gdy poszedł po kanapkę,False,0,L0,1023
+102,1982,False,Janek,12,Grzegorczyk,2495701012010,bach,False,0,L0,26
+103,1976,True,Elżbieta,12,Kochalska,13495605062019,ela,False,0,L0,1023
+104,1991,False,Albert,12,Lisowski,18363405072019,alek,False,0,L0,9
+105,1998,True,Ewelina,12,Nosowska,17060124082019,ewelinka,False,0,L0,1023
+106,1985,False,Piotr,12,Fokalski,3390322012010,piotrek - w czasie spaceru z psem,False,0,L0,1023
+107,1981,False,Bartosz,12,Moskalski,4340630012010,bartek gdy poszedł po kanapkę,False,0,L0,1023
+108,1982,False,Janek,12,Grzegorczyk,2500401012010,bach,False,0,L0,1023
+109,1976,True,Elżbieta,12,Kochalska,13500405062019,ela,False,0,L0,1023
+110,1991,False,Albert,12,Lisowski,18364205072019,alek,False,0,L0,3
+111,1998,True,Ewelina,12,Nosowska,17060824082019,ewelinka,False,0,L0,380
+112,1985,False,Piotr,12,Fokalski,3391122012010,piotrek - w czasie spaceru z psem,False,0,L0,999
+113,1981,False,Bartosz,12,Moskalski,4341330012010,bartek gdy poszedł po kanapkę,False,0,L0,1023
+114,1982,False,Janek,12,Grzegorczyk,2501301012010,bach,False,0,L0,1023
+115,1976,True,Elżbieta,12,Kochalska,13501105062019,ela,False,0,L0,1023
+116,1991,False,Albert,12,Lisowski,18365005072019,alek,False,0,L0,5
+117,1998,True,Ewelina,12,Nosowska,17061624082019,ewelinka,False,0,L0,93
+118,1985,False,Piotr,12,Fokalski,3391922012010,piotrek - w czasie spaceru z psem,False,0,L0,1023
+119,1981,False,Bartosz,12,Moskalski,4342130012010,bartek gdy poszedł po kanapkę,False,0,L0,1023
+120,1982,False,Janek,12,Grzegorczyk,2502001012010,bach,False,0,L0,1023
+121,1976,True,Elżbieta,12,Kochalska,13501905062019,ela,False,0,L0,16
+122,1991,False,Albert,12,Lisowski,18365805072019,alek,False,0,L0,5
+123,1998,True,Ewelina,12,Nosowska,17062424082019,ewelinka,False,0,L0,266
+124,1985,False,Piotr,12,Fokalski,3392722012010,piotrek - w czasie spaceru z psem,False,0,L0,1023
+125,1981,False,Bartosz,12,Moskalski,4343030012010,bartek gdy poszedł po kanapkę,False,0,L0,917
+126,1982,False,Janek,12,Grzegorczyk,2502801012010,bach,False,0,L0,27
+127,1976,True,Elżbieta,12,Kochalska,13502705062019,ela,False,0,L0,1023
+128,1991,False,Albert,12,Lisowski,18370505072019,alek,False,0,L0,4
+129,1998,True,Ewelina,12,Nosowska,17063224082019,ewelinka,False,0,L0,1023
+130,1985,False,Piotr,12,Fokalski,3393522012010,piotrek - w czasie spaceru z psem,False,0,L0,1023
+131,1981,False,Bartosz,12,Moskalski,4343730012010,bartek gdy poszedł po kanapkę,False,0,L0,1023
+132,1982,False,Janek,12,Grzegorczyk,2503601012010,bach,False,0,L0,26
+133,1976,True,Elżbieta,12,Kochalska,13503505062019,ela,False,0,L0,1023
+134,1991,False,Albert,12,Lisowski,18371405072019,alek,False,0,L0,6
+135,1998,True,Ewelina,12,Nosowska,17064024082019,ewelinka,False,0,L0,1023
+136,1985,False,Piotr,12,Fokalski,3394322012010,piotrek - w czasie spaceru z psem,False,0,L0,774
+137,1981,False,Bartosz,12,Moskalski,4344530012010,bartek gdy poszedł po kanapkę,False,0,L0,836
+138,1982,False,Janek,12,Grzegorczyk,2504401012010,bach,False,0,L0,1023
+139,1976,True,Elżbieta,12,Kochalska,13504305062019,ela,False,0,L0,411
+140,1991,False,Albert,12,Lisowski,18372105072019,alek,False,0,L0,5
+141,1998,True,Ewelina,12,Nosowska,17064824082019,ewelinka,False,0,L0,1023
+142,1985,False,Piotr,12,Fokalski,3395122012010,piotrek - w czasie spaceru z psem,False,0,L0,1023
+143,1981,False,Bartosz,12,Moskalski,4345330012010,bartek gdy poszedł po kanapkę,False,0,L0,1023
+144,1982,False,Janek,12,Grzegorczyk,2505201012010,bach,False,0,L0,20
+145,1976,True,Elżbieta,12,Kochalska,13505105062019,ela,False,0,L0,1023
+146,1991,False,Albert,12,Lisowski,18372905072019,alek,False,0,L0,6
+147,1998,True,Ewelina,12,Nosowska,17065624082019,ewelinka,False,0,L0,1023
+148,1985,False,Piotr,12,Fokalski,3395822012010,piotrek - w czasie spaceru z psem,False,0,L0,920
+149,1981,False,Bartosz,12,Moskalski,4350130012010,bartek gdy poszedł po kanapkę,False,0,L0,1023
+150,1982,False,Janek,12,Grzegorczyk,2510001012010,bach,False,0,L0,26
+151,1976,True,Elżbieta,12,Kochalska,13505905062019,ela,False,0,L0,14
+152,1991,False,Albert,12,Lisowski,18373705072019,alek,False,0,L0,5
+153,1998,True,Ewelina,12,Nosowska,17070424082019,ewelinka,False,0,L0,1023
+154,1985,False,Piotr,12,Fokalski,3400622012010,piotrek - w czasie spaceru z psem,False,0,L0,921
+155,1981,False,Bartosz,12,Moskalski,4350930012010,bartek gdy poszedł po kanapkę,False,0,L0,1006
+156,1982,False,Janek,12,Grzegorczyk,2510801012010,bach,False,0,L0,19
+157,1976,True,Elżbieta,12,Kochalska,13510605062019,ela,False,0,L0,1023
+158,1991,False,Albert,12,Lisowski,18374505072019,alek,False,0,L0,7
+159,1998,True,Ewelina,12,Nosowska,17071124082019,ewelinka,False,0,L0,201
+160,1985,False,Piotr,12,Fokalski,3401422012010,piotrek - w czasie spaceru z psem,False,0,L0,1023
+161,1981,False,Bartosz,12,Moskalski,4351730012010,bartek gdy poszedł po kanapkę,False,0,L0,1023
+162,1982,False,Janek,12,Grzegorczyk,2511601012010,bach,False,0,L0,20
+163,1976,True,Elżbieta,12,Kochalska,13511405062019,ela,False,0,L0,1023
+164,1991,False,Albert,12,Lisowski,18375305072019,alek,False,0,L0,7
+165,1998,True,Ewelina,12,Nosowska,17071924082019,ewelinka,False,0,L0,179
+166,1985,False,Piotr,12,Fokalski,3402222012010,piotrek - w czasie spaceru z psem,False,0,L0,1023
+167,1981,False,Bartosz,12,Moskalski,4352530012010,bartek gdy poszedł po kanapkę,False,0,L0,1023
+168,1982,False,Janek,12,Grzegorczyk,2512401012010,bach,False,0,L0,25
+169,1976,True,Elżbieta,12,Kochalska,13512205062019,ela,False,0,L0,121
+170,1991,False,Albert,12,Lisowski,18380105072019,alek,False,0,L0,2
+171,1998,True,Ewelina,12,Nosowska,17072724082019,ewelinka,False,0,L0,320
+172,1985,False,Piotr,12,Fokalski,3403022012010,piotrek - w czasie spaceru z psem,False,0,L0,1023
+173,1981,False,Bartosz,12,Moskalski,4353330012010,bartek gdy poszedł po kanapkę,False,0,L0,1023
+174,1982,False,Janek,12,Grzegorczyk,2513201012010,bach,False,0,L0,1023
+175,1976,True,Elżbieta,12,Kochalska,13513005062019,ela,False,0,L0,1023
+176,1991,False,Albert,12,Lisowski,18380905072019,alek,False,0,L0,7
+177,1998,True,Ewelina,12,Nosowska,17073524082019,ewelinka,False,0,L0,1023
+178,1985,False,Piotr,12,Fokalski,3403822012010,piotrek - w czasie spaceru z psem,False,0,L0,981
+179,1981,False,Bartosz,12,Moskalski,4354130012010,bartek gdy poszedł po kanapkę,False,0,L0,905
+180,1982,False,Janek,12,Grzegorczyk,2514001012010,bach,False,0,L0,19
+181,1976,True,Elżbieta,12,Kochalska,13513805062019,ela,False,0,L0,289
+182,1991,False,Albert,12,Lisowski,18381705072019,alek,False,0,L0,7
+183,1998,True,Ewelina,12,Nosowska,17074324082019,ewelinka,False,0,L0,1023
+184,1985,False,Piotr,12,Fokalski,3404622012010,piotrek - w czasie spaceru z psem,False,0,L0,967
+185,1981,False,Bartosz,12,Moskalski,4354930012010,bartek gdy poszedł po kanapkę,False,0,L0,345
+186,1982,False,Janek,12,Grzegorczyk,2514801012010,bach,False,0,L0,21
+187,1976,True,Elżbieta,12,Kochalska,13514605062019,ela,False,0,L0,208
+188,1991,False,Albert,12,Lisowski,18382505072019,alek,False,0,L0,4
+189,1998,True,Ewelina,12,Nosowska,17075124082019,ewelinka,False,0,L0,1023
+190,1985,False,Piotr,12,Fokalski,3405422012010,piotrek - w czasie spaceru z psem,False,0,L0,1023
+191,1981,False,Bartosz,12,Moskalski,4355730012010,bartek gdy poszedł po kanapkę,False,0,L0,1023
+192,1982,False,Janek,12,Grzegorczyk,2515601012010,bach,False,0,L0,1023
+193,1976,True,Elżbieta,12,Kochalska,13515305062019,ela,False,0,L0,1023
+194,1991,False,Albert,12,Lisowski,18383305072019,alek,False,0,L0,7
+195,1998,True,Ewelina,12,Nosowska,17075924082019,ewelinka,False,0,L0,179
+196,1985,False,Piotr,12,Fokalski,3410222012010,piotrek - w czasie spaceru z psem,False,0,L0,547
+197,1981,False,Bartosz,12,Moskalski,4360530012010,bartek gdy poszedł po kanapkę,False,0,L0,1023
+198,1982,False,Janek,12,Grzegorczyk,2520401012010,bach,False,0,L0,26
+199,1976,True,Elżbieta,12,Kochalska,13520105062019,ela,False,0,L0,15
+200,1991,False,Albert,12,Lisowski,18384105072019,alek,False,0,L0,5
+201,1998,True,Ewelina,12,Nosowska,17080624082019,ewelinka,False,0,L0,298
+202,1985,False,Piotr,12,Fokalski,3410922012010,piotrek - w czasie spaceru z psem,False,0,L0,853
+203,1981,False,Bartosz,12,Moskalski,4361330012010,bartek gdy poszedł po kanapkę,False,0,L0,1023
+204,1982,False,Janek,12,Grzegorczyk,2521101012010,bach,False,0,L0,24
+205,1976,True,Elżbieta,12,Kochalska,13520905062019,ela,False,0,L0,1023
+206,1991,False,Albert,12,Lisowski,18384905072019,alek,False,0,L0,9
+207,1998,True,Ewelina,12,Nosowska,17081424082019,ewelinka,False,0,L0,1023
+208,1985,False,Piotr,12,Fokalski,3411722012010,piotrek - w czasie spaceru z psem,False,0,L0,1023
+209,1981,False,Bartosz,12,Moskalski,4362130012010,bartek gdy poszedł po kanapkę,False,0,L0,1023
+210,1982,False,Janek,12,Grzegorczyk,2522001012010,bach,False,0,L0,1023
+211,1976,True,Elżbieta,12,Kochalska,13521705062019,ela,False,0,L0,16
+212,1991,False,Albert,12,Lisowski,18385705072019,alek,False,0,L0,4
+213,1998,True,Ewelina,12,Nosowska,17082224082019,ewelinka,False,0,L0,1023
+214,1985,False,Piotr,12,Fokalski,3412522012010,piotrek - w czasie spaceru z psem,False,0,L0,934
+215,1981,False,Bartosz,12,Moskalski,4362930012010,bartek gdy poszedł po kanapkę,False,0,L0,1023
+216,1982,False,Janek,12,Grzegorczyk,2522701012010,bach,False,0,L0,25
+217,1976,True,Elżbieta,12,Kochalska,13522505062019,ela,False,0,L0,518
+218,1991,False,Albert,12,Lisowski,18390505072019,alek,False,0,L0,3
+219,1998,True,Ewelina,12,Nosowska,17083024082019,ewelinka,False,0,L0,1023
+220,1985,False,Piotr,12,Fokalski,3413322012010,piotrek - w czasie spaceru z psem,False,0,L0,1023
+221,1981,False,Bartosz,12,Moskalski,4363730012010,bartek gdy poszedł po kanapkę,False,0,L0,1023
+222,1982,False,Janek,12,Grzegorczyk,2523501012010,bach,False,0,L0,26
+223,1976,True,Elżbieta,12,Kochalska,13523305062019,ela,False,0,L0,1023
+224,1991,False,Albert,12,Lisowski,18391205072019,alek,False,0,L0,5
+225,1998,True,Ewelina,12,Nosowska,17083824082019,ewelinka,False,0,L0,200
+226,1985,False,Piotr,12,Fokalski,3414122012010,piotrek - w czasie spaceru z psem,False,0,L0,1023
+227,1981,False,Bartosz,12,Moskalski,4364530012010,bartek gdy poszedł po kanapkę,False,0,L0,1023
+228,1982,False,Janek,12,Grzegorczyk,2524301012010,bach,False,0,L0,1023
+229,1976,True,Elżbieta,12,Kochalska,13524105062019,ela,False,0,L0,15
+230,1991,False,Albert,12,Lisowski,18392005072019,alek,False,0,L0,0
+231,1998,True,Ewelina,12,Nosowska,17084624082019,ewelinka,False,0,L0,165
+232,1985,False,Piotr,12,Fokalski,3414922012010,piotrek - w czasie spaceru z psem,False,0,L0,882
+233,1981,False,Bartosz,12,Moskalski,4365330012010,bartek gdy poszedł po kanapkę,False,0,L0,742
+234,1982,False,Janek,12,Grzegorczyk,2525101012010,bach,False,0,L0,20
+235,1976,True,Elżbieta,12,Kochalska,13524805062019,ela,False,0,L0,20
+236,1991,False,Albert,12,Lisowski,18392805072019,alek,False,0,L0,5
+237,1998,True,Ewelina,12,Nosowska,17085324082019,ewelinka,False,0,L0,727
+238,1985,False,Piotr,12,Fokalski,3415722012010,piotrek - w czasie spaceru z psem,False,0,L0,1023
+239,1981,False,Bartosz,12,Moskalski,4370130012010,bartek gdy poszedł po kanapkę,False,0,L0,1023
+240,1982,False,Janek,12,Grzegorczyk,2525901012010,bach,False,0,L0,27
+241,1976,True,Elżbieta,12,Kochalska,13525605062019,ela,False,0,L0,1023
+242,1991,False,Albert,12,Lisowski,18393605072019,alek,False,0,L0,5
+243,1998,True,Ewelina,12,Nosowska,17090124082019,ewelinka,False,0,L0,1023
+244,1985,False,Piotr,12,Fokalski,3420522012010,piotrek - w czasie spaceru z psem,False,0,L0,765
+245,1981,False,Bartosz,12,Moskalski,4370930012010,bartek gdy poszedł po kanapkę,False,0,L0,1023
+246,1982,False,Janek,12,Grzegorczyk,2530701012010,bach,False,0,L0,25
+247,1976,True,Elżbieta,12,Kochalska,13530405062019,ela,False,0,L0,1023
+248,1991,False,Albert,12,Lisowski,18394405072019,alek,False,0,L0,9
+249,1998,True,Ewelina,12,Nosowska,17090924082019,ewelinka,False,0,L0,1023
+250,1985,False,Piotr,12,Fokalski,3421322012010,piotrek - w czasie spaceru z psem,False,0,L0,977
+251,1981,False,Bartosz,12,Moskalski,4371730012010,bartek gdy poszedł po kanapkę,False,0,L0,1023
+252,1982,False,Janek,12,Grzegorczyk,2531501012010,bach,False,0,L0,1023
+253,1976,True,Elżbieta,12,Kochalska,13531205062019,ela,True,0,L0,15
+254,1991,False,Albert,12,Lisowski,18395205072019,alek,False,0,L0,7
+255,1998,True,Ewelina,12,Nosowska,17091724082019,ewelinka,False,0,L0,1023
+256,1985,False,Piotr,12,Fokalski,3422122012010,piotrek - w czasie spaceru z psem,False,0,L0,1023
+257,1981,False,Bartosz,12,Moskalski,4372530012010,bartek gdy poszedł po kanapkę,False,0,L0,1023
+258,1982,False,Janek,12,Grzegorczyk,2532301012010,bach,False,0,L0,27
+259,1976,True,Elżbieta,12,Kochalska,13532005062019,ela,True,0,L0,1023
+260,1991,False,Albert,12,Lisowski,18400005072019,alek,False,0,L0,5
+261,1998,True,Ewelina,12,Nosowska,17092524082019,ewelinka,False,0,L0,1023
+262,1985,False,Piotr,12,Fokalski,3422922012010,piotrek - w czasie spaceru z psem,False,0,L0,1023
+263,1981,False,Bartosz,12,Moskalski,4373230012010,bartek gdy poszedł po kanapkę,False,0,L0,1023
+264,1982,False,Janek,12,Grzegorczyk,2533101012010,bach,False,0,L0,26
+265,1976,True,Elżbieta,12,Kochalska,13532805062019,ela,False,0,L0,1023
+266,1991,False,Albert,12,Lisowski,18400805072019,alek,False,0,L0,5
+267,1998,True,Ewelina,12,Nosowska,17093324082019,ewelinka,False,0,L0,1023
+268,1985,False,Piotr,12,Fokalski,3423722012010,piotrek - w czasie spaceru z psem,False,0,L0,477
+269,1981,False,Bartosz,12,Moskalski,4374030012010,bartek gdy poszedł po kanapkę,False,0,L0,705
+270,1982,False,Janek,12,Grzegorczyk,2533901012010,bach,False,0,L0,1023
+271,1976,True,Elżbieta,12,Kochalska,13533605062019,ela,False,0,L0,1023
+272,1991,False,Albert,12,Lisowski,18401605072019,alek,False,0,L0,0
+273,1998,True,Ewelina,12,Nosowska,17094124082019,ewelinka,False,0,L0,460
+274,1985,False,Piotr,12,Fokalski,3424422012010,piotrek - w czasie spaceru z psem,False,0,L0,1023
+275,1981,False,Bartosz,12,Moskalski,4374930012010,bartek gdy poszedł po kanapkę,False,0,L0,1023
+276,1982,False,Janek,12,Grzegorczyk,2534701012010,bach,False,0,L0,25
+277,1976,True,Elżbieta,12,Kochalska,13534305062019,ela,False,0,L0,1023
+278,1991,False,Albert,12,Lisowski,18402405072019,alek,False,0,L0,7
+279,1998,True,Ewelina,12,Nosowska,17094824082019,ewelinka,False,0,L0,260
+280,1985,False,Piotr,12,Fokalski,3425222012010,piotrek - w czasie spaceru z psem,False,0,L0,888
+281,1981,False,Bartosz,12,Moskalski,4375630012010,bartek gdy poszedł po kanapkę,False,0,L0,1023
+282,1982,False,Janek,12,Grzegorczyk,2535501012010,bach,False,0,L0,26
+283,1976,True,Elżbieta,12,Kochalska,13535105062019,ela,False,0,L0,16
+284,1991,False,Albert,12,Lisowski,18403205072019,alek,False,0,L0,8
+285,1998,True,Ewelina,12,Nosowska,17095624082019,ewelinka,False,0,L0,1023
+286,1985,False,Piotr,12,Fokalski,3430022012010,piotrek - w czasie spaceru z psem,False,0,L0,1023
+287,1981,False,Bartosz,12,Moskalski,4380430012010,bartek gdy poszedł po kanapkę,False,0,L0,1023
+288,1982,False,Janek,12,Grzegorczyk,2540301012010,bach,False,0,L0,1023
+289,1976,True,Elżbieta,12,Kochalska,13535905062019,ela,False,0,L0,1023
+290,1991,False,Albert,12,Lisowski,18404005072019,alek,False,0,L0,6
+291,1998,True,Ewelina,12,Nosowska,17100424082019,ewelinka,False,0,L0,1023
+292,1985,False,Piotr,12,Fokalski,3430822012010,piotrek - w czasie spaceru z psem,False,0,L0,1023
+293,1981,False,Bartosz,12,Moskalski,4381330012010,bartek gdy poszedł po kanapkę,False,0,L0,1023
+294,1982,False,Janek,12,Grzegorczyk,2541101012010,bach,False,0,L0,1023
+295,1976,True,Elżbieta,12,Kochalska,13540705062019,ela,False,0,L0,17
+296,1991,False,Albert,12,Lisowski,18404805072019,alek,False,0,L0,1023
+297,1998,True,Ewelina,12,Nosowska,17101224082019,ewelinka,False,0,L0,1023
+298,1985,False,Piotr,12,Fokalski,3431622012010,piotrek - w czasie spaceru z psem,False,0,L0,1023
+299,1981,False,Bartosz,12,Moskalski,4382030012010,bartek gdy poszedł po kanapkę,False,0,L0,1023
+300,1982,False,Janek,12,Grzegorczyk,2541801012010,bach,False,0,L0,19
+301,1976,True,Elżbieta,12,Kochalska,13541505062019,ela,False,0,L0,15
+302,1991,False,Albert,12,Lisowski,18405605072019,alek,False,0,L0,8
+303,1998,True,Ewelina,12,Nosowska,17102024082019,ewelinka,False,0,L0,1023
+304,1985,False,Piotr,12,Fokalski,3432422012010,piotrek - w czasie spaceru z psem,False,0,L0,1023
+305,1981,False,Bartosz,12,Moskalski,4382830012010,bartek gdy poszedł po kanapkę,False,0,L0,1023
+306,1982,False,Janek,12,Grzegorczyk,2542701012010,bach,False,0,L0,24
+307,1976,True,Elżbieta,12,Kochalska,13542305062019,ela,False,0,L0,17
+308,1991,False,Albert,12,Lisowski,18410405072019,alek,False,0,L0,8
+309,1998,True,Ewelina,12,Nosowska,17102824082019,ewelinka,False,0,L0,1023
+310,1985,False,Piotr,12,Fokalski,3433222012010,piotrek - w czasie spaceru z psem,False,0,L0,545
+311,1981,False,Bartosz,12,Moskalski,4383630012010,bartek gdy poszedł po kanapkę,False,0,L0,1023
+312,1982,False,Janek,12,Grzegorczyk,2543401012010,bach,False,0,L0,1023
+313,1976,True,Elżbieta,12,Kochalska,13543105062019,ela,False,0,L0,16
+314,1991,False,Albert,12,Lisowski,18411205072019,alek,False,0,L0,6
+315,1998,True,Ewelina,12,Nosowska,17103624082019,ewelinka,False,0,L0,973
+316,1985,False,Piotr,12,Fokalski,3434022012010,piotrek - w czasie spaceru z psem,False,0,L0,1023
+317,1981,False,Bartosz,12,Moskalski,4384430012010,bartek gdy poszedł po kanapkę,False,0,L0,1023
+318,1982,False,Janek,12,Grzegorczyk,2544201012010,bach,False,0,L0,19
+319,1976,True,Elżbieta,12,Kochalska,13543905062019,ela,False,0,L0,786
+320,1991,False,Albert,12,Lisowski,18412005072019,alek,False,0,L0,7
+321,1998,True,Ewelina,12,Nosowska,17104424082019,ewelinka,False,0,L0,1023
+322,1985,False,Piotr,12,Fokalski,3434822012010,piotrek - w czasie spaceru z psem,False,0,L0,1023
+323,1981,False,Bartosz,12,Moskalski,4385230012010,bartek gdy poszedł po kanapkę,False,0,L0,545
+324,1982,False,Janek,12,Grzegorczyk,2545001012010,bach,False,0,L0,26
+325,1976,True,Elżbieta,12,Kochalska,13544605062019,ela,False,0,L0,16
+326,1991,False,Albert,12,Lisowski,18412805072019,alek,False,0,L0,9
+327,1998,True,Ewelina,12,Nosowska,17105124082019,ewelinka,False,0,L0,1023
+328,1985,False,Piotr,12,Fokalski,3435622012010,piotrek - w czasie spaceru z psem,False,0,L0,1023
+329,1981,False,Bartosz,12,Moskalski,4390030012010,bartek gdy poszedł po kanapkę,False,0,L0,775
+330,1982,False,Janek,12,Grzegorczyk,2545801012010,bach,False,0,L0,1023
+331,1976,True,Elżbieta,12,Kochalska,13545405062019,ela,False,0,L0,1023
+332,1991,False,Albert,12,Lisowski,18413605072019,alek,False,0,L0,6
+333,1998,True,Ewelina,12,Nosowska,17105924082019,ewelinka,False,0,L0,1023
+334,1985,False,Piotr,12,Fokalski,3440422012010,piotrek - w czasie spaceru z psem,False,0,L0,1023
+335,1981,False,Bartosz,12,Moskalski,4390830012010,bartek gdy poszedł po kanapkę,False,0,L0,1023
+336,1982,False,Janek,12,Grzegorczyk,2550601012010,bach,False,0,L0,20
+337,1976,True,Elżbieta,12,Kochalska,13550205062019,ela,False,0,L0,1023
+338,1991,False,Albert,12,Lisowski,18414405072019,alek,False,0,L0,9
+339,1998,True,Ewelina,12,Nosowska,17110724082019,ewelinka,False,0,L0,1023
+340,1985,False,Piotr,12,Fokalski,3441222012010,piotrek - w czasie spaceru z psem,False,0,L0,1023
+341,1981,False,Bartosz,12,Moskalski,4391630012010,bartek gdy poszedł po kanapkę,False,0,L0,843
+342,1982,False,Janek,12,Grzegorczyk,2551401012010,bach,False,0,L0,26
+343,1976,True,Elżbieta,12,Kochalska,13551005062019,ela,False,0,L0,25
+344,1991,False,Albert,12,Lisowski,18415205072019,alek,False,0,L0,8
+345,1998,True,Ewelina,12,Nosowska,17111524082019,ewelinka,False,0,L0,1023
+346,1985,False,Piotr,12,Fokalski,3442022012010,piotrek - w czasie spaceru z psem,False,0,L0,1023
+347,1981,False,Bartosz,12,Moskalski,4392430012010,bartek gdy poszedł po kanapkę,False,0,L0,840
+348,1982,False,Janek,12,Grzegorczyk,2552201012010,bach,False,0,L0,19
+349,1976,True,Elżbieta,12,Kochalska,13551805062019,ela,False,0,L0,1023
+350,1991,False,Albert,12,Lisowski,18420005072019,alek,False,0,L0,8
+351,1998,True,Ewelina,12,Nosowska,17112324082019,ewelinka,False,0,L0,172
+352,1985,False,Piotr,12,Fokalski,3442822012010,piotrek - w czasie spaceru z psem,False,0,L0,1023
+353,1981,False,Bartosz,12,Moskalski,4393230012010,bartek gdy poszedł po kanapkę,False,0,L0,1023
+354,1982,False,Janek,12,Grzegorczyk,2474101012010,bach,False,1,L1,581
+355,1976,True,Elżbieta,12,Kochalska,13474205062019,ela,False,1,L1,1023
+356,1991,False,Albert,12,Lisowski,18341805072019,alek,False,1,L1,7
+357,1998,True,Ewelina,12,Nosowska,17034624082019,ewelinka,False,1,L1,998
+358,1985,False,Piotr,12,Fokalski,3364822012010,piotrek - w czasie spaceru z psem,False,1,L1,65
+359,1981,False,Bartosz,12,Moskalski,4315030012010,bartek gdy poszedł po kanapkę,False,1,L1,1023
+360,1982,False,Janek,12,Grzegorczyk,2474901012010,bach,False,1,L1,591
+361,1976,True,Elżbieta,12,Kochalska,13474905062019,ela,False,1,L1,1023
+362,1991,False,Albert,12,Lisowski,18342605072019,alek,False,1,L1,7
+363,1998,True,Ewelina,12,Nosowska,17035324082019,ewelinka,False,1,L1,541
+364,1985,False,Piotr,12,Fokalski,3365622012010,piotrek - w czasie spaceru z psem,False,1,L1,1023
+365,1981,False,Bartosz,12,Moskalski,4315830012010,bartek gdy poszedł po kanapkę,False,1,L1,974
+366,1982,False,Janek,12,Grzegorczyk,2475701012010,bach,False,1,L1,320
+367,1976,True,Elżbieta,12,Kochalska,13475705062019,ela,False,1,L1,255
+368,1991,False,Albert,12,Lisowski,18343405072019,alek,False,1,L1,2
+369,1998,True,Ewelina,12,Nosowska,17040124082019,ewelinka,False,1,L1,513
+370,1985,False,Piotr,12,Fokalski,3370422012010,piotrek - w czasie spaceru z psem,False,1,L1,1023
+371,1981,False,Bartosz,12,Moskalski,4320630012010,bartek gdy poszedł po kanapkę,False,1,L1,1023
+372,1982,False,Janek,12,Grzegorczyk,2480501012010,bach,False,1,L1,599
+373,1976,True,Elżbieta,12,Kochalska,13480505062019,ela,False,1,L1,1023
+374,1991,False,Albert,12,Lisowski,18344205072019,alek,False,1,L1,1
+375,1998,True,Ewelina,12,Nosowska,17040924082019,ewelinka,False,1,L1,1023
+376,1985,False,Piotr,12,Fokalski,3371222012010,piotrek - w czasie spaceru z psem,False,1,L1,57
+377,1981,False,Bartosz,12,Moskalski,4321430012010,bartek gdy poszedł po kanapkę,False,1,L1,39
+378,1982,False,Janek,12,Grzegorczyk,2481301012010,bach,False,1,L1,570
+379,1976,True,Elżbieta,12,Kochalska,13481305062019,ela,False,1,L1,521
+380,1991,False,Albert,12,Lisowski,18345005072019,alek,False,1,L1,6
+381,1998,True,Ewelina,12,Nosowska,17041724082019,ewelinka,False,1,L1,394
+382,1985,False,Piotr,12,Fokalski,3372022012010,piotrek - w czasie spaceru z psem,False,1,L1,1023
+383,1981,False,Bartosz,12,Moskalski,4322230012010,bartek gdy poszedł po kanapkę,False,1,L1,1023
+384,1982,False,Janek,12,Grzegorczyk,2482101012010,bach,False,1,L1,559
+385,1976,True,Elżbieta,12,Kochalska,13482105062019,ela,False,1,L1,1023
+386,1991,False,Albert,12,Lisowski,18345805072019,alek,False,1,L1,3
+387,1998,True,Ewelina,12,Nosowska,17042624082019,ewelinka,False,1,L1,285
+388,1985,False,Piotr,12,Fokalski,3372822012010,piotrek - w czasie spaceru z psem,False,1,L1,1023
+389,1981,False,Bartosz,12,Moskalski,4323030012010,bartek gdy poszedł po kanapkę,False,1,L1,453
+390,1982,False,Janek,12,Grzegorczyk,2482901012010,bach,False,1,L1,781
+391,1976,True,Elżbieta,12,Kochalska,13482905062019,ela,False,1,L1,272
+392,1991,False,Albert,12,Lisowski,18350605072019,alek,False,1,L1,7
+393,1998,True,Ewelina,12,Nosowska,17043424082019,ewelinka,True,1,L1,435
+394,1985,False,Piotr,12,Fokalski,3373522012010,piotrek - w czasie spaceru z psem,True,1,L1,74
+395,1981,False,Bartosz,12,Moskalski,4323830012010,bartek gdy poszedł po kanapkę,False,1,L1,42
+396,1982,False,Janek,12,Grzegorczyk,2483701012010,bach,False,1,L1,28
+397,1976,True,Elżbieta,12,Kochalska,13483705062019,ela,True,1,L1,391
+398,1991,False,Albert,12,Lisowski,18351405072019,alek,False,1,L1,7
+399,1998,True,Ewelina,12,Nosowska,17044124082019,ewelinka,True,1,L1,389
+400,1985,False,Piotr,12,Fokalski,3374422012010,piotrek - w czasie spaceru z psem,True,1,L1,1023
+401,1981,False,Bartosz,12,Moskalski,4324530012010,bartek gdy poszedł po kanapkę,False,1,L1,1023
+402,1982,False,Janek,12,Grzegorczyk,2484501012010,bach,False,1,L1,992
+403,1976,True,Elżbieta,12,Kochalska,13484505062019,ela,True,1,L1,1002
+404,1991,False,Albert,12,Lisowski,18352205072019,alek,False,1,L1,3
+405,1998,True,Ewelina,12,Nosowska,17045024082019,ewelinka,True,1,L1,391
+406,1985,False,Piotr,12,Fokalski,3375122012010,piotrek - w czasie spaceru z psem,False,1,L1,1023
+407,1981,False,Bartosz,12,Moskalski,4325430012010,bartek gdy poszedł po kanapkę,False,1,L1,1023
+408,1982,False,Janek,12,Grzegorczyk,2485301012010,bach,False,1,L1,26
+409,1976,True,Elżbieta,12,Kochalska,13485305062019,ela,True,1,L1,1023
+410,1991,False,Albert,12,Lisowski,18353005072019,alek,False,1,L1,9
+411,1998,True,Ewelina,12,Nosowska,17045824082019,ewelinka,True,1,L1,977
+412,1985,False,Piotr,12,Fokalski,3380022012010,piotrek - w czasie spaceru z psem,False,1,L1,75
+413,1981,False,Bartosz,12,Moskalski,4330130012010,bartek gdy poszedł po kanapkę,False,1,L1,1007
+414,1982,False,Janek,12,Grzegorczyk,2490101012010,bach,False,1,L1,894
+415,1976,True,Elżbieta,12,Kochalska,13490005062019,ela,True,1,L1,1023
+416,1991,False,Albert,12,Lisowski,18353805072019,alek,False,1,L1,4
+417,1998,True,Ewelina,12,Nosowska,17050524082019,ewelinka,False,1,L1,493
+418,1985,False,Piotr,12,Fokalski,3380722012010,piotrek - w czasie spaceru z psem,False,1,L1,55
+419,1981,False,Bartosz,12,Moskalski,4330930012010,bartek gdy poszedł po kanapkę,False,1,L1,1023
+420,1982,False,Janek,12,Grzegorczyk,2490901012010,bach,False,1,L1,26
+421,1976,True,Elżbieta,12,Kochalska,13490805062019,ela,True,1,L1,254
+422,1991,False,Albert,12,Lisowski,18354605072019,alek,False,1,L1,6
+423,1998,True,Ewelina,12,Nosowska,17051324082019,ewelinka,False,1,L1,1023
+424,1985,False,Piotr,12,Fokalski,3381522012010,piotrek - w czasie spaceru z psem,False,1,L1,1023
+425,1981,False,Bartosz,12,Moskalski,4331730012010,bartek gdy poszedł po kanapkę,False,1,L1,40
+426,1982,False,Janek,12,Grzegorczyk,2491701012010,bach,False,1,L1,23
+427,1976,True,Elżbieta,12,Kochalska,13491605062019,ela,False,1,L1,238
+428,1991,False,Albert,12,Lisowski,18355405072019,alek,False,1,L1,3
+429,1998,True,Ewelina,12,Nosowska,17052124082019,ewelinka,False,1,L1,1023
+430,1985,False,Piotr,12,Fokalski,3382322012010,piotrek - w czasie spaceru z psem,False,1,L1,727
+431,1981,False,Bartosz,12,Moskalski,4332530012010,bartek gdy poszedł po kanapkę,False,1,L1,928
+432,1982,False,Janek,12,Grzegorczyk,2492501012010,bach,False,1,L1,1023
+433,1976,True,Elżbieta,12,Kochalska,13492405062019,ela,False,1,L1,286
+434,1991,False,Albert,12,Lisowski,18360205072019,alek,False,1,L1,6
+435,1998,True,Ewelina,12,Nosowska,17052924082019,ewelinka,False,1,L1,1023
+436,1985,False,Piotr,12,Fokalski,3383122012010,piotrek - w czasie spaceru z psem,False,1,L1,1023
+437,1981,False,Bartosz,12,Moskalski,4333330012010,bartek gdy poszedł po kanapkę,False,1,L1,1023
+438,1982,False,Janek,12,Grzegorczyk,2493201012010,bach,False,1,L1,1023
+439,1976,True,Elżbieta,12,Kochalska,13493205062019,ela,False,1,L1,380
+440,1991,False,Albert,12,Lisowski,18361005072019,alek,False,1,L1,3
+441,1998,True,Ewelina,12,Nosowska,17053724082019,ewelinka,False,1,L1,1023
+442,1985,False,Piotr,12,Fokalski,3383922012010,piotrek - w czasie spaceru z psem,False,1,L1,72
+443,1981,False,Bartosz,12,Moskalski,4334230012010,bartek gdy poszedł po kanapkę,False,1,L1,673
+444,1982,False,Janek,12,Grzegorczyk,2494101012010,bach,False,1,L1,744
+445,1976,True,Elżbieta,12,Kochalska,13494005062019,ela,False,1,L1,266
+446,1991,False,Albert,12,Lisowski,18361805072019,alek,False,1,L1,8
+447,1998,True,Ewelina,12,Nosowska,17054524082019,ewelinka,False,1,L1,1023
+448,1985,False,Piotr,12,Fokalski,3384722012010,piotrek - w czasie spaceru z psem,False,1,L1,1023
+449,1981,False,Bartosz,12,Moskalski,4334930012010,bartek gdy poszedł po kanapkę,False,1,L1,606
+450,1982,False,Janek,12,Grzegorczyk,2494901012010,bach,False,1,L1,483
+451,1976,True,Elżbieta,12,Kochalska,13494805062019,ela,False,1,L1,266
+452,1991,False,Albert,12,Lisowski,18362605072019,alek,False,1,L1,6
+453,1998,True,Ewelina,12,Nosowska,17055324082019,ewelinka,False,1,L1,871
+454,1985,False,Piotr,12,Fokalski,3385522012010,piotrek - w czasie spaceru z psem,False,1,L1,1023
+455,1981,False,Bartosz,12,Moskalski,4335830012010,bartek gdy poszedł po kanapkę,False,1,L1,1023
+456,1982,False,Janek,12,Grzegorczyk,2495701012010,bach,False,1,L1,64
+457,1976,True,Elżbieta,12,Kochalska,13495605062019,ela,False,1,L1,1023
+458,1991,False,Albert,12,Lisowski,18363405072019,alek,False,1,L1,4
+459,1998,True,Ewelina,12,Nosowska,17060124082019,ewelinka,False,1,L1,1023
+460,1985,False,Piotr,12,Fokalski,3390322012010,piotrek - w czasie spaceru z psem,False,1,L1,1023
+461,1981,False,Bartosz,12,Moskalski,4340630012010,bartek gdy poszedł po kanapkę,False,1,L1,1023
+462,1982,False,Janek,12,Grzegorczyk,2500401012010,bach,False,1,L1,1002
+463,1976,True,Elżbieta,12,Kochalska,13500405062019,ela,False,1,L1,938
+464,1991,False,Albert,12,Lisowski,18364205072019,alek,False,1,L1,6
+465,1998,True,Ewelina,12,Nosowska,17060824082019,ewelinka,False,1,L1,566
+466,1985,False,Piotr,12,Fokalski,3391122012010,piotrek - w czasie spaceru z psem,False,1,L1,64
+467,1981,False,Bartosz,12,Moskalski,4341330012010,bartek gdy poszedł po kanapkę,False,1,L1,1023
+468,1982,False,Janek,12,Grzegorczyk,2501301012010,bach,False,1,L1,891
+469,1976,True,Elżbieta,12,Kochalska,13501105062019,ela,False,1,L1,1023
+470,1991,False,Albert,12,Lisowski,18365005072019,alek,False,1,L1,3
+471,1998,True,Ewelina,12,Nosowska,17061624082019,ewelinka,False,1,L1,534
+472,1985,False,Piotr,12,Fokalski,3391922012010,piotrek - w czasie spaceru z psem,False,1,L1,1023
+473,1981,False,Bartosz,12,Moskalski,4342130012010,bartek gdy poszedł po kanapkę,False,1,L1,1023
+474,1982,False,Janek,12,Grzegorczyk,2502001012010,bach,False,1,L1,692
+475,1976,True,Elżbieta,12,Kochalska,13501905062019,ela,False,1,L1,274
+476,1991,False,Albert,12,Lisowski,18365805072019,alek,False,1,L1,3
+477,1998,True,Ewelina,12,Nosowska,17062424082019,ewelinka,False,1,L1,324
+478,1985,False,Piotr,12,Fokalski,3392722012010,piotrek - w czasie spaceru z psem,False,1,L1,71
+479,1981,False,Bartosz,12,Moskalski,4343030012010,bartek gdy poszedł po kanapkę,False,1,L1,200
+480,1982,False,Janek,12,Grzegorczyk,2502801012010,bach,False,1,L1,27
+481,1976,True,Elżbieta,12,Kochalska,13502705062019,ela,False,1,L1,1023
+482,1991,False,Albert,12,Lisowski,18370505072019,alek,False,1,L1,7
+483,1998,True,Ewelina,12,Nosowska,17063224082019,ewelinka,False,1,L1,1023
+484,1985,False,Piotr,12,Fokalski,3393522012010,piotrek - w czasie spaceru z psem,False,1,L1,1023
+485,1981,False,Bartosz,12,Moskalski,4343730012010,bartek gdy poszedł po kanapkę,False,1,L1,1023
+486,1982,False,Janek,12,Grzegorczyk,2503601012010,bach,False,1,L1,26
+487,1976,True,Elżbieta,12,Kochalska,13503505062019,ela,False,1,L1,1023
+488,1991,False,Albert,12,Lisowski,18371405072019,alek,False,1,L1,2
+489,1998,True,Ewelina,12,Nosowska,17064024082019,ewelinka,False,1,L1,1023
+490,1985,False,Piotr,12,Fokalski,3394322012010,piotrek - w czasie spaceru z psem,False,1,L1,62
+491,1981,False,Bartosz,12,Moskalski,4344530012010,bartek gdy poszedł po kanapkę,False,1,L1,678
+492,1982,False,Janek,12,Grzegorczyk,2504401012010,bach,False,1,L1,950
+493,1976,True,Elżbieta,12,Kochalska,13504305062019,ela,False,1,L1,385
+494,1991,False,Albert,12,Lisowski,18372105072019,alek,False,1,L1,5
+495,1998,True,Ewelina,12,Nosowska,17064824082019,ewelinka,False,1,L1,1023
+496,1985,False,Piotr,12,Fokalski,3395122012010,piotrek - w czasie spaceru z psem,False,1,L1,1023
+497,1981,False,Bartosz,12,Moskalski,4345330012010,bartek gdy poszedł po kanapkę,False,1,L1,934
+498,1982,False,Janek,12,Grzegorczyk,2505201012010,bach,False,1,L1,109
+499,1976,True,Elżbieta,12,Kochalska,13505105062019,ela,False,1,L1,1023
+500,1991,False,Albert,12,Lisowski,18372905072019,alek,False,1,L1,6
+501,1998,True,Ewelina,12,Nosowska,17065624082019,ewelinka,False,1,L1,1023
+502,1985,False,Piotr,12,Fokalski,3395822012010,piotrek - w czasie spaceru z psem,False,1,L1,72
+503,1981,False,Bartosz,12,Moskalski,4350130012010,bartek gdy poszedł po kanapkę,False,1,L1,1023
+504,1982,False,Janek,12,Grzegorczyk,2510001012010,bach,False,1,L1,27
+505,1976,True,Elżbieta,12,Kochalska,13505905062019,ela,False,1,L1,188
+506,1991,False,Albert,12,Lisowski,18373705072019,alek,False,1,L1,1
+507,1998,True,Ewelina,12,Nosowska,17070424082019,ewelinka,False,1,L1,1023
+508,1985,False,Piotr,12,Fokalski,3400622012010,piotrek - w czasie spaceru z psem,False,1,L1,65
+509,1981,False,Bartosz,12,Moskalski,4350930012010,bartek gdy poszedł po kanapkę,False,1,L1,592
+510,1982,False,Janek,12,Grzegorczyk,2510801012010,bach,False,1,L1,20
+511,1976,True,Elżbieta,12,Kochalska,13510605062019,ela,False,1,L1,1023
+512,1991,False,Albert,12,Lisowski,18374505072019,alek,False,1,L1,6
+513,1998,True,Ewelina,12,Nosowska,17071124082019,ewelinka,False,1,L1,401
+514,1985,False,Piotr,12,Fokalski,3401422012010,piotrek - w czasie spaceru z psem,False,1,L1,84
+515,1981,False,Bartosz,12,Moskalski,4351730012010,bartek gdy poszedł po kanapkę,False,1,L1,1023
+516,1982,False,Janek,12,Grzegorczyk,2511601012010,bach,False,1,L1,262
+517,1976,True,Elżbieta,12,Kochalska,13511405062019,ela,False,1,L1,1023
+518,1991,False,Albert,12,Lisowski,18375305072019,alek,False,1,L1,7
+519,1998,True,Ewelina,12,Nosowska,17071924082019,ewelinka,False,1,L1,289
+520,1985,False,Piotr,12,Fokalski,3402222012010,piotrek - w czasie spaceru z psem,False,1,L1,1023
+521,1981,False,Bartosz,12,Moskalski,4352530012010,bartek gdy poszedł po kanapkę,False,1,L1,1023
+522,1982,False,Janek,12,Grzegorczyk,2512401012010,bach,False,1,L1,24
+523,1976,True,Elżbieta,12,Kochalska,13512205062019,ela,False,1,L1,210
+524,1991,False,Albert,12,Lisowski,18380105072019,alek,False,1,L1,4
+525,1998,True,Ewelina,12,Nosowska,17072724082019,ewelinka,False,1,L1,432
+526,1985,False,Piotr,12,Fokalski,3403022012010,piotrek - w czasie spaceru z psem,False,1,L1,60
+527,1981,False,Bartosz,12,Moskalski,4353330012010,bartek gdy poszedł po kanapkę,False,1,L1,979
+528,1982,False,Janek,12,Grzegorczyk,2513201012010,bach,False,1,L1,615
+529,1976,True,Elżbieta,12,Kochalska,13513005062019,ela,False,1,L1,1023
+530,1991,False,Albert,12,Lisowski,18380905072019,alek,False,1,L1,3
+531,1998,True,Ewelina,12,Nosowska,17073524082019,ewelinka,False,1,L1,1023
+532,1985,False,Piotr,12,Fokalski,3403822012010,piotrek - w czasie spaceru z psem,False,1,L1,68
+533,1981,False,Bartosz,12,Moskalski,4354130012010,bartek gdy poszedł po kanapkę,False,1,L1,186
+534,1982,False,Janek,12,Grzegorczyk,2514001012010,bach,False,1,L1,17
+535,1976,True,Elżbieta,12,Kochalska,13513805062019,ela,False,1,L1,435
+536,1991,False,Albert,12,Lisowski,18381705072019,alek,False,1,L1,5
+537,1998,True,Ewelina,12,Nosowska,17074324082019,ewelinka,False,1,L1,1005
+538,1985,False,Piotr,12,Fokalski,3404622012010,piotrek - w czasie spaceru z psem,False,1,L1,855
+539,1981,False,Bartosz,12,Moskalski,4354930012010,bartek gdy poszedł po kanapkę,False,1,L1,310
+540,1982,False,Janek,12,Grzegorczyk,2514801012010,bach,False,1,L1,22
+541,1976,True,Elżbieta,12,Kochalska,13514605062019,ela,False,1,L1,101
+542,1991,False,Albert,12,Lisowski,18382505072019,alek,False,1,L1,3
+543,1998,True,Ewelina,12,Nosowska,17075124082019,ewelinka,False,1,L1,1023
+544,1985,False,Piotr,12,Fokalski,3405422012010,piotrek - w czasie spaceru z psem,False,1,L1,1023
+545,1981,False,Bartosz,12,Moskalski,4355730012010,bartek gdy poszedł po kanapkę,False,1,L1,1023
+546,1982,False,Janek,12,Grzegorczyk,2515601012010,bach,False,1,L1,941
+547,1976,True,Elżbieta,12,Kochalska,13515305062019,ela,False,1,L1,1023
+548,1991,False,Albert,12,Lisowski,18383305072019,alek,False,1,L1,4
+549,1998,True,Ewelina,12,Nosowska,17075924082019,ewelinka,False,1,L1,225
+550,1985,False,Piotr,12,Fokalski,3410222012010,piotrek - w czasie spaceru z psem,False,1,L1,60
+551,1981,False,Bartosz,12,Moskalski,4360530012010,bartek gdy poszedł po kanapkę,False,1,L1,1023
+552,1982,False,Janek,12,Grzegorczyk,2520401012010,bach,False,1,L1,27
+553,1976,True,Elżbieta,12,Kochalska,13520105062019,ela,False,1,L1,206
+554,1991,False,Albert,12,Lisowski,18384105072019,alek,False,1,L1,7
+555,1998,True,Ewelina,12,Nosowska,17080624082019,ewelinka,False,1,L1,315
+556,1985,False,Piotr,12,Fokalski,3410922012010,piotrek - w czasie spaceru z psem,False,1,L1,67
+557,1981,False,Bartosz,12,Moskalski,4361330012010,bartek gdy poszedł po kanapkę,False,1,L1,880
+558,1982,False,Janek,12,Grzegorczyk,2521101012010,bach,False,1,L1,24
+559,1976,True,Elżbieta,12,Kochalska,13520905062019,ela,False,1,L1,1023
+560,1991,False,Albert,12,Lisowski,18384905072019,alek,False,1,L1,3
+561,1998,True,Ewelina,12,Nosowska,17081424082019,ewelinka,False,1,L1,1023
+562,1985,False,Piotr,12,Fokalski,3411722012010,piotrek - w czasie spaceru z psem,False,1,L1,1023
+563,1981,False,Bartosz,12,Moskalski,4362130012010,bartek gdy poszedł po kanapkę,False,1,L1,1023
+564,1982,False,Janek,12,Grzegorczyk,2522001012010,bach,False,1,L1,957
+565,1976,True,Elżbieta,12,Kochalska,13521705062019,ela,False,1,L1,373
+566,1991,False,Albert,12,Lisowski,18385705072019,alek,False,1,L1,8
+567,1998,True,Ewelina,12,Nosowska,17082224082019,ewelinka,False,1,L1,1023
+568,1985,False,Piotr,12,Fokalski,3412522012010,piotrek - w czasie spaceru z psem,False,1,L1,65
+569,1981,False,Bartosz,12,Moskalski,4362930012010,bartek gdy poszedł po kanapkę,False,1,L1,1023
+570,1982,False,Janek,12,Grzegorczyk,2522701012010,bach,False,1,L1,74
+571,1976,True,Elżbieta,12,Kochalska,13522505062019,ela,False,1,L1,103
+572,1991,False,Albert,12,Lisowski,18390505072019,alek,False,1,L1,9
+573,1998,True,Ewelina,12,Nosowska,17083024082019,ewelinka,False,1,L1,1023
+574,1985,False,Piotr,12,Fokalski,3413322012010,piotrek - w czasie spaceru z psem,False,1,L1,1023
+575,1981,False,Bartosz,12,Moskalski,4363730012010,bartek gdy poszedł po kanapkę,False,1,L1,1023
+576,1982,False,Janek,12,Grzegorczyk,2523501012010,bach,False,1,L1,27
+577,1976,True,Elżbieta,12,Kochalska,13523305062019,ela,False,1,L1,1023
+578,1991,False,Albert,12,Lisowski,18391205072019,alek,False,1,L1,8
+579,1998,True,Ewelina,12,Nosowska,17083824082019,ewelinka,False,1,L1,238
+580,1985,False,Piotr,12,Fokalski,3414122012010,piotrek - w czasie spaceru z psem,False,1,L1,1023
+581,1981,False,Bartosz,12,Moskalski,4364530012010,bartek gdy poszedł po kanapkę,False,1,L1,1023
+582,1982,False,Janek,12,Grzegorczyk,2524301012010,bach,False,1,L1,1023
+583,1976,True,Elżbieta,12,Kochalska,13524105062019,ela,False,1,L1,304
+584,1991,False,Albert,12,Lisowski,18392005072019,alek,False,1,L1,3
+585,1998,True,Ewelina,12,Nosowska,17084624082019,ewelinka,False,1,L1,380
+586,1985,False,Piotr,12,Fokalski,3414922012010,piotrek - w czasie spaceru z psem,False,1,L1,68
+587,1981,False,Bartosz,12,Moskalski,4365330012010,bartek gdy poszedł po kanapkę,False,1,L1,361
+588,1982,False,Janek,12,Grzegorczyk,2525101012010,bach,False,1,L1,445
+589,1976,True,Elżbieta,12,Kochalska,13524805062019,ela,False,1,L1,243
+590,1991,False,Albert,12,Lisowski,18392805072019,alek,False,1,L1,5
+591,1998,True,Ewelina,12,Nosowska,17085324082019,ewelinka,False,1,L1,780
+592,1985,False,Piotr,12,Fokalski,3415722012010,piotrek - w czasie spaceru z psem,False,1,L1,1023
+593,1981,False,Bartosz,12,Moskalski,4370130012010,bartek gdy poszedł po kanapkę,False,1,L1,1023
+594,1982,False,Janek,12,Grzegorczyk,2525901012010,bach,False,1,L1,203
+595,1976,True,Elżbieta,12,Kochalska,13525605062019,ela,False,1,L1,987
+596,1991,False,Albert,12,Lisowski,18393605072019,alek,False,1,L1,1
+597,1998,True,Ewelina,12,Nosowska,17090124082019,ewelinka,False,1,L1,1023
+598,1985,False,Piotr,12,Fokalski,3420522012010,piotrek - w czasie spaceru z psem,False,1,L1,63
+599,1981,False,Bartosz,12,Moskalski,4370930012010,bartek gdy poszedł po kanapkę,False,1,L1,833
+600,1982,False,Janek,12,Grzegorczyk,2530701012010,bach,False,1,L1,28
+601,1976,True,Elżbieta,12,Kochalska,13530405062019,ela,False,1,L1,1023
+602,1991,False,Albert,12,Lisowski,18394405072019,alek,False,1,L1,6
+603,1998,True,Ewelina,12,Nosowska,17090924082019,ewelinka,False,1,L1,1023
+604,1985,False,Piotr,12,Fokalski,3421322012010,piotrek - w czasie spaceru z psem,False,1,L1,1023
+605,1981,False,Bartosz,12,Moskalski,4371730012010,bartek gdy poszedł po kanapkę,False,1,L1,1023
+606,1982,False,Janek,12,Grzegorczyk,2531501012010,bach,False,1,L1,645
+607,1976,True,Elżbieta,12,Kochalska,13531205062019,ela,True,1,L1,207
+608,1991,False,Albert,12,Lisowski,18395205072019,alek,False,1,L1,4
+609,1998,True,Ewelina,12,Nosowska,17091724082019,ewelinka,False,1,L1,1023
+610,1985,False,Piotr,12,Fokalski,3422122012010,piotrek - w czasie spaceru z psem,False,1,L1,943
+611,1981,False,Bartosz,12,Moskalski,4372530012010,bartek gdy poszedł po kanapkę,False,1,L1,1011
+612,1982,False,Janek,12,Grzegorczyk,2532301012010,bach,False,1,L1,142
+613,1976,True,Elżbieta,12,Kochalska,13532005062019,ela,True,1,L1,791
+614,1991,False,Albert,12,Lisowski,18400005072019,alek,False,1,L1,5
+615,1998,True,Ewelina,12,Nosowska,17092524082019,ewelinka,False,1,L1,1023
+616,1985,False,Piotr,12,Fokalski,3422922012010,piotrek - w czasie spaceru z psem,False,1,L1,1023
+617,1981,False,Bartosz,12,Moskalski,4373230012010,bartek gdy poszedł po kanapkę,False,1,L1,1023
+618,1982,False,Janek,12,Grzegorczyk,2533101012010,bach,False,1,L1,25
+619,1976,True,Elżbieta,12,Kochalska,13532805062019,ela,False,1,L1,1023
+620,1991,False,Albert,12,Lisowski,18400805072019,alek,False,1,L1,1
+621,1998,True,Ewelina,12,Nosowska,17093324082019,ewelinka,False,1,L1,1023
+622,1985,False,Piotr,12,Fokalski,3423722012010,piotrek - w czasie spaceru z psem,False,1,L1,76
+623,1981,False,Bartosz,12,Moskalski,4374030012010,bartek gdy poszedł po kanapkę,False,1,L1,56
+624,1982,False,Janek,12,Grzegorczyk,2533901012010,bach,False,1,L1,996
+625,1976,True,Elżbieta,12,Kochalska,13533605062019,ela,False,1,L1,1023
+626,1991,False,Albert,12,Lisowski,18401605072019,alek,False,1,L1,4
+627,1998,True,Ewelina,12,Nosowska,17094124082019,ewelinka,False,1,L1,437
+628,1985,False,Piotr,12,Fokalski,3424422012010,piotrek - w czasie spaceru z psem,False,1,L1,1023
+629,1981,False,Bartosz,12,Moskalski,4374930012010,bartek gdy poszedł po kanapkę,False,1,L1,1023
+630,1982,False,Janek,12,Grzegorczyk,2534701012010,bach,False,1,L1,27
+631,1976,True,Elżbieta,12,Kochalska,13534305062019,ela,False,1,L1,1023
+632,1991,False,Albert,12,Lisowski,18402405072019,alek,False,1,L1,2
+633,1998,True,Ewelina,12,Nosowska,17094824082019,ewelinka,False,1,L1,562
+634,1985,False,Piotr,12,Fokalski,3425222012010,piotrek - w czasie spaceru z psem,False,1,L1,68
+635,1981,False,Bartosz,12,Moskalski,4375630012010,bartek gdy poszedł po kanapkę,False,1,L1,1023
+636,1982,False,Janek,12,Grzegorczyk,2535501012010,bach,False,1,L1,27
+637,1976,True,Elżbieta,12,Kochalska,13535105062019,ela,False,1,L1,302
+638,1991,False,Albert,12,Lisowski,18403205072019,alek,False,1,L1,7
+639,1998,True,Ewelina,12,Nosowska,17095624082019,ewelinka,False,1,L1,1023
+640,1985,False,Piotr,12,Fokalski,3430022012010,piotrek - w czasie spaceru z psem,False,1,L1,1023
+641,1981,False,Bartosz,12,Moskalski,4380430012010,bartek gdy poszedł po kanapkę,False,1,L1,818
+642,1982,False,Janek,12,Grzegorczyk,2540301012010,bach,False,1,L1,889
+643,1976,True,Elżbieta,12,Kochalska,13535905062019,ela,False,1,L1,1023
+644,1991,False,Albert,12,Lisowski,18404005072019,alek,False,1,L1,1023
+645,1998,True,Ewelina,12,Nosowska,17100424082019,ewelinka,False,1,L1,1023
+646,1985,False,Piotr,12,Fokalski,3430822012010,piotrek - w czasie spaceru z psem,False,1,L1,829
+647,1981,False,Bartosz,12,Moskalski,4381330012010,bartek gdy poszedł po kanapkę,False,1,L1,1013
+648,1982,False,Janek,12,Grzegorczyk,2541101012010,bach,False,1,L1,854
+649,1976,True,Elżbieta,12,Kochalska,13540705062019,ela,False,1,L1,129
+650,1991,False,Albert,12,Lisowski,18404805072019,alek,False,1,L1,9
+651,1998,True,Ewelina,12,Nosowska,17101224082019,ewelinka,False,1,L1,1023
+652,1985,False,Piotr,12,Fokalski,3431622012010,piotrek - w czasie spaceru z psem,False,1,L1,1023
+653,1981,False,Bartosz,12,Moskalski,4382030012010,bartek gdy poszedł po kanapkę,False,1,L1,1023
+654,1982,False,Janek,12,Grzegorczyk,2541801012010,bach,False,1,L1,21
+655,1976,True,Elżbieta,12,Kochalska,13541505062019,ela,False,1,L1,172
+656,1991,False,Albert,12,Lisowski,18405605072019,alek,False,1,L1,1023
+657,1998,True,Ewelina,12,Nosowska,17102024082019,ewelinka,False,1,L1,1023
+658,1985,False,Piotr,12,Fokalski,3432422012010,piotrek - w czasie spaceru z psem,False,1,L1,1023
+659,1981,False,Bartosz,12,Moskalski,4382830012010,bartek gdy poszedł po kanapkę,False,1,L1,1023
+660,1982,False,Janek,12,Grzegorczyk,2542701012010,bach,False,1,L1,23
+661,1976,True,Elżbieta,12,Kochalska,13542305062019,ela,False,1,L1,304
+662,1991,False,Albert,12,Lisowski,18410405072019,alek,False,1,L1,5
+663,1998,True,Ewelina,12,Nosowska,17102824082019,ewelinka,False,1,L1,1023
+664,1985,False,Piotr,12,Fokalski,3433222012010,piotrek - w czasie spaceru z psem,False,1,L1,64
+665,1981,False,Bartosz,12,Moskalski,4383630012010,bartek gdy poszedł po kanapkę,False,1,L1,1023
+666,1982,False,Janek,12,Grzegorczyk,2543401012010,bach,False,1,L1,1004
+667,1976,True,Elżbieta,12,Kochalska,13543105062019,ela,False,1,L1,165
+668,1991,False,Albert,12,Lisowski,18411205072019,alek,False,1,L1,5
+669,1998,True,Ewelina,12,Nosowska,17103624082019,ewelinka,False,1,L1,966
+670,1985,False,Piotr,12,Fokalski,3434022012010,piotrek - w czasie spaceru z psem,False,1,L1,1023
+671,1981,False,Bartosz,12,Moskalski,4384430012010,bartek gdy poszedł po kanapkę,False,1,L1,1023
+672,1982,False,Janek,12,Grzegorczyk,2544201012010,bach,False,1,L1,20
+673,1976,True,Elżbieta,12,Kochalska,13543905062019,ela,False,1,L1,440
+674,1991,False,Albert,12,Lisowski,18412005072019,alek,False,1,L1,5
+675,1998,True,Ewelina,12,Nosowska,17104424082019,ewelinka,False,1,L1,1023
+676,1985,False,Piotr,12,Fokalski,3434822012010,piotrek - w czasie spaceru z psem,False,1,L1,1023
+677,1981,False,Bartosz,12,Moskalski,4385230012010,bartek gdy poszedł po kanapkę,False,1,L1,56
+678,1982,False,Janek,12,Grzegorczyk,2545001012010,bach,False,1,L1,27
+679,1976,True,Elżbieta,12,Kochalska,13544605062019,ela,False,1,L1,61
+680,1991,False,Albert,12,Lisowski,18412805072019,alek,False,1,L1,9
+681,1998,True,Ewelina,12,Nosowska,17105124082019,ewelinka,False,1,L1,1023
+682,1985,False,Piotr,12,Fokalski,3435622012010,piotrek - w czasie spaceru z psem,False,1,L1,1023
+683,1981,False,Bartosz,12,Moskalski,4390030012010,bartek gdy poszedł po kanapkę,False,1,L1,333
+684,1982,False,Janek,12,Grzegorczyk,2545801012010,bach,False,1,L1,907
+685,1976,True,Elżbieta,12,Kochalska,13545405062019,ela,False,1,L1,1023
+686,1991,False,Albert,12,Lisowski,18413605072019,alek,False,1,L1,9
+687,1998,True,Ewelina,12,Nosowska,17105924082019,ewelinka,False,1,L1,1023
+688,1985,False,Piotr,12,Fokalski,3440422012010,piotrek - w czasie spaceru z psem,False,1,L1,86
+689,1981,False,Bartosz,12,Moskalski,4390830012010,bartek gdy poszedł po kanapkę,False,1,L1,354
+690,1982,False,Janek,12,Grzegorczyk,2550601012010,bach,False,1,L1,295
+691,1976,True,Elżbieta,12,Kochalska,13550205062019,ela,False,1,L1,1023
+692,1991,False,Albert,12,Lisowski,18414405072019,alek,False,1,L1,3
+693,1998,True,Ewelina,12,Nosowska,17110724082019,ewelinka,False,1,L1,1023
+694,1985,False,Piotr,12,Fokalski,3441222012010,piotrek - w czasie spaceru z psem,False,1,L1,1023
+695,1981,False,Bartosz,12,Moskalski,4391630012010,bartek gdy poszedł po kanapkę,False,1,L1,36
+696,1982,False,Janek,12,Grzegorczyk,2551401012010,bach,False,1,L1,26
+697,1976,True,Elżbieta,12,Kochalska,13551005062019,ela,False,1,L1,289
+698,1991,False,Albert,12,Lisowski,18415205072019,alek,False,1,L1,6
+699,1998,True,Ewelina,12,Nosowska,17111524082019,ewelinka,False,1,L1,1023
+700,1985,False,Piotr,12,Fokalski,3442022012010,piotrek - w czasie spaceru z psem,False,1,L1,1023
+701,1981,False,Bartosz,12,Moskalski,4392430012010,bartek gdy poszedł po kanapkę,False,1,L1,166
+702,1982,False,Janek,12,Grzegorczyk,2552201012010,bach,False,1,L1,20
+703,1976,True,Elżbieta,12,Kochalska,13551805062019,ela,False,1,L1,902
+704,1991,False,Albert,12,Lisowski,18420005072019,alek,False,1,L1,7
+705,1998,True,Ewelina,12,Nosowska,17112324082019,ewelinka,False,1,L1,277
+706,1985,False,Piotr,12,Fokalski,3442822012010,piotrek - w czasie spaceru z psem,False,1,L1,720
+707,1981,False,Bartosz,12,Moskalski,4393230012010,bartek gdy poszedł po kanapkę,False,1,L1,1023
+708,1982,False,Janek,12,Grzegorczyk,2474101012010,bach,False,2,L2,1023
+709,1976,True,Elżbieta,12,Kochalska,13474205062019,ela,False,2,L2,16
+710,1991,False,Albert,12,Lisowski,18341805072019,alek,False,2,L2,9
+711,1998,True,Ewelina,12,Nosowska,17034624082019,ewelinka,False,2,L2,1023
+712,1985,False,Piotr,12,Fokalski,3364822012010,piotrek - w czasie spaceru z psem,False,2,L2,64
+713,1981,False,Bartosz,12,Moskalski,4315030012010,bartek gdy poszedł po kanapkę,False,2,L2,47
+714,1982,False,Janek,12,Grzegorczyk,2474901012010,bach,False,2,L2,1023
+715,1976,True,Elżbieta,12,Kochalska,13474905062019,ela,False,2,L2,1023
+716,1991,False,Albert,12,Lisowski,18342605072019,alek,False,2,L2,2
+717,1998,True,Ewelina,12,Nosowska,17035324082019,ewelinka,False,2,L2,991
+718,1985,False,Piotr,12,Fokalski,3365622012010,piotrek - w czasie spaceru z psem,False,2,L2,86
+719,1981,False,Bartosz,12,Moskalski,4315830012010,bartek gdy poszedł po kanapkę,False,2,L2,1023
+720,1982,False,Janek,12,Grzegorczyk,2475701012010,bach,False,2,L2,897
+721,1976,True,Elżbieta,12,Kochalska,13475705062019,ela,False,2,L2,1023
+722,1991,False,Albert,12,Lisowski,18343405072019,alek,False,2,L2,9
+723,1998,True,Ewelina,12,Nosowska,17040124082019,ewelinka,False,2,L2,717
+724,1985,False,Piotr,12,Fokalski,3370422012010,piotrek - w czasie spaceru z psem,False,2,L2,86
+725,1981,False,Bartosz,12,Moskalski,4320630012010,bartek gdy poszedł po kanapkę,False,2,L2,1023
+726,1982,False,Janek,12,Grzegorczyk,2480501012010,bach,False,2,L2,1023
+727,1976,True,Elżbieta,12,Kochalska,13480505062019,ela,False,2,L2,1023
+728,1991,False,Albert,12,Lisowski,18344205072019,alek,False,2,L2,1
+729,1998,True,Ewelina,12,Nosowska,17040924082019,ewelinka,False,2,L2,911
+730,1985,False,Piotr,12,Fokalski,3371222012010,piotrek - w czasie spaceru z psem,False,2,L2,1023
+731,1981,False,Bartosz,12,Moskalski,4321430012010,bartek gdy poszedł po kanapkę,False,2,L2,40
+732,1982,False,Janek,12,Grzegorczyk,2481301012010,bach,False,2,L2,1023
+733,1976,True,Elżbieta,12,Kochalska,13481305062019,ela,False,2,L2,1023
+734,1991,False,Albert,12,Lisowski,18345005072019,alek,False,2,L2,4
+735,1998,True,Ewelina,12,Nosowska,17041724082019,ewelinka,False,2,L2,1023
+736,1985,False,Piotr,12,Fokalski,3372022012010,piotrek - w czasie spaceru z psem,False,2,L2,83
+737,1981,False,Bartosz,12,Moskalski,4322230012010,bartek gdy poszedł po kanapkę,False,2,L2,1023
+738,1982,False,Janek,12,Grzegorczyk,2482101012010,bach,False,2,L2,1023
+739,1976,True,Elżbieta,12,Kochalska,13482105062019,ela,False,2,L2,1023
+740,1991,False,Albert,12,Lisowski,18345805072019,alek,False,2,L2,5
+741,1998,True,Ewelina,12,Nosowska,17042624082019,ewelinka,False,2,L2,650
+742,1985,False,Piotr,12,Fokalski,3372822012010,piotrek - w czasie spaceru z psem,False,2,L2,85
+743,1981,False,Bartosz,12,Moskalski,4323030012010,bartek gdy poszedł po kanapkę,False,2,L2,62
+744,1982,False,Janek,12,Grzegorczyk,2482901012010,bach,False,2,L2,1023
+745,1976,True,Elżbieta,12,Kochalska,13482905062019,ela,False,2,L2,13
+746,1991,False,Albert,12,Lisowski,18350605072019,alek,False,2,L2,3
+747,1998,True,Ewelina,12,Nosowska,17043424082019,ewelinka,True,2,L2,613
+748,1985,False,Piotr,12,Fokalski,3373522012010,piotrek - w czasie spaceru z psem,True,2,L2,73
+749,1981,False,Bartosz,12,Moskalski,4323830012010,bartek gdy poszedł po kanapkę,False,2,L2,42
+750,1982,False,Janek,12,Grzegorczyk,2483701012010,bach,False,2,L2,27
+751,1976,True,Elżbieta,12,Kochalska,13483705062019,ela,True,2,L2,1023
+752,1991,False,Albert,12,Lisowski,18351405072019,alek,False,2,L2,3
+753,1998,True,Ewelina,12,Nosowska,17044124082019,ewelinka,True,2,L2,485
+754,1985,False,Piotr,12,Fokalski,3374422012010,piotrek - w czasie spaceru z psem,True,2,L2,86
+755,1981,False,Bartosz,12,Moskalski,4324530012010,bartek gdy poszedł po kanapkę,False,2,L2,1023
+756,1982,False,Janek,12,Grzegorczyk,2484501012010,bach,False,2,L2,24
+757,1976,True,Elżbieta,12,Kochalska,13484505062019,ela,True,2,L2,17
+758,1991,False,Albert,12,Lisowski,18352205072019,alek,False,2,L2,4
+759,1998,True,Ewelina,12,Nosowska,17045024082019,ewelinka,True,2,L2,1023
+760,1985,False,Piotr,12,Fokalski,3375122012010,piotrek - w czasie spaceru z psem,False,2,L2,100
+761,1981,False,Bartosz,12,Moskalski,4325430012010,bartek gdy poszedł po kanapkę,False,2,L2,71
+762,1982,False,Janek,12,Grzegorczyk,2485301012010,bach,False,2,L2,26
+763,1976,True,Elżbieta,12,Kochalska,13485305062019,ela,True,2,L2,1023
+764,1991,False,Albert,12,Lisowski,18353005072019,alek,False,2,L2,4
+765,1998,True,Ewelina,12,Nosowska,17045824082019,ewelinka,True,2,L2,1023
+766,1985,False,Piotr,12,Fokalski,3380022012010,piotrek - w czasie spaceru z psem,False,2,L2,825
+767,1981,False,Bartosz,12,Moskalski,4330130012010,bartek gdy poszedł po kanapkę,False,2,L2,1023
+768,1982,False,Janek,12,Grzegorczyk,2490101012010,bach,False,2,L2,1023
+769,1976,True,Elżbieta,12,Kochalska,13490005062019,ela,True,2,L2,1023
+770,1991,False,Albert,12,Lisowski,18353805072019,alek,False,2,L2,2
+771,1998,True,Ewelina,12,Nosowska,17050524082019,ewelinka,False,2,L2,758
+772,1985,False,Piotr,12,Fokalski,3380722012010,piotrek - w czasie spaceru z psem,False,2,L2,51
+773,1981,False,Bartosz,12,Moskalski,4330930012010,bartek gdy poszedł po kanapkę,False,2,L2,1023
+774,1982,False,Janek,12,Grzegorczyk,2490901012010,bach,False,2,L2,25
+775,1976,True,Elżbieta,12,Kochalska,13490805062019,ela,True,2,L2,13
+776,1991,False,Albert,12,Lisowski,18354605072019,alek,False,2,L2,5
+777,1998,True,Ewelina,12,Nosowska,17051324082019,ewelinka,False,2,L2,646
+778,1985,False,Piotr,12,Fokalski,3381522012010,piotrek - w czasie spaceru z psem,False,2,L2,228
+779,1981,False,Bartosz,12,Moskalski,4331730012010,bartek gdy poszedł po kanapkę,False,2,L2,254
+780,1982,False,Janek,12,Grzegorczyk,2491701012010,bach,False,2,L2,25
+781,1976,True,Elżbieta,12,Kochalska,13491605062019,ela,False,2,L2,12
+782,1991,False,Albert,12,Lisowski,18355405072019,alek,False,2,L2,5
+783,1998,True,Ewelina,12,Nosowska,17052124082019,ewelinka,False,2,L2,1023
+784,1985,False,Piotr,12,Fokalski,3382322012010,piotrek - w czasie spaceru z psem,False,2,L2,71
+785,1981,False,Bartosz,12,Moskalski,4332530012010,bartek gdy poszedł po kanapkę,False,2,L2,1023
+786,1982,False,Janek,12,Grzegorczyk,2492501012010,bach,False,2,L2,1023
+787,1976,True,Elżbieta,12,Kochalska,13492405062019,ela,False,2,L2,13
+788,1991,False,Albert,12,Lisowski,18360205072019,alek,False,2,L2,4
+789,1998,True,Ewelina,12,Nosowska,17052924082019,ewelinka,False,2,L2,1023
+790,1985,False,Piotr,12,Fokalski,3383122012010,piotrek - w czasie spaceru z psem,False,2,L2,51
+791,1981,False,Bartosz,12,Moskalski,4333330012010,bartek gdy poszedł po kanapkę,False,2,L2,1023
+792,1982,False,Janek,12,Grzegorczyk,2493201012010,bach,False,2,L2,32
+793,1976,True,Elżbieta,12,Kochalska,13493205062019,ela,False,2,L2,14
+794,1991,False,Albert,12,Lisowski,18361005072019,alek,False,2,L2,8
+795,1998,True,Ewelina,12,Nosowska,17053724082019,ewelinka,False,2,L2,1023
+796,1985,False,Piotr,12,Fokalski,3383922012010,piotrek - w czasie spaceru z psem,False,2,L2,73
+797,1981,False,Bartosz,12,Moskalski,4334230012010,bartek gdy poszedł po kanapkę,False,2,L2,357
+798,1982,False,Janek,12,Grzegorczyk,2494101012010,bach,False,2,L2,1023
+799,1976,True,Elżbieta,12,Kochalska,13494005062019,ela,False,2,L2,13
+800,1991,False,Albert,12,Lisowski,18361805072019,alek,False,2,L2,4
+801,1998,True,Ewelina,12,Nosowska,17054524082019,ewelinka,False,2,L2,1023
+802,1985,False,Piotr,12,Fokalski,3384722012010,piotrek - w czasie spaceru z psem,False,2,L2,96
+803,1981,False,Bartosz,12,Moskalski,4334930012010,bartek gdy poszedł po kanapkę,False,2,L2,629
+804,1982,False,Janek,12,Grzegorczyk,2494901012010,bach,False,2,L2,1023
+805,1976,True,Elżbieta,12,Kochalska,13494805062019,ela,False,2,L2,13
+806,1991,False,Albert,12,Lisowski,18362605072019,alek,False,2,L2,3
+807,1998,True,Ewelina,12,Nosowska,17055324082019,ewelinka,False,2,L2,1023
+808,1985,False,Piotr,12,Fokalski,3385522012010,piotrek - w czasie spaceru z psem,False,2,L2,63
+809,1981,False,Bartosz,12,Moskalski,4335830012010,bartek gdy poszedł po kanapkę,False,2,L2,1023
+810,1982,False,Janek,12,Grzegorczyk,2495701012010,bach,False,2,L2,1023
+811,1976,True,Elżbieta,12,Kochalska,13495605062019,ela,False,2,L2,18
+812,1991,False,Albert,12,Lisowski,18363405072019,alek,False,2,L2,10
+813,1998,True,Ewelina,12,Nosowska,17060124082019,ewelinka,False,2,L2,1023
+814,1985,False,Piotr,12,Fokalski,3390322012010,piotrek - w czasie spaceru z psem,False,2,L2,434
+815,1981,False,Bartosz,12,Moskalski,4340630012010,bartek gdy poszedł po kanapkę,False,2,L2,1023
+816,1982,False,Janek,12,Grzegorczyk,2500401012010,bach,False,2,L2,31
+817,1976,True,Elżbieta,12,Kochalska,13500405062019,ela,False,2,L2,1023
+818,1991,False,Albert,12,Lisowski,18364205072019,alek,False,2,L2,5
+819,1998,True,Ewelina,12,Nosowska,17060824082019,ewelinka,False,2,L2,686
+820,1985,False,Piotr,12,Fokalski,3391122012010,piotrek - w czasie spaceru z psem,False,2,L2,65
+821,1981,False,Bartosz,12,Moskalski,4341330012010,bartek gdy poszedł po kanapkę,False,2,L2,71
+822,1982,False,Janek,12,Grzegorczyk,2501301012010,bach,False,2,L2,22
+823,1976,True,Elżbieta,12,Kochalska,13501105062019,ela,False,2,L2,17
+824,1991,False,Albert,12,Lisowski,18365005072019,alek,False,2,L2,5
+825,1998,True,Ewelina,12,Nosowska,17061624082019,ewelinka,False,2,L2,599
+826,1985,False,Piotr,12,Fokalski,3391922012010,piotrek - w czasie spaceru z psem,False,2,L2,109
+827,1981,False,Bartosz,12,Moskalski,4342130012010,bartek gdy poszedł po kanapkę,False,2,L2,877
+828,1982,False,Janek,12,Grzegorczyk,2502001012010,bach,False,2,L2,1023
+829,1976,True,Elżbieta,12,Kochalska,13501905062019,ela,False,2,L2,12
+830,1991,False,Albert,12,Lisowski,18365805072019,alek,False,2,L2,9
+831,1998,True,Ewelina,12,Nosowska,17062424082019,ewelinka,False,2,L2,672
+832,1985,False,Piotr,12,Fokalski,3392722012010,piotrek - w czasie spaceru z psem,False,2,L2,72
+833,1981,False,Bartosz,12,Moskalski,4343030012010,bartek gdy poszedł po kanapkę,False,2,L2,55
+834,1982,False,Janek,12,Grzegorczyk,2502801012010,bach,False,2,L2,1023
+835,1976,True,Elżbieta,12,Kochalska,13502705062019,ela,False,2,L2,17
+836,1991,False,Albert,12,Lisowski,18370505072019,alek,False,2,L2,6
+837,1998,True,Ewelina,12,Nosowska,17063224082019,ewelinka,False,2,L2,1023
+838,1985,False,Piotr,12,Fokalski,3393522012010,piotrek - w czasie spaceru z psem,False,2,L2,52
+839,1981,False,Bartosz,12,Moskalski,4343730012010,bartek gdy poszedł po kanapkę,False,2,L2,1023
+840,1982,False,Janek,12,Grzegorczyk,2503601012010,bach,False,2,L2,26
+841,1976,True,Elżbieta,12,Kochalska,13503505062019,ela,False,2,L2,1023
+842,1991,False,Albert,12,Lisowski,18371405072019,alek,False,2,L2,7
+843,1998,True,Ewelina,12,Nosowska,17064024082019,ewelinka,False,2,L2,1023
+844,1985,False,Piotr,12,Fokalski,3394322012010,piotrek - w czasie spaceru z psem,False,2,L2,61
+845,1981,False,Bartosz,12,Moskalski,4344530012010,bartek gdy poszedł po kanapkę,False,2,L2,1023
+846,1982,False,Janek,12,Grzegorczyk,2504401012010,bach,False,2,L2,23
+847,1976,True,Elżbieta,12,Kochalska,13504305062019,ela,False,2,L2,14
+848,1991,False,Albert,12,Lisowski,18372105072019,alek,False,2,L2,5
+849,1998,True,Ewelina,12,Nosowska,17064824082019,ewelinka,False,2,L2,1023
+850,1985,False,Piotr,12,Fokalski,3395122012010,piotrek - w czasie spaceru z psem,False,2,L2,59
+851,1981,False,Bartosz,12,Moskalski,4345330012010,bartek gdy poszedł po kanapkę,False,2,L2,1023
+852,1982,False,Janek,12,Grzegorczyk,2505201012010,bach,False,2,L2,1023
+853,1976,True,Elżbieta,12,Kochalska,13505105062019,ela,False,2,L2,16
+854,1991,False,Albert,12,Lisowski,18372905072019,alek,False,2,L2,5
+855,1998,True,Ewelina,12,Nosowska,17065624082019,ewelinka,False,2,L2,1023
+856,1985,False,Piotr,12,Fokalski,3395822012010,piotrek - w czasie spaceru z psem,False,2,L2,71
+857,1981,False,Bartosz,12,Moskalski,4350130012010,bartek gdy poszedł po kanapkę,False,2,L2,1023
+858,1982,False,Janek,12,Grzegorczyk,2510001012010,bach,False,2,L2,121
+859,1976,True,Elżbieta,12,Kochalska,13505905062019,ela,False,2,L2,14
+860,1991,False,Albert,12,Lisowski,18373705072019,alek,False,2,L2,9
+861,1998,True,Ewelina,12,Nosowska,17070424082019,ewelinka,False,2,L2,1023
+862,1985,False,Piotr,12,Fokalski,3400622012010,piotrek - w czasie spaceru z psem,False,2,L2,65
+863,1981,False,Bartosz,12,Moskalski,4350930012010,bartek gdy poszedł po kanapkę,False,2,L2,236
+864,1982,False,Janek,12,Grzegorczyk,2510801012010,bach,False,2,L2,19
+865,1976,True,Elżbieta,12,Kochalska,13510605062019,ela,False,2,L2,12
+866,1991,False,Albert,12,Lisowski,18374505072019,alek,False,2,L2,7
+867,1998,True,Ewelina,12,Nosowska,17071124082019,ewelinka,False,2,L2,625
+868,1985,False,Piotr,12,Fokalski,3401422012010,piotrek - w czasie spaceru z psem,False,2,L2,1023
+869,1981,False,Bartosz,12,Moskalski,4351730012010,bartek gdy poszedł po kanapkę,False,2,L2,55
+870,1982,False,Janek,12,Grzegorczyk,2511601012010,bach,False,2,L2,1023
+871,1976,True,Elżbieta,12,Kochalska,13511405062019,ela,False,2,L2,1023
+872,1991,False,Albert,12,Lisowski,18375305072019,alek,False,2,L2,5
+873,1998,True,Ewelina,12,Nosowska,17071924082019,ewelinka,False,2,L2,617
+874,1985,False,Piotr,12,Fokalski,3402222012010,piotrek - w czasie spaceru z psem,False,2,L2,298
+875,1981,False,Bartosz,12,Moskalski,4352530012010,bartek gdy poszedł po kanapkę,False,2,L2,1023
+876,1982,False,Janek,12,Grzegorczyk,2512401012010,bach,False,2,L2,128
+877,1976,True,Elżbieta,12,Kochalska,13512205062019,ela,False,2,L2,13
+878,1991,False,Albert,12,Lisowski,18380105072019,alek,False,2,L2,6
+879,1998,True,Ewelina,12,Nosowska,17072724082019,ewelinka,False,2,L2,205
+880,1985,False,Piotr,12,Fokalski,3403022012010,piotrek - w czasie spaceru z psem,False,2,L2,58
+881,1981,False,Bartosz,12,Moskalski,4353330012010,bartek gdy poszedł po kanapkę,False,2,L2,1023
+882,1982,False,Janek,12,Grzegorczyk,2513201012010,bach,False,2,L2,1023
+883,1976,True,Elżbieta,12,Kochalska,13513005062019,ela,False,2,L2,1023
+884,1991,False,Albert,12,Lisowski,18380905072019,alek,False,2,L2,9
+885,1998,True,Ewelina,12,Nosowska,17073524082019,ewelinka,False,2,L2,1023
+886,1985,False,Piotr,12,Fokalski,3403822012010,piotrek - w czasie spaceru z psem,False,2,L2,66
+887,1981,False,Bartosz,12,Moskalski,4354130012010,bartek gdy poszedł po kanapkę,False,2,L2,1023
+888,1982,False,Janek,12,Grzegorczyk,2514001012010,bach,False,2,L2,20
+889,1976,True,Elżbieta,12,Kochalska,13513805062019,ela,False,2,L2,1023
+890,1991,False,Albert,12,Lisowski,18381705072019,alek,False,2,L2,6
+891,1998,True,Ewelina,12,Nosowska,17074324082019,ewelinka,False,2,L2,1023
+892,1985,False,Piotr,12,Fokalski,3404622012010,piotrek - w czasie spaceru z psem,False,2,L2,1023
+893,1981,False,Bartosz,12,Moskalski,4354930012010,bartek gdy poszedł po kanapkę,False,2,L2,1023
+894,1982,False,Janek,12,Grzegorczyk,2514801012010,bach,False,2,L2,21
+895,1976,True,Elżbieta,12,Kochalska,13514605062019,ela,False,2,L2,13
+896,1991,False,Albert,12,Lisowski,18382505072019,alek,False,2,L2,2
+897,1998,True,Ewelina,12,Nosowska,17075124082019,ewelinka,False,2,L2,1023
+898,1985,False,Piotr,12,Fokalski,3405422012010,piotrek - w czasie spaceru z psem,False,2,L2,116
+899,1981,False,Bartosz,12,Moskalski,4355730012010,bartek gdy poszedł po kanapkę,False,2,L2,1023
+900,1982,False,Janek,12,Grzegorczyk,2515601012010,bach,False,2,L2,797
+901,1976,True,Elżbieta,12,Kochalska,13515305062019,ela,False,2,L2,1023
+902,1991,False,Albert,12,Lisowski,18383305072019,alek,False,2,L2,0
+903,1998,True,Ewelina,12,Nosowska,17075924082019,ewelinka,False,2,L2,741
+904,1985,False,Piotr,12,Fokalski,3410222012010,piotrek - w czasie spaceru z psem,False,2,L2,61
+905,1981,False,Bartosz,12,Moskalski,4360530012010,bartek gdy poszedł po kanapkę,False,2,L2,941
+906,1982,False,Janek,12,Grzegorczyk,2520401012010,bach,False,2,L2,1023
+907,1976,True,Elżbieta,12,Kochalska,13520105062019,ela,False,2,L2,12
+908,1991,False,Albert,12,Lisowski,18384105072019,alek,False,2,L2,4
+909,1998,True,Ewelina,12,Nosowska,17080624082019,ewelinka,False,2,L2,716
+910,1985,False,Piotr,12,Fokalski,3410922012010,piotrek - w czasie spaceru z psem,False,2,L2,65
+911,1981,False,Bartosz,12,Moskalski,4361330012010,bartek gdy poszedł po kanapkę,False,2,L2,65
+912,1982,False,Janek,12,Grzegorczyk,2521101012010,bach,False,2,L2,867
+913,1976,True,Elżbieta,12,Kochalska,13520905062019,ela,False,2,L2,1023
+914,1991,False,Albert,12,Lisowski,18384905072019,alek,False,2,L2,6
+915,1998,True,Ewelina,12,Nosowska,17081424082019,ewelinka,False,2,L2,1023
+916,1985,False,Piotr,12,Fokalski,3411722012010,piotrek - w czasie spaceru z psem,False,2,L2,316
+917,1981,False,Bartosz,12,Moskalski,4362130012010,bartek gdy poszedł po kanapkę,False,2,L2,198
+918,1982,False,Janek,12,Grzegorczyk,2522001012010,bach,False,2,L2,26
+919,1976,True,Elżbieta,12,Kochalska,13521705062019,ela,False,2,L2,13
+920,1991,False,Albert,12,Lisowski,18385705072019,alek,False,2,L2,5
+921,1998,True,Ewelina,12,Nosowska,17082224082019,ewelinka,False,2,L2,1023
+922,1985,False,Piotr,12,Fokalski,3412522012010,piotrek - w czasie spaceru z psem,False,2,L2,67
+923,1981,False,Bartosz,12,Moskalski,4362930012010,bartek gdy poszedł po kanapkę,False,2,L2,1023
+924,1982,False,Janek,12,Grzegorczyk,2522701012010,bach,False,2,L2,1023
+925,1976,True,Elżbieta,12,Kochalska,13522505062019,ela,False,2,L2,1023
+926,1991,False,Albert,12,Lisowski,18390505072019,alek,False,2,L2,7
+927,1998,True,Ewelina,12,Nosowska,17083024082019,ewelinka,False,2,L2,1023
+928,1985,False,Piotr,12,Fokalski,3413322012010,piotrek - w czasie spaceru z psem,False,2,L2,65
+929,1981,False,Bartosz,12,Moskalski,4363730012010,bartek gdy poszedł po kanapkę,False,2,L2,66
+930,1982,False,Janek,12,Grzegorczyk,2523501012010,bach,False,2,L2,26
+931,1976,True,Elżbieta,12,Kochalska,13523305062019,ela,False,2,L2,1023
+932,1991,False,Albert,12,Lisowski,18391205072019,alek,False,2,L2,2
+933,1998,True,Ewelina,12,Nosowska,17083824082019,ewelinka,False,2,L2,666
+934,1985,False,Piotr,12,Fokalski,3414122012010,piotrek - w czasie spaceru z psem,False,2,L2,97
+935,1981,False,Bartosz,12,Moskalski,4364530012010,bartek gdy poszedł po kanapkę,False,2,L2,60
+936,1982,False,Janek,12,Grzegorczyk,2524301012010,bach,False,2,L2,31
+937,1976,True,Elżbieta,12,Kochalska,13524105062019,ela,False,2,L2,13
+938,1991,False,Albert,12,Lisowski,18392005072019,alek,False,2,L2,5
+939,1998,True,Ewelina,12,Nosowska,17084624082019,ewelinka,False,2,L2,666
+940,1985,False,Piotr,12,Fokalski,3414922012010,piotrek - w czasie spaceru z psem,False,2,L2,68
+941,1981,False,Bartosz,12,Moskalski,4365330012010,bartek gdy poszedł po kanapkę,False,2,L2,748
+942,1982,False,Janek,12,Grzegorczyk,2525101012010,bach,False,2,L2,1023
+943,1976,True,Elżbieta,12,Kochalska,13524805062019,ela,False,2,L2,1023
+944,1991,False,Albert,12,Lisowski,18392805072019,alek,False,2,L2,4
+945,1998,True,Ewelina,12,Nosowska,17085324082019,ewelinka,False,2,L2,1023
+946,1985,False,Piotr,12,Fokalski,3415722012010,piotrek - w czasie spaceru z psem,False,2,L2,363
+947,1981,False,Bartosz,12,Moskalski,4370130012010,bartek gdy poszedł po kanapkę,False,2,L2,1023
+948,1982,False,Janek,12,Grzegorczyk,2525901012010,bach,False,2,L2,1023
+949,1976,True,Elżbieta,12,Kochalska,13525605062019,ela,False,2,L2,1023
+950,1991,False,Albert,12,Lisowski,18393605072019,alek,False,2,L2,4
+951,1998,True,Ewelina,12,Nosowska,17090124082019,ewelinka,False,2,L2,1023
+952,1985,False,Piotr,12,Fokalski,3420522012010,piotrek - w czasie spaceru z psem,False,2,L2,65
+953,1981,False,Bartosz,12,Moskalski,4370930012010,bartek gdy poszedł po kanapkę,False,2,L2,65
+954,1982,False,Janek,12,Grzegorczyk,2530701012010,bach,False,2,L2,28
+955,1976,True,Elżbieta,12,Kochalska,13530405062019,ela,False,2,L2,295
+956,1991,False,Albert,12,Lisowski,18394405072019,alek,False,2,L2,5
+957,1998,True,Ewelina,12,Nosowska,17090924082019,ewelinka,False,2,L2,1023
+958,1985,False,Piotr,12,Fokalski,3421322012010,piotrek - w czasie spaceru z psem,False,2,L2,92
+959,1981,False,Bartosz,12,Moskalski,4371730012010,bartek gdy poszedł po kanapkę,False,2,L2,59
+960,1982,False,Janek,12,Grzegorczyk,2531501012010,bach,False,2,L2,1023
+961,1976,True,Elżbieta,12,Kochalska,13531205062019,ela,True,2,L2,13
+962,1991,False,Albert,12,Lisowski,18395205072019,alek,False,2,L2,5
+963,1998,True,Ewelina,12,Nosowska,17091724082019,ewelinka,False,2,L2,1023
+964,1985,False,Piotr,12,Fokalski,3422122012010,piotrek - w czasie spaceru z psem,False,2,L2,87
+965,1981,False,Bartosz,12,Moskalski,4372530012010,bartek gdy poszedł po kanapkę,False,2,L2,68
+966,1982,False,Janek,12,Grzegorczyk,2532301012010,bach,False,2,L2,26
+967,1976,True,Elżbieta,12,Kochalska,13532005062019,ela,True,2,L2,1023
+968,1991,False,Albert,12,Lisowski,18400005072019,alek,False,2,L2,7
+969,1998,True,Ewelina,12,Nosowska,17092524082019,ewelinka,False,2,L2,1023
+970,1985,False,Piotr,12,Fokalski,3422922012010,piotrek - w czasie spaceru z psem,False,2,L2,88
+971,1981,False,Bartosz,12,Moskalski,4373230012010,bartek gdy poszedł po kanapkę,False,2,L2,57
+972,1982,False,Janek,12,Grzegorczyk,2533101012010,bach,False,2,L2,86
+973,1976,True,Elżbieta,12,Kochalska,13532805062019,ela,False,2,L2,1023
+974,1991,False,Albert,12,Lisowski,18400805072019,alek,False,2,L2,9
+975,1998,True,Ewelina,12,Nosowska,17093324082019,ewelinka,False,2,L2,1023
+976,1985,False,Piotr,12,Fokalski,3423722012010,piotrek - w czasie spaceru z psem,False,2,L2,1023
+977,1981,False,Bartosz,12,Moskalski,4374030012010,bartek gdy poszedł po kanapkę,False,2,L2,55
+978,1982,False,Janek,12,Grzegorczyk,2533901012010,bach,False,2,L2,1023
+979,1976,True,Elżbieta,12,Kochalska,13533605062019,ela,False,2,L2,50
+980,1991,False,Albert,12,Lisowski,18401605072019,alek,False,2,L2,2
+981,1998,True,Ewelina,12,Nosowska,17094124082019,ewelinka,False,2,L2,725
+982,1985,False,Piotr,12,Fokalski,3424422012010,piotrek - w czasie spaceru z psem,False,2,L2,92
+983,1981,False,Bartosz,12,Moskalski,4374930012010,bartek gdy poszedł po kanapkę,False,2,L2,1023
+984,1982,False,Janek,12,Grzegorczyk,2534701012010,bach,False,2,L2,115
+985,1976,True,Elżbieta,12,Kochalska,13534305062019,ela,False,2,L2,13
+986,1991,False,Albert,12,Lisowski,18402405072019,alek,False,2,L2,2
+987,1998,True,Ewelina,12,Nosowska,17094824082019,ewelinka,False,2,L2,759
+988,1985,False,Piotr,12,Fokalski,3425222012010,piotrek - w czasie spaceru z psem,False,2,L2,69
+989,1981,False,Bartosz,12,Moskalski,4375630012010,bartek gdy poszedł po kanapkę,False,2,L2,906
+990,1982,False,Janek,12,Grzegorczyk,2535501012010,bach,False,2,L2,26
+991,1976,True,Elżbieta,12,Kochalska,13535105062019,ela,False,2,L2,12
+992,1991,False,Albert,12,Lisowski,18403205072019,alek,False,2,L2,6
+993,1998,True,Ewelina,12,Nosowska,17095624082019,ewelinka,False,2,L2,1023
+994,1985,False,Piotr,12,Fokalski,3430022012010,piotrek - w czasie spaceru z psem,False,2,L2,95
+995,1981,False,Bartosz,12,Moskalski,4380430012010,bartek gdy poszedł po kanapkę,False,2,L2,185
+996,1982,False,Janek,12,Grzegorczyk,2540301012010,bach,False,2,L2,31
+997,1976,True,Elżbieta,12,Kochalska,13535905062019,ela,False,2,L2,12
+998,1991,False,Albert,12,Lisowski,18404005072019,alek,False,2,L2,9
+999,1998,True,Ewelina,12,Nosowska,17100424082019,ewelinka,False,2,L2,1023
+1000,1985,False,Piotr,12,Fokalski,3430822012010,piotrek - w czasie spaceru z psem,False,2,L2,81
+1001,1981,False,Bartosz,12,Moskalski,4381330012010,bartek gdy poszedł po kanapkę,False,2,L2,1023
+1002,1982,False,Janek,12,Grzegorczyk,2541101012010,bach,False,2,L2,1023
+1003,1976,True,Elżbieta,12,Kochalska,13540705062019,ela,False,2,L2,13
+1004,1991,False,Albert,12,Lisowski,18404805072019,alek,False,2,L2,8
+1005,1998,True,Ewelina,12,Nosowska,17101224082019,ewelinka,False,2,L2,1023
+1006,1985,False,Piotr,12,Fokalski,3431622012010,piotrek - w czasie spaceru z psem,False,2,L2,984
+1007,1981,False,Bartosz,12,Moskalski,4382030012010,bartek gdy poszedł po kanapkę,False,2,L2,1023
+1008,1982,False,Janek,12,Grzegorczyk,2541801012010,bach,False,2,L2,31
+1009,1976,True,Elżbieta,12,Kochalska,13541505062019,ela,False,2,L2,11
+1010,1991,False,Albert,12,Lisowski,18405605072019,alek,False,2,L2,2
+1011,1998,True,Ewelina,12,Nosowska,17102024082019,ewelinka,False,2,L2,1023
+1012,1985,False,Piotr,12,Fokalski,3432422012010,piotrek - w czasie spaceru z psem,False,2,L2,98
+1013,1981,False,Bartosz,12,Moskalski,4382830012010,bartek gdy poszedł po kanapkę,False,2,L2,1023
+1014,1982,False,Janek,12,Grzegorczyk,2542701012010,bach,False,2,L2,22
+1015,1976,True,Elżbieta,12,Kochalska,13542305062019,ela,False,2,L2,12
+1016,1991,False,Albert,12,Lisowski,18410405072019,alek,False,2,L2,1023
+1017,1998,True,Ewelina,12,Nosowska,17102824082019,ewelinka,False,2,L2,1023
+1018,1985,False,Piotr,12,Fokalski,3433222012010,piotrek - w czasie spaceru z psem,False,2,L2,63
+1019,1981,False,Bartosz,12,Moskalski,4383630012010,bartek gdy poszedł po kanapkę,False,2,L2,1023
+1020,1982,False,Janek,12,Grzegorczyk,2543401012010,bach,False,2,L2,1023
+1021,1976,True,Elżbieta,12,Kochalska,13543105062019,ela,False,2,L2,12
+1022,1991,False,Albert,12,Lisowski,18411205072019,alek,False,2,L2,4
+1023,1998,True,Ewelina,12,Nosowska,17103624082019,ewelinka,False,2,L2,545
+1024,1985,False,Piotr,12,Fokalski,3434022012010,piotrek - w czasie spaceru z psem,False,2,L2,963
+1025,1981,False,Bartosz,12,Moskalski,4384430012010,bartek gdy poszedł po kanapkę,False,2,L2,44
+1026,1982,False,Janek,12,Grzegorczyk,2544201012010,bach,False,2,L2,19
+1027,1976,True,Elżbieta,12,Kochalska,13543905062019,ela,False,2,L2,1023
+1028,1991,False,Albert,12,Lisowski,18412005072019,alek,False,2,L2,1
+1029,1998,True,Ewelina,12,Nosowska,17104424082019,ewelinka,False,2,L2,1023
+1030,1985,False,Piotr,12,Fokalski,3434822012010,piotrek - w czasie spaceru z psem,False,2,L2,91
+1031,1981,False,Bartosz,12,Moskalski,4385230012010,bartek gdy poszedł po kanapkę,False,2,L2,1023
+1032,1982,False,Janek,12,Grzegorczyk,2545001012010,bach,False,2,L2,24
+1033,1976,True,Elżbieta,12,Kochalska,13544605062019,ela,False,2,L2,11
+1034,1991,False,Albert,12,Lisowski,18412805072019,alek,False,2,L2,7
+1035,1998,True,Ewelina,12,Nosowska,17105124082019,ewelinka,False,2,L2,1023
+1036,1985,False,Piotr,12,Fokalski,3435622012010,piotrek - w czasie spaceru z psem,False,2,L2,96
+1037,1981,False,Bartosz,12,Moskalski,4390030012010,bartek gdy poszedł po kanapkę,False,2,L2,1023
+1038,1982,False,Janek,12,Grzegorczyk,2545801012010,bach,False,2,L2,30
+1039,1976,True,Elżbieta,12,Kochalska,13545405062019,ela,False,2,L2,149
+1040,1991,False,Albert,12,Lisowski,18413605072019,alek,False,2,L2,7
+1041,1998,True,Ewelina,12,Nosowska,17105924082019,ewelinka,False,2,L2,1023
+1042,1985,False,Piotr,12,Fokalski,3440422012010,piotrek - w czasie spaceru z psem,False,2,L2,86
+1043,1981,False,Bartosz,12,Moskalski,4390830012010,bartek gdy poszedł po kanapkę,False,2,L2,44
+1044,1982,False,Janek,12,Grzegorczyk,2550601012010,bach,False,2,L2,1023
+1045,1976,True,Elżbieta,12,Kochalska,13550205062019,ela,False,2,L2,629
+1046,1991,False,Albert,12,Lisowski,18414405072019,alek,False,2,L2,9
+1047,1998,True,Ewelina,12,Nosowska,17110724082019,ewelinka,False,2,L2,1023
+1048,1985,False,Piotr,12,Fokalski,3441222012010,piotrek - w czasie spaceru z psem,False,2,L2,90
+1049,1981,False,Bartosz,12,Moskalski,4391630012010,bartek gdy poszedł po kanapkę,False,2,L2,35
+1050,1982,False,Janek,12,Grzegorczyk,2551401012010,bach,False,2,L2,1023
+1051,1976,True,Elżbieta,12,Kochalska,13551005062019,ela,False,2,L2,14
+1052,1991,False,Albert,12,Lisowski,18415205072019,alek,False,2,L2,5
+1053,1998,True,Ewelina,12,Nosowska,17111524082019,ewelinka,False,2,L2,1023
+1054,1985,False,Piotr,12,Fokalski,3442022012010,piotrek - w czasie spaceru z psem,False,2,L2,97
+1055,1981,False,Bartosz,12,Moskalski,4392430012010,bartek gdy poszedł po kanapkę,False,2,L2,47
+1056,1982,False,Janek,12,Grzegorczyk,2552201012010,bach,False,2,L2,21
+1057,1976,True,Elżbieta,12,Kochalska,13551805062019,ela,False,2,L2,1023
+1058,1991,False,Albert,12,Lisowski,18420005072019,alek,False,2,L2,2
+1059,1998,True,Ewelina,12,Nosowska,17112324082019,ewelinka,False,2,L2,711
+1060,1985,False,Piotr,12,Fokalski,3442822012010,piotrek - w czasie spaceru z psem,False,2,L2,101
+1061,1981,False,Bartosz,12,Moskalski,4393230012010,bartek gdy poszedł po kanapkę,False,2,L2,1023
+1062,1982,False,Janek,12,Grzegorczyk,2474101012010,bach,False,3,R0,1023
+1063,1976,True,Elżbieta,12,Kochalska,13474205062019,ela,False,3,R0,983
+1064,1991,False,Albert,12,Lisowski,18341805072019,alek,False,3,R0,5
+1065,1998,True,Ewelina,12,Nosowska,17034624082019,ewelinka,False,3,R0,1023
+1066,1985,False,Piotr,12,Fokalski,3364822012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1067,1981,False,Bartosz,12,Moskalski,4315030012010,bartek gdy poszedł po kanapkę,False,3,R0,945
+1068,1982,False,Janek,12,Grzegorczyk,2474901012010,bach,False,3,R0,1023
+1069,1976,True,Elżbieta,12,Kochalska,13474905062019,ela,False,3,R0,13
+1070,1991,False,Albert,12,Lisowski,18342605072019,alek,False,3,R0,1
+1071,1998,True,Ewelina,12,Nosowska,17035324082019,ewelinka,False,3,R0,1023
+1072,1985,False,Piotr,12,Fokalski,3365622012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1073,1981,False,Bartosz,12,Moskalski,4315830012010,bartek gdy poszedł po kanapkę,False,3,R0,1023
+1074,1982,False,Janek,12,Grzegorczyk,2475701012010,bach,False,3,R0,1023
+1075,1976,True,Elżbieta,12,Kochalska,13475705062019,ela,False,3,R0,1023
+1076,1991,False,Albert,12,Lisowski,18343405072019,alek,False,3,R0,7
+1077,1998,True,Ewelina,12,Nosowska,17040124082019,ewelinka,False,3,R0,1023
+1078,1985,False,Piotr,12,Fokalski,3370422012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1079,1981,False,Bartosz,12,Moskalski,4320630012010,bartek gdy poszedł po kanapkę,False,3,R0,1023
+1080,1982,False,Janek,12,Grzegorczyk,2480501012010,bach,False,3,R0,1023
+1081,1976,True,Elżbieta,12,Kochalska,13480505062019,ela,False,3,R0,13
+1082,1991,False,Albert,12,Lisowski,18344205072019,alek,False,3,R0,4
+1083,1998,True,Ewelina,12,Nosowska,17040924082019,ewelinka,False,3,R0,781
+1084,1985,False,Piotr,12,Fokalski,3371222012010,piotrek - w czasie spaceru z psem,False,3,R0,938
+1085,1981,False,Bartosz,12,Moskalski,4321430012010,bartek gdy poszedł po kanapkę,False,3,R0,1023
+1086,1982,False,Janek,12,Grzegorczyk,2481301012010,bach,False,3,R0,1023
+1087,1976,True,Elżbieta,12,Kochalska,13481305062019,ela,False,3,R0,1023
+1088,1991,False,Albert,12,Lisowski,18345005072019,alek,False,3,R0,7
+1089,1998,True,Ewelina,12,Nosowska,17041724082019,ewelinka,False,3,R0,1023
+1090,1985,False,Piotr,12,Fokalski,3372022012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1091,1981,False,Bartosz,12,Moskalski,4322230012010,bartek gdy poszedł po kanapkę,False,3,R0,971
+1092,1982,False,Janek,12,Grzegorczyk,2482101012010,bach,False,3,R0,1023
+1093,1976,True,Elżbieta,12,Kochalska,13482105062019,ela,False,3,R0,12
+1094,1991,False,Albert,12,Lisowski,18345805072019,alek,False,3,R0,6
+1095,1998,True,Ewelina,12,Nosowska,17042624082019,ewelinka,False,3,R0,1023
+1096,1985,False,Piotr,12,Fokalski,3372822012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1097,1981,False,Bartosz,12,Moskalski,4323030012010,bartek gdy poszedł po kanapkę,False,3,R0,1023
+1098,1982,False,Janek,12,Grzegorczyk,2482901012010,bach,False,3,R0,32
+1099,1976,True,Elżbieta,12,Kochalska,13482905062019,ela,False,3,R0,1023
+1100,1991,False,Albert,12,Lisowski,18350605072019,alek,False,3,R0,3
+1101,1998,True,Ewelina,12,Nosowska,17043424082019,ewelinka,True,3,R0,1023
+1102,1985,False,Piotr,12,Fokalski,3373522012010,piotrek - w czasie spaceru z psem,True,3,R0,1023
+1103,1981,False,Bartosz,12,Moskalski,4323830012010,bartek gdy poszedł po kanapkę,False,3,R0,1023
+1104,1982,False,Janek,12,Grzegorczyk,2483701012010,bach,False,3,R0,1023
+1105,1976,True,Elżbieta,12,Kochalska,13483705062019,ela,True,3,R0,1023
+1106,1991,False,Albert,12,Lisowski,18351405072019,alek,False,3,R0,0
+1107,1998,True,Ewelina,12,Nosowska,17044124082019,ewelinka,True,3,R0,1023
+1108,1985,False,Piotr,12,Fokalski,3374422012010,piotrek - w czasie spaceru z psem,True,3,R0,1023
+1109,1981,False,Bartosz,12,Moskalski,4324530012010,bartek gdy poszedł po kanapkę,False,3,R0,887
+1110,1982,False,Janek,12,Grzegorczyk,2484501012010,bach,False,3,R0,25
+1111,1976,True,Elżbieta,12,Kochalska,13484505062019,ela,True,3,R0,1023
+1112,1991,False,Albert,12,Lisowski,18352205072019,alek,False,3,R0,6
+1113,1998,True,Ewelina,12,Nosowska,17045024082019,ewelinka,True,3,R0,1023
+1114,1985,False,Piotr,12,Fokalski,3375122012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1115,1981,False,Bartosz,12,Moskalski,4325430012010,bartek gdy poszedł po kanapkę,False,3,R0,1023
+1116,1982,False,Janek,12,Grzegorczyk,2485301012010,bach,False,3,R0,1023
+1117,1976,True,Elżbieta,12,Kochalska,13485305062019,ela,True,3,R0,12
+1118,1991,False,Albert,12,Lisowski,18353005072019,alek,False,3,R0,5
+1119,1998,True,Ewelina,12,Nosowska,17045824082019,ewelinka,True,3,R0,1023
+1120,1985,False,Piotr,12,Fokalski,3380022012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1121,1981,False,Bartosz,12,Moskalski,4330130012010,bartek gdy poszedł po kanapkę,False,3,R0,1023
+1122,1982,False,Janek,12,Grzegorczyk,2490101012010,bach,False,3,R0,32
+1123,1976,True,Elżbieta,12,Kochalska,13490005062019,ela,True,3,R0,12
+1124,1991,False,Albert,12,Lisowski,18353805072019,alek,False,3,R0,3
+1125,1998,True,Ewelina,12,Nosowska,17050524082019,ewelinka,False,3,R0,1023
+1126,1985,False,Piotr,12,Fokalski,3380722012010,piotrek - w czasie spaceru z psem,False,3,R0,54
+1127,1981,False,Bartosz,12,Moskalski,4330930012010,bartek gdy poszedł po kanapkę,False,3,R0,865
+1128,1982,False,Janek,12,Grzegorczyk,2490901012010,bach,False,3,R0,1023
+1129,1976,True,Elżbieta,12,Kochalska,13490805062019,ela,True,3,R0,1023
+1130,1991,False,Albert,12,Lisowski,18354605072019,alek,False,3,R0,7
+1131,1998,True,Ewelina,12,Nosowska,17051324082019,ewelinka,False,3,R0,1023
+1132,1985,False,Piotr,12,Fokalski,3381522012010,piotrek - w czasie spaceru z psem,False,3,R0,90
+1133,1981,False,Bartosz,12,Moskalski,4331730012010,bartek gdy poszedł po kanapkę,False,3,R0,1023
+1134,1982,False,Janek,12,Grzegorczyk,2491701012010,bach,False,3,R0,861
+1135,1976,True,Elżbieta,12,Kochalska,13491605062019,ela,False,3,R0,1023
+1136,1991,False,Albert,12,Lisowski,18355405072019,alek,False,3,R0,9
+1137,1998,True,Ewelina,12,Nosowska,17052124082019,ewelinka,False,3,R0,498
+1138,1985,False,Piotr,12,Fokalski,3382322012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1139,1981,False,Bartosz,12,Moskalski,4332530012010,bartek gdy poszedł po kanapkę,False,3,R0,1023
+1140,1982,False,Janek,12,Grzegorczyk,2492501012010,bach,False,3,R0,33
+1141,1976,True,Elżbieta,12,Kochalska,13492405062019,ela,False,3,R0,1023
+1142,1991,False,Albert,12,Lisowski,18360205072019,alek,False,3,R0,4
+1143,1998,True,Ewelina,12,Nosowska,17052924082019,ewelinka,False,3,R0,649
+1144,1985,False,Piotr,12,Fokalski,3383122012010,piotrek - w czasie spaceru z psem,False,3,R0,53
+1145,1981,False,Bartosz,12,Moskalski,4333330012010,bartek gdy poszedł po kanapkę,False,3,R0,1023
+1146,1982,False,Janek,12,Grzegorczyk,2493201012010,bach,False,3,R0,32
+1147,1976,True,Elżbieta,12,Kochalska,13493205062019,ela,False,3,R0,1023
+1148,1991,False,Albert,12,Lisowski,18361005072019,alek,False,3,R0,2
+1149,1998,True,Ewelina,12,Nosowska,17053724082019,ewelinka,False,3,R0,641
+1150,1985,False,Piotr,12,Fokalski,3383922012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1151,1981,False,Bartosz,12,Moskalski,4334230012010,bartek gdy poszedł po kanapkę,False,3,R0,1023
+1152,1982,False,Janek,12,Grzegorczyk,2494101012010,bach,False,3,R0,1023
+1153,1976,True,Elżbieta,12,Kochalska,13494005062019,ela,False,3,R0,1023
+1154,1991,False,Albert,12,Lisowski,18361805072019,alek,False,3,R0,4
+1155,1998,True,Ewelina,12,Nosowska,17054524082019,ewelinka,False,3,R0,546
+1156,1985,False,Piotr,12,Fokalski,3384722012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1157,1981,False,Bartosz,12,Moskalski,4334930012010,bartek gdy poszedł po kanapkę,False,3,R0,1023
+1158,1982,False,Janek,12,Grzegorczyk,2494901012010,bach,False,3,R0,36
+1159,1976,True,Elżbieta,12,Kochalska,13494805062019,ela,False,3,R0,1023
+1160,1991,False,Albert,12,Lisowski,18362605072019,alek,False,3,R0,4
+1161,1998,True,Ewelina,12,Nosowska,17055324082019,ewelinka,False,3,R0,1023
+1162,1985,False,Piotr,12,Fokalski,3385522012010,piotrek - w czasie spaceru z psem,False,3,R0,744
+1163,1981,False,Bartosz,12,Moskalski,4335830012010,bartek gdy poszedł po kanapkę,False,3,R0,214
+1164,1982,False,Janek,12,Grzegorczyk,2495701012010,bach,False,3,R0,1023
+1165,1976,True,Elżbieta,12,Kochalska,13495605062019,ela,False,3,R0,1023
+1166,1991,False,Albert,12,Lisowski,18363405072019,alek,False,3,R0,5
+1167,1998,True,Ewelina,12,Nosowska,17060124082019,ewelinka,False,3,R0,405
+1168,1985,False,Piotr,12,Fokalski,3390322012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1169,1981,False,Bartosz,12,Moskalski,4340630012010,bartek gdy poszedł po kanapkę,False,3,R0,706
+1170,1982,False,Janek,12,Grzegorczyk,2500401012010,bach,False,3,R0,32
+1171,1976,True,Elżbieta,12,Kochalska,13500405062019,ela,False,3,R0,1023
+1172,1991,False,Albert,12,Lisowski,18364205072019,alek,False,3,R0,5
+1173,1998,True,Ewelina,12,Nosowska,17060824082019,ewelinka,False,3,R0,1023
+1174,1985,False,Piotr,12,Fokalski,3391122012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1175,1981,False,Bartosz,12,Moskalski,4341330012010,bartek gdy poszedł po kanapkę,False,3,R0,1023
+1176,1982,False,Janek,12,Grzegorczyk,2501301012010,bach,False,3,R0,25
+1177,1976,True,Elżbieta,12,Kochalska,13501105062019,ela,False,3,R0,1023
+1178,1991,False,Albert,12,Lisowski,18365005072019,alek,False,3,R0,7
+1179,1998,True,Ewelina,12,Nosowska,17061624082019,ewelinka,False,3,R0,1023
+1180,1985,False,Piotr,12,Fokalski,3391922012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1181,1981,False,Bartosz,12,Moskalski,4342130012010,bartek gdy poszedł po kanapkę,False,3,R0,1023
+1182,1982,False,Janek,12,Grzegorczyk,2502001012010,bach,False,3,R0,27
+1183,1976,True,Elżbieta,12,Kochalska,13501905062019,ela,False,3,R0,1023
+1184,1991,False,Albert,12,Lisowski,18365805072019,alek,False,3,R0,1
+1185,1998,True,Ewelina,12,Nosowska,17062424082019,ewelinka,False,3,R0,1023
+1186,1985,False,Piotr,12,Fokalski,3392722012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1187,1981,False,Bartosz,12,Moskalski,4343030012010,bartek gdy poszedł po kanapkę,False,3,R0,1023
+1188,1982,False,Janek,12,Grzegorczyk,2502801012010,bach,False,3,R0,1023
+1189,1976,True,Elżbieta,12,Kochalska,13502705062019,ela,False,3,R0,1023
+1190,1991,False,Albert,12,Lisowski,18370505072019,alek,False,3,R0,4
+1191,1998,True,Ewelina,12,Nosowska,17063224082019,ewelinka,False,3,R0,428
+1192,1985,False,Piotr,12,Fokalski,3393522012010,piotrek - w czasie spaceru z psem,False,3,R0,52
+1193,1981,False,Bartosz,12,Moskalski,4343730012010,bartek gdy poszedł po kanapkę,False,3,R0,1010
+1194,1982,False,Janek,12,Grzegorczyk,2503601012010,bach,False,3,R0,1023
+1195,1976,True,Elżbieta,12,Kochalska,13503505062019,ela,False,3,R0,12
+1196,1991,False,Albert,12,Lisowski,18371405072019,alek,False,3,R0,8
+1197,1998,True,Ewelina,12,Nosowska,17064024082019,ewelinka,False,3,R0,161
+1198,1985,False,Piotr,12,Fokalski,3394322012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1199,1981,False,Bartosz,12,Moskalski,4344530012010,bartek gdy poszedł po kanapkę,False,3,R0,1023
+1200,1982,False,Janek,12,Grzegorczyk,2504401012010,bach,False,3,R0,25
+1201,1976,True,Elżbieta,12,Kochalska,13504305062019,ela,False,3,R0,1023
+1202,1991,False,Albert,12,Lisowski,18372105072019,alek,False,3,R0,5
+1203,1998,True,Ewelina,12,Nosowska,17064824082019,ewelinka,False,3,R0,317
+1204,1985,False,Piotr,12,Fokalski,3395122012010,piotrek - w czasie spaceru z psem,False,3,R0,421
+1205,1981,False,Bartosz,12,Moskalski,4345330012010,bartek gdy poszedł po kanapkę,False,3,R0,1023
+1206,1982,False,Janek,12,Grzegorczyk,2505201012010,bach,False,3,R0,18
+1207,1976,True,Elżbieta,12,Kochalska,13505105062019,ela,False,3,R0,1023
+1208,1991,False,Albert,12,Lisowski,18372905072019,alek,False,3,R0,7
+1209,1998,True,Ewelina,12,Nosowska,17065624082019,ewelinka,False,3,R0,448
+1210,1985,False,Piotr,12,Fokalski,3395822012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1211,1981,False,Bartosz,12,Moskalski,4350130012010,bartek gdy poszedł po kanapkę,False,3,R0,637
+1212,1982,False,Janek,12,Grzegorczyk,2510001012010,bach,False,3,R0,1023
+1213,1976,True,Elżbieta,12,Kochalska,13505905062019,ela,False,3,R0,1023
+1214,1991,False,Albert,12,Lisowski,18373705072019,alek,False,3,R0,3
+1215,1998,True,Ewelina,12,Nosowska,17070424082019,ewelinka,False,3,R0,1023
+1216,1985,False,Piotr,12,Fokalski,3400622012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1217,1981,False,Bartosz,12,Moskalski,4350930012010,bartek gdy poszedł po kanapkę,False,3,R0,1023
+1218,1982,False,Janek,12,Grzegorczyk,2510801012010,bach,False,3,R0,21
+1219,1976,True,Elżbieta,12,Kochalska,13510605062019,ela,False,3,R0,245
+1220,1991,False,Albert,12,Lisowski,18374505072019,alek,False,3,R0,7
+1221,1998,True,Ewelina,12,Nosowska,17071124082019,ewelinka,False,3,R0,1023
+1222,1985,False,Piotr,12,Fokalski,3401422012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1223,1981,False,Bartosz,12,Moskalski,4351730012010,bartek gdy poszedł po kanapkę,False,3,R0,1023
+1224,1982,False,Janek,12,Grzegorczyk,2511601012010,bach,False,3,R0,20
+1225,1976,True,Elżbieta,12,Kochalska,13511405062019,ela,False,3,R0,135
+1226,1991,False,Albert,12,Lisowski,18375305072019,alek,False,3,R0,7
+1227,1998,True,Ewelina,12,Nosowska,17071924082019,ewelinka,False,3,R0,1023
+1228,1985,False,Piotr,12,Fokalski,3402222012010,piotrek - w czasie spaceru z psem,False,3,R0,435
+1229,1981,False,Bartosz,12,Moskalski,4352530012010,bartek gdy poszedł po kanapkę,False,3,R0,878
+1230,1982,False,Janek,12,Grzegorczyk,2512401012010,bach,False,3,R0,1023
+1231,1976,True,Elżbieta,12,Kochalska,13512205062019,ela,False,3,R0,1023
+1232,1991,False,Albert,12,Lisowski,18380105072019,alek,False,3,R0,0
+1233,1998,True,Ewelina,12,Nosowska,17072724082019,ewelinka,False,3,R0,746
+1234,1985,False,Piotr,12,Fokalski,3403022012010,piotrek - w czasie spaceru z psem,False,3,R0,397
+1235,1981,False,Bartosz,12,Moskalski,4353330012010,bartek gdy poszedł po kanapkę,False,3,R0,129
+1236,1982,False,Janek,12,Grzegorczyk,2513201012010,bach,False,3,R0,28
+1237,1976,True,Elżbieta,12,Kochalska,13513005062019,ela,False,3,R0,66
+1238,1991,False,Albert,12,Lisowski,18380905072019,alek,False,3,R0,8
+1239,1998,True,Ewelina,12,Nosowska,17073524082019,ewelinka,False,3,R0,496
+1240,1985,False,Piotr,12,Fokalski,3403822012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1241,1981,False,Bartosz,12,Moskalski,4354130012010,bartek gdy poszedł po kanapkę,False,3,R0,1023
+1242,1982,False,Janek,12,Grzegorczyk,2514001012010,bach,False,3,R0,1023
+1243,1976,True,Elżbieta,12,Kochalska,13513805062019,ela,False,3,R0,1023
+1244,1991,False,Albert,12,Lisowski,18381705072019,alek,False,3,R0,7
+1245,1998,True,Ewelina,12,Nosowska,17074324082019,ewelinka,False,3,R0,1023
+1246,1985,False,Piotr,12,Fokalski,3404622012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1247,1981,False,Bartosz,12,Moskalski,4354930012010,bartek gdy poszedł po kanapkę,False,3,R0,1023
+1248,1982,False,Janek,12,Grzegorczyk,2514801012010,bach,False,3,R0,474
+1249,1976,True,Elżbieta,12,Kochalska,13514605062019,ela,False,3,R0,1023
+1250,1991,False,Albert,12,Lisowski,18382505072019,alek,False,3,R0,9
+1251,1998,True,Ewelina,12,Nosowska,17075124082019,ewelinka,False,3,R0,611
+1252,1985,False,Piotr,12,Fokalski,3405422012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1253,1981,False,Bartosz,12,Moskalski,4355730012010,bartek gdy poszedł po kanapkę,False,3,R0,835
+1254,1982,False,Janek,12,Grzegorczyk,2515601012010,bach,False,3,R0,28
+1255,1976,True,Elżbieta,12,Kochalska,13515305062019,ela,False,3,R0,13
+1256,1991,False,Albert,12,Lisowski,18383305072019,alek,False,3,R0,5
+1257,1998,True,Ewelina,12,Nosowska,17075924082019,ewelinka,False,3,R0,1023
+1258,1985,False,Piotr,12,Fokalski,3410222012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1259,1981,False,Bartosz,12,Moskalski,4360530012010,bartek gdy poszedł po kanapkę,False,3,R0,1023
+1260,1982,False,Janek,12,Grzegorczyk,2520401012010,bach,False,3,R0,1023
+1261,1976,True,Elżbieta,12,Kochalska,13520105062019,ela,False,3,R0,1023
+1262,1991,False,Albert,12,Lisowski,18384105072019,alek,False,3,R0,5
+1263,1998,True,Ewelina,12,Nosowska,17080624082019,ewelinka,False,3,R0,1023
+1264,1985,False,Piotr,12,Fokalski,3410922012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1265,1981,False,Bartosz,12,Moskalski,4361330012010,bartek gdy poszedł po kanapkę,False,3,R0,1023
+1266,1982,False,Janek,12,Grzegorczyk,2521101012010,bach,False,3,R0,24
+1267,1976,True,Elżbieta,12,Kochalska,13520905062019,ela,False,3,R0,58
+1268,1991,False,Albert,12,Lisowski,18384905072019,alek,False,3,R0,5
+1269,1998,True,Ewelina,12,Nosowska,17081424082019,ewelinka,False,3,R0,1023
+1270,1985,False,Piotr,12,Fokalski,3411722012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1271,1981,False,Bartosz,12,Moskalski,4362130012010,bartek gdy poszedł po kanapkę,False,3,R0,856
+1272,1982,False,Janek,12,Grzegorczyk,2522001012010,bach,False,3,R0,28
+1273,1976,True,Elżbieta,12,Kochalska,13521705062019,ela,False,3,R0,1023
+1274,1991,False,Albert,12,Lisowski,18385705072019,alek,False,3,R0,9
+1275,1998,True,Ewelina,12,Nosowska,17082224082019,ewelinka,False,3,R0,565
+1276,1985,False,Piotr,12,Fokalski,3412522012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1277,1981,False,Bartosz,12,Moskalski,4362930012010,bartek gdy poszedł po kanapkę,False,3,R0,1023
+1278,1982,False,Janek,12,Grzegorczyk,2522701012010,bach,False,3,R0,1023
+1279,1976,True,Elżbieta,12,Kochalska,13522505062019,ela,False,3,R0,1023
+1280,1991,False,Albert,12,Lisowski,18390505072019,alek,False,3,R0,7
+1281,1998,True,Ewelina,12,Nosowska,17083024082019,ewelinka,False,3,R0,393
+1282,1985,False,Piotr,12,Fokalski,3413322012010,piotrek - w czasie spaceru z psem,False,3,R0,739
+1283,1981,False,Bartosz,12,Moskalski,4363730012010,bartek gdy poszedł po kanapkę,False,3,R0,1023
+1284,1982,False,Janek,12,Grzegorczyk,2523501012010,bach,False,3,R0,1023
+1285,1976,True,Elżbieta,12,Kochalska,13523305062019,ela,False,3,R0,12
+1286,1991,False,Albert,12,Lisowski,18391205072019,alek,False,3,R0,7
+1287,1998,True,Ewelina,12,Nosowska,17083824082019,ewelinka,False,3,R0,1023
+1288,1985,False,Piotr,12,Fokalski,3414122012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1289,1981,False,Bartosz,12,Moskalski,4364530012010,bartek gdy poszedł po kanapkę,False,3,R0,896
+1290,1982,False,Janek,12,Grzegorczyk,2524301012010,bach,False,3,R0,30
+1291,1976,True,Elżbieta,12,Kochalska,13524105062019,ela,False,3,R0,1023
+1292,1991,False,Albert,12,Lisowski,18392005072019,alek,False,3,R0,5
+1293,1998,True,Ewelina,12,Nosowska,17084624082019,ewelinka,False,3,R0,1023
+1294,1985,False,Piotr,12,Fokalski,3414922012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1295,1981,False,Bartosz,12,Moskalski,4365330012010,bartek gdy poszedł po kanapkę,False,3,R0,1023
+1296,1982,False,Janek,12,Grzegorczyk,2525101012010,bach,False,3,R0,20
+1297,1976,True,Elżbieta,12,Kochalska,13524805062019,ela,False,3,R0,1023
+1298,1991,False,Albert,12,Lisowski,18392805072019,alek,False,3,R0,2
+1299,1998,True,Ewelina,12,Nosowska,17085324082019,ewelinka,False,3,R0,1023
+1300,1985,False,Piotr,12,Fokalski,3415722012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1301,1981,False,Bartosz,12,Moskalski,4370130012010,bartek gdy poszedł po kanapkę,False,3,R0,1023
+1302,1982,False,Janek,12,Grzegorczyk,2525901012010,bach,False,3,R0,1023
+1303,1976,True,Elżbieta,12,Kochalska,13525605062019,ela,False,3,R0,11
+1304,1991,False,Albert,12,Lisowski,18393605072019,alek,False,3,R0,2
+1305,1998,True,Ewelina,12,Nosowska,17090124082019,ewelinka,False,3,R0,543
+1306,1985,False,Piotr,12,Fokalski,3420522012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1307,1981,False,Bartosz,12,Moskalski,4370930012010,bartek gdy poszedł po kanapkę,False,3,R0,1023
+1308,1982,False,Janek,12,Grzegorczyk,2530701012010,bach,False,3,R0,1023
+1309,1976,True,Elżbieta,12,Kochalska,13530405062019,ela,False,3,R0,909
+1310,1991,False,Albert,12,Lisowski,18394405072019,alek,False,3,R0,4
+1311,1998,True,Ewelina,12,Nosowska,17090924082019,ewelinka,False,3,R0,509
+1312,1985,False,Piotr,12,Fokalski,3421322012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1313,1981,False,Bartosz,12,Moskalski,4371730012010,bartek gdy poszedł po kanapkę,False,3,R0,467
+1314,1982,False,Janek,12,Grzegorczyk,2531501012010,bach,False,3,R0,30
+1315,1976,True,Elżbieta,12,Kochalska,13531205062019,ela,True,3,R0,1023
+1316,1991,False,Albert,12,Lisowski,18395205072019,alek,False,3,R0,3
+1317,1998,True,Ewelina,12,Nosowska,17091724082019,ewelinka,False,3,R0,199
+1318,1985,False,Piotr,12,Fokalski,3422122012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1319,1981,False,Bartosz,12,Moskalski,4372530012010,bartek gdy poszedł po kanapkę,False,3,R0,1023
+1320,1982,False,Janek,12,Grzegorczyk,2532301012010,bach,False,3,R0,1023
+1321,1976,True,Elżbieta,12,Kochalska,13532005062019,ela,True,3,R0,857
+1322,1991,False,Albert,12,Lisowski,18400005072019,alek,False,3,R0,0
+1323,1998,True,Ewelina,12,Nosowska,17092524082019,ewelinka,False,3,R0,885
+1324,1985,False,Piotr,12,Fokalski,3422922012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1325,1981,False,Bartosz,12,Moskalski,4373230012010,bartek gdy poszedł po kanapkę,False,3,R0,1023
+1326,1982,False,Janek,12,Grzegorczyk,2533101012010,bach,False,3,R0,1023
+1327,1976,True,Elżbieta,12,Kochalska,13532805062019,ela,False,3,R0,13
+1328,1991,False,Albert,12,Lisowski,18400805072019,alek,False,3,R0,0
+1329,1998,True,Ewelina,12,Nosowska,17093324082019,ewelinka,False,3,R0,693
+1330,1985,False,Piotr,12,Fokalski,3423722012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1331,1981,False,Bartosz,12,Moskalski,4374030012010,bartek gdy poszedł po kanapkę,False,3,R0,1023
+1332,1982,False,Janek,12,Grzegorczyk,2533901012010,bach,False,3,R0,29
+1333,1976,True,Elżbieta,12,Kochalska,13533605062019,ela,False,3,R0,11
+1334,1991,False,Albert,12,Lisowski,18401605072019,alek,False,3,R0,6
+1335,1998,True,Ewelina,12,Nosowska,17094124082019,ewelinka,False,3,R0,1023
+1336,1985,False,Piotr,12,Fokalski,3424422012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1337,1981,False,Bartosz,12,Moskalski,4374930012010,bartek gdy poszedł po kanapkę,False,3,R0,1023
+1338,1982,False,Janek,12,Grzegorczyk,2534701012010,bach,False,3,R0,1023
+1339,1976,True,Elżbieta,12,Kochalska,13534305062019,ela,False,3,R0,189
+1340,1991,False,Albert,12,Lisowski,18402405072019,alek,False,3,R0,5
+1341,1998,True,Ewelina,12,Nosowska,17094824082019,ewelinka,False,3,R0,1023
+1342,1985,False,Piotr,12,Fokalski,3425222012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1343,1981,False,Bartosz,12,Moskalski,4375630012010,bartek gdy poszedł po kanapkę,False,3,R0,1023
+1344,1982,False,Janek,12,Grzegorczyk,2535501012010,bach,False,3,R0,1023
+1345,1976,True,Elżbieta,12,Kochalska,13535105062019,ela,False,3,R0,1023
+1346,1991,False,Albert,12,Lisowski,18403205072019,alek,False,3,R0,6
+1347,1998,True,Ewelina,12,Nosowska,17095624082019,ewelinka,False,3,R0,818
+1348,1985,False,Piotr,12,Fokalski,3430022012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1349,1981,False,Bartosz,12,Moskalski,4380430012010,bartek gdy poszedł po kanapkę,False,3,R0,1023
+1350,1982,False,Janek,12,Grzegorczyk,2540301012010,bach,False,3,R0,31
+1351,1976,True,Elżbieta,12,Kochalska,13535905062019,ela,False,3,R0,81
+1352,1991,False,Albert,12,Lisowski,18404005072019,alek,False,3,R0,8
+1353,1998,True,Ewelina,12,Nosowska,17100424082019,ewelinka,False,3,R0,550
+1354,1985,False,Piotr,12,Fokalski,3430822012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1355,1981,False,Bartosz,12,Moskalski,4381330012010,bartek gdy poszedł po kanapkę,False,3,R0,1023
+1356,1982,False,Janek,12,Grzegorczyk,2541101012010,bach,False,3,R0,29
+1357,1976,True,Elżbieta,12,Kochalska,13540705062019,ela,False,3,R0,1023
+1358,1991,False,Albert,12,Lisowski,18404805072019,alek,False,3,R0,6
+1359,1998,True,Ewelina,12,Nosowska,17101224082019,ewelinka,False,3,R0,984
+1360,1985,False,Piotr,12,Fokalski,3431622012010,piotrek - w czasie spaceru z psem,False,3,R0,860
+1361,1981,False,Bartosz,12,Moskalski,4382030012010,bartek gdy poszedł po kanapkę,False,3,R0,1023
+1362,1982,False,Janek,12,Grzegorczyk,2541801012010,bach,False,3,R0,1023
+1363,1976,True,Elżbieta,12,Kochalska,13541505062019,ela,False,3,R0,1023
+1364,1991,False,Albert,12,Lisowski,18405605072019,alek,False,3,R0,8
+1365,1998,True,Ewelina,12,Nosowska,17102024082019,ewelinka,False,3,R0,296
+1366,1985,False,Piotr,12,Fokalski,3432422012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1367,1981,False,Bartosz,12,Moskalski,4382830012010,bartek gdy poszedł po kanapkę,False,3,R0,1023
+1368,1982,False,Janek,12,Grzegorczyk,2542701012010,bach,False,3,R0,752
+1369,1976,True,Elżbieta,12,Kochalska,13542305062019,ela,False,3,R0,1023
+1370,1991,False,Albert,12,Lisowski,18410405072019,alek,False,3,R0,6
+1371,1998,True,Ewelina,12,Nosowska,17102824082019,ewelinka,False,3,R0,439
+1372,1985,False,Piotr,12,Fokalski,3433222012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1373,1981,False,Bartosz,12,Moskalski,4383630012010,bartek gdy poszedł po kanapkę,False,3,R0,1023
+1374,1982,False,Janek,12,Grzegorczyk,2543401012010,bach,False,3,R0,28
+1375,1976,True,Elżbieta,12,Kochalska,13543105062019,ela,False,3,R0,1023
+1376,1991,False,Albert,12,Lisowski,18411205072019,alek,False,3,R0,1
+1377,1998,True,Ewelina,12,Nosowska,17103624082019,ewelinka,False,3,R0,1023
+1378,1985,False,Piotr,12,Fokalski,3434022012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1379,1981,False,Bartosz,12,Moskalski,4384430012010,bartek gdy poszedł po kanapkę,False,3,R0,922
+1380,1982,False,Janek,12,Grzegorczyk,2544201012010,bach,False,3,R0,1023
+1381,1976,True,Elżbieta,12,Kochalska,13543905062019,ela,False,3,R0,1023
+1382,1991,False,Albert,12,Lisowski,18412005072019,alek,False,3,R0,1023
+1383,1998,True,Ewelina,12,Nosowska,17104424082019,ewelinka,False,3,R0,345
+1384,1985,False,Piotr,12,Fokalski,3434822012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1385,1981,False,Bartosz,12,Moskalski,4385230012010,bartek gdy poszedł po kanapkę,False,3,R0,1023
+1386,1982,False,Janek,12,Grzegorczyk,2545001012010,bach,False,3,R0,1023
+1387,1976,True,Elżbieta,12,Kochalska,13544605062019,ela,False,3,R0,1023
+1388,1991,False,Albert,12,Lisowski,18412805072019,alek,False,3,R0,1023
+1389,1998,True,Ewelina,12,Nosowska,17105124082019,ewelinka,False,3,R0,481
+1390,1985,False,Piotr,12,Fokalski,3435622012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1391,1981,False,Bartosz,12,Moskalski,4390030012010,bartek gdy poszedł po kanapkę,False,3,R0,1023
+1392,1982,False,Janek,12,Grzegorczyk,2545801012010,bach,False,3,R0,30
+1393,1976,True,Elżbieta,12,Kochalska,13545405062019,ela,False,3,R0,11
+1394,1991,False,Albert,12,Lisowski,18413605072019,alek,False,3,R0,1023
+1395,1998,True,Ewelina,12,Nosowska,17105924082019,ewelinka,False,3,R0,475
+1396,1985,False,Piotr,12,Fokalski,3440422012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1397,1981,False,Bartosz,12,Moskalski,4390830012010,bartek gdy poszedł po kanapkę,False,3,R0,1023
+1398,1982,False,Janek,12,Grzegorczyk,2550601012010,bach,False,3,R0,18
+1399,1976,True,Elżbieta,12,Kochalska,13550205062019,ela,False,3,R0,419
+1400,1991,False,Albert,12,Lisowski,18414405072019,alek,False,3,R0,1023
+1401,1998,True,Ewelina,12,Nosowska,17110724082019,ewelinka,False,3,R0,1023
+1402,1985,False,Piotr,12,Fokalski,3441222012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1403,1981,False,Bartosz,12,Moskalski,4391630012010,bartek gdy poszedł po kanapkę,False,3,R0,1023
+1404,1982,False,Janek,12,Grzegorczyk,2551401012010,bach,False,3,R0,1023
+1405,1976,True,Elżbieta,12,Kochalska,13551005062019,ela,False,3,R0,1023
+1406,1991,False,Albert,12,Lisowski,18415205072019,alek,False,3,R0,1023
+1407,1998,True,Ewelina,12,Nosowska,17111524082019,ewelinka,False,3,R0,106
+1408,1985,False,Piotr,12,Fokalski,3442022012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1409,1981,False,Bartosz,12,Moskalski,4392430012010,bartek gdy poszedł po kanapkę,False,3,R0,1023
+1410,1982,False,Janek,12,Grzegorczyk,2552201012010,bach,False,3,R0,255
+1411,1976,True,Elżbieta,12,Kochalska,13551805062019,ela,False,3,R0,12
+1412,1991,False,Albert,12,Lisowski,18420005072019,alek,False,3,R0,1023
+1413,1998,True,Ewelina,12,Nosowska,17112324082019,ewelinka,False,3,R0,1023
+1414,1985,False,Piotr,12,Fokalski,3442822012010,piotrek - w czasie spaceru z psem,False,3,R0,1023
+1415,1981,False,Bartosz,12,Moskalski,4393230012010,bartek gdy poszedł po kanapkę,False,3,R0,985
+1416,1982,False,Janek,12,Grzegorczyk,2474101012010,bach,False,4,R1,190
+1417,1976,True,Elżbieta,12,Kochalska,13474205062019,ela,False,4,R1,393
+1418,1991,False,Albert,12,Lisowski,18341805072019,alek,False,4,R1,4
+1419,1998,True,Ewelina,12,Nosowska,17034624082019,ewelinka,False,4,R1,560
+1420,1985,False,Piotr,12,Fokalski,3364822012010,piotrek - w czasie spaceru z psem,False,4,R1,1023
+1421,1981,False,Bartosz,12,Moskalski,4315030012010,bartek gdy poszedł po kanapkę,False,4,R1,48
+1422,1982,False,Janek,12,Grzegorczyk,2474901012010,bach,False,4,R1,202
+1423,1976,True,Elżbieta,12,Kochalska,13474905062019,ela,False,4,R1,13
+1424,1991,False,Albert,12,Lisowski,18342605072019,alek,False,4,R1,5
+1425,1998,True,Ewelina,12,Nosowska,17035324082019,ewelinka,False,4,R1,788
+1426,1985,False,Piotr,12,Fokalski,3365622012010,piotrek - w czasie spaceru z psem,False,4,R1,678
+1427,1981,False,Bartosz,12,Moskalski,4315830012010,bartek gdy poszedł po kanapkę,False,4,R1,368
+1428,1982,False,Janek,12,Grzegorczyk,2475701012010,bach,False,4,R1,256
+1429,1976,True,Elżbieta,12,Kochalska,13475705062019,ela,False,4,R1,1023
+1430,1991,False,Albert,12,Lisowski,18343405072019,alek,False,4,R1,5
+1431,1998,True,Ewelina,12,Nosowska,17040124082019,ewelinka,False,4,R1,886
+1432,1985,False,Piotr,12,Fokalski,3370422012010,piotrek - w czasie spaceru z psem,False,4,R1,985
+1433,1981,False,Bartosz,12,Moskalski,4320630012010,bartek gdy poszedł po kanapkę,False,4,R1,106
+1434,1982,False,Janek,12,Grzegorczyk,2480501012010,bach,False,4,R1,263
+1435,1976,True,Elżbieta,12,Kochalska,13480505062019,ela,False,4,R1,13
+1436,1991,False,Albert,12,Lisowski,18344205072019,alek,False,4,R1,9
+1437,1998,True,Ewelina,12,Nosowska,17040924082019,ewelinka,False,4,R1,226
+1438,1985,False,Piotr,12,Fokalski,3371222012010,piotrek - w czasie spaceru z psem,False,4,R1,75
+1439,1981,False,Bartosz,12,Moskalski,4321430012010,bartek gdy poszedł po kanapkę,False,4,R1,579
+1440,1982,False,Janek,12,Grzegorczyk,2481301012010,bach,False,4,R1,268
+1441,1976,True,Elżbieta,12,Kochalska,13481305062019,ela,False,4,R1,1023
+1442,1991,False,Albert,12,Lisowski,18345005072019,alek,False,4,R1,6
+1443,1998,True,Ewelina,12,Nosowska,17041724082019,ewelinka,False,4,R1,1023
+1444,1985,False,Piotr,12,Fokalski,3372022012010,piotrek - w czasie spaceru z psem,False,4,R1,1023
+1445,1981,False,Bartosz,12,Moskalski,4322230012010,bartek gdy poszedł po kanapkę,False,4,R1,61
+1446,1982,False,Janek,12,Grzegorczyk,2482101012010,bach,False,4,R1,246
+1447,1976,True,Elżbieta,12,Kochalska,13482105062019,ela,False,4,R1,11
+1448,1991,False,Albert,12,Lisowski,18345805072019,alek,False,4,R1,6
+1449,1998,True,Ewelina,12,Nosowska,17042624082019,ewelinka,False,4,R1,769
+1450,1985,False,Piotr,12,Fokalski,3372822012010,piotrek - w czasie spaceru z psem,False,4,R1,853
+1451,1981,False,Bartosz,12,Moskalski,4323030012010,bartek gdy poszedł po kanapkę,False,4,R1,621
+1452,1982,False,Janek,12,Grzegorczyk,2482901012010,bach,False,4,R1,30
+1453,1976,True,Elżbieta,12,Kochalska,13482905062019,ela,False,4,R1,1023
+1454,1991,False,Albert,12,Lisowski,18350605072019,alek,False,4,R1,4
+1455,1998,True,Ewelina,12,Nosowska,17043424082019,ewelinka,True,4,R1,901
+1456,1985,False,Piotr,12,Fokalski,3373522012010,piotrek - w czasie spaceru z psem,True,4,R1,898
+1457,1981,False,Bartosz,12,Moskalski,4323830012010,bartek gdy poszedł po kanapkę,False,4,R1,500
+1458,1982,False,Janek,12,Grzegorczyk,2483701012010,bach,False,4,R1,414
+1459,1976,True,Elżbieta,12,Kochalska,13483705062019,ela,True,4,R1,1023
+1460,1991,False,Albert,12,Lisowski,18351405072019,alek,False,4,R1,1
+1461,1998,True,Ewelina,12,Nosowska,17044124082019,ewelinka,True,4,R1,823
+1462,1985,False,Piotr,12,Fokalski,3374422012010,piotrek - w czasie spaceru z psem,True,4,R1,841
+1463,1981,False,Bartosz,12,Moskalski,4324530012010,bartek gdy poszedł po kanapkę,False,4,R1,66
+1464,1982,False,Janek,12,Grzegorczyk,2484501012010,bach,False,4,R1,25
+1465,1976,True,Elżbieta,12,Kochalska,13484505062019,ela,True,4,R1,964
+1466,1991,False,Albert,12,Lisowski,18352205072019,alek,False,4,R1,5
+1467,1998,True,Ewelina,12,Nosowska,17045024082019,ewelinka,True,4,R1,1023
+1468,1985,False,Piotr,12,Fokalski,3375122012010,piotrek - w czasie spaceru z psem,False,4,R1,631
+1469,1981,False,Bartosz,12,Moskalski,4325430012010,bartek gdy poszedł po kanapkę,False,4,R1,406
+1470,1982,False,Janek,12,Grzegorczyk,2485301012010,bach,False,4,R1,190
+1471,1976,True,Elżbieta,12,Kochalska,13485305062019,ela,True,4,R1,11
+1472,1991,False,Albert,12,Lisowski,18353005072019,alek,False,4,R1,7
+1473,1998,True,Ewelina,12,Nosowska,17045824082019,ewelinka,True,4,R1,697
+1474,1985,False,Piotr,12,Fokalski,3380022012010,piotrek - w czasie spaceru z psem,False,4,R1,1023
+1475,1981,False,Bartosz,12,Moskalski,4330130012010,bartek gdy poszedł po kanapkę,False,4,R1,468
+1476,1982,False,Janek,12,Grzegorczyk,2490101012010,bach,False,4,R1,30
+1477,1976,True,Elżbieta,12,Kochalska,13490005062019,ela,True,4,R1,12
+1478,1991,False,Albert,12,Lisowski,18353805072019,alek,False,4,R1,1
+1479,1998,True,Ewelina,12,Nosowska,17050524082019,ewelinka,False,4,R1,913
+1480,1985,False,Piotr,12,Fokalski,3380722012010,piotrek - w czasie spaceru z psem,False,4,R1,150
+1481,1981,False,Bartosz,12,Moskalski,4330930012010,bartek gdy poszedł po kanapkę,False,4,R1,59
+1482,1982,False,Janek,12,Grzegorczyk,2490901012010,bach,False,4,R1,365
+1483,1976,True,Elżbieta,12,Kochalska,13490805062019,ela,True,4,R1,1023
+1484,1991,False,Albert,12,Lisowski,18354605072019,alek,False,4,R1,3
+1485,1998,True,Ewelina,12,Nosowska,17051324082019,ewelinka,False,4,R1,603
+1486,1985,False,Piotr,12,Fokalski,3381522012010,piotrek - w czasie spaceru z psem,False,4,R1,70
+1487,1981,False,Bartosz,12,Moskalski,4331730012010,bartek gdy poszedł po kanapkę,False,4,R1,685
+1488,1982,False,Janek,12,Grzegorczyk,2491701012010,bach,False,4,R1,79
+1489,1976,True,Elżbieta,12,Kochalska,13491605062019,ela,False,4,R1,1023
+1490,1991,False,Albert,12,Lisowski,18355405072019,alek,False,4,R1,0
+1491,1998,True,Ewelina,12,Nosowska,17052124082019,ewelinka,False,4,R1,43
+1492,1985,False,Piotr,12,Fokalski,3382322012010,piotrek - w czasie spaceru z psem,False,4,R1,940
+1493,1981,False,Bartosz,12,Moskalski,4332530012010,bartek gdy poszedł po kanapkę,False,4,R1,284
+1494,1982,False,Janek,12,Grzegorczyk,2492501012010,bach,False,4,R1,31
+1495,1976,True,Elżbieta,12,Kochalska,13492405062019,ela,False,4,R1,1023
+1496,1991,False,Albert,12,Lisowski,18360205072019,alek,False,4,R1,6
+1497,1998,True,Ewelina,12,Nosowska,17052924082019,ewelinka,False,4,R1,40
+1498,1985,False,Piotr,12,Fokalski,3383122012010,piotrek - w czasie spaceru z psem,False,4,R1,53
+1499,1981,False,Bartosz,12,Moskalski,4333330012010,bartek gdy poszedł po kanapkę,False,4,R1,67
+1500,1982,False,Janek,12,Grzegorczyk,2493201012010,bach,False,4,R1,32
+1501,1976,True,Elżbieta,12,Kochalska,13493205062019,ela,False,4,R1,1023
+1502,1991,False,Albert,12,Lisowski,18361005072019,alek,False,4,R1,5
+1503,1998,True,Ewelina,12,Nosowska,17053724082019,ewelinka,False,4,R1,39
+1504,1985,False,Piotr,12,Fokalski,3383922012010,piotrek - w czasie spaceru z psem,False,4,R1,1023
+1505,1981,False,Bartosz,12,Moskalski,4334230012010,bartek gdy poszedł po kanapkę,False,4,R1,618
+1506,1982,False,Janek,12,Grzegorczyk,2494101012010,bach,False,4,R1,219
+1507,1976,True,Elżbieta,12,Kochalska,13494005062019,ela,False,4,R1,1023
+1508,1991,False,Albert,12,Lisowski,18361805072019,alek,False,4,R1,8
+1509,1998,True,Ewelina,12,Nosowska,17054524082019,ewelinka,False,4,R1,37
+1510,1985,False,Piotr,12,Fokalski,3384722012010,piotrek - w czasie spaceru z psem,False,4,R1,706
+1511,1981,False,Bartosz,12,Moskalski,4334930012010,bartek gdy poszedł po kanapkę,False,4,R1,399
+1512,1982,False,Janek,12,Grzegorczyk,2494901012010,bach,False,4,R1,35
+1513,1976,True,Elżbieta,12,Kochalska,13494805062019,ela,False,4,R1,1023
+1514,1991,False,Albert,12,Lisowski,18362605072019,alek,False,4,R1,7
+1515,1998,True,Ewelina,12,Nosowska,17055324082019,ewelinka,False,4,R1,935
+1516,1985,False,Piotr,12,Fokalski,3385522012010,piotrek - w czasie spaceru z psem,False,4,R1,74
+1517,1981,False,Bartosz,12,Moskalski,4335830012010,bartek gdy poszedł po kanapkę,False,4,R1,64
+1518,1982,False,Janek,12,Grzegorczyk,2495701012010,bach,False,4,R1,56
+1519,1976,True,Elżbieta,12,Kochalska,13495605062019,ela,False,4,R1,1023
+1520,1991,False,Albert,12,Lisowski,18363405072019,alek,False,4,R1,0
+1521,1998,True,Ewelina,12,Nosowska,17060124082019,ewelinka,False,4,R1,37
+1522,1985,False,Piotr,12,Fokalski,3390322012010,piotrek - w czasie spaceru z psem,False,4,R1,1023
+1523,1981,False,Bartosz,12,Moskalski,4340630012010,bartek gdy poszedł po kanapkę,False,4,R1,95
+1524,1982,False,Janek,12,Grzegorczyk,2500401012010,bach,False,4,R1,32
+1525,1976,True,Elżbieta,12,Kochalska,13500405062019,ela,False,4,R1,1023
+1526,1991,False,Albert,12,Lisowski,18364205072019,alek,False,4,R1,6
+1527,1998,True,Ewelina,12,Nosowska,17060824082019,ewelinka,False,4,R1,920
+1528,1985,False,Piotr,12,Fokalski,3391122012010,piotrek - w czasie spaceru z psem,False,4,R1,1023
+1529,1981,False,Bartosz,12,Moskalski,4341330012010,bartek gdy poszedł po kanapkę,False,4,R1,627
+1530,1982,False,Janek,12,Grzegorczyk,2501301012010,bach,False,4,R1,22
+1531,1976,True,Elżbieta,12,Kochalska,13501105062019,ela,False,4,R1,1023
+1532,1991,False,Albert,12,Lisowski,18365005072019,alek,False,4,R1,2
+1533,1998,True,Ewelina,12,Nosowska,17061624082019,ewelinka,False,4,R1,553
+1534,1985,False,Piotr,12,Fokalski,3391922012010,piotrek - w czasie spaceru z psem,False,4,R1,763
+1535,1981,False,Bartosz,12,Moskalski,4342130012010,bartek gdy poszedł po kanapkę,False,4,R1,444
+1536,1982,False,Janek,12,Grzegorczyk,2502001012010,bach,False,4,R1,28
+1537,1976,True,Elżbieta,12,Kochalska,13501905062019,ela,False,4,R1,1023
+1538,1991,False,Albert,12,Lisowski,18365805072019,alek,False,4,R1,4
+1539,1998,True,Ewelina,12,Nosowska,17062424082019,ewelinka,False,4,R1,671
+1540,1985,False,Piotr,12,Fokalski,3392722012010,piotrek - w czasie spaceru z psem,False,4,R1,1023
+1541,1981,False,Bartosz,12,Moskalski,4343030012010,bartek gdy poszedł po kanapkę,False,4,R1,724
+1542,1982,False,Janek,12,Grzegorczyk,2502801012010,bach,False,4,R1,111
+1543,1976,True,Elżbieta,12,Kochalska,13502705062019,ela,False,4,R1,790
+1544,1991,False,Albert,12,Lisowski,18370505072019,alek,False,4,R1,4
+1545,1998,True,Ewelina,12,Nosowska,17063224082019,ewelinka,False,4,R1,191
+1546,1985,False,Piotr,12,Fokalski,3393522012010,piotrek - w czasie spaceru z psem,False,4,R1,60
+1547,1981,False,Bartosz,12,Moskalski,4343730012010,bartek gdy poszedł po kanapkę,False,4,R1,61
+1548,1982,False,Janek,12,Grzegorczyk,2503601012010,bach,False,4,R1,125
+1549,1976,True,Elżbieta,12,Kochalska,13503505062019,ela,False,4,R1,12
+1550,1991,False,Albert,12,Lisowski,18371405072019,alek,False,4,R1,6
+1551,1998,True,Ewelina,12,Nosowska,17064024082019,ewelinka,False,4,R1,38
+1552,1985,False,Piotr,12,Fokalski,3394322012010,piotrek - w czasie spaceru z psem,False,4,R1,901
+1553,1981,False,Bartosz,12,Moskalski,4344530012010,bartek gdy poszedł po kanapkę,False,4,R1,370
+1554,1982,False,Janek,12,Grzegorczyk,2504401012010,bach,False,4,R1,24
+1555,1976,True,Elżbieta,12,Kochalska,13504305062019,ela,False,4,R1,1023
+1556,1991,False,Albert,12,Lisowski,18372105072019,alek,False,4,R1,5
+1557,1998,True,Ewelina,12,Nosowska,17064824082019,ewelinka,False,4,R1,37
+1558,1985,False,Piotr,12,Fokalski,3395122012010,piotrek - w czasie spaceru z psem,False,4,R1,93
+1559,1981,False,Bartosz,12,Moskalski,4345330012010,bartek gdy poszedł po kanapkę,False,4,R1,166
+1560,1982,False,Janek,12,Grzegorczyk,2505201012010,bach,False,4,R1,17
+1561,1976,True,Elżbieta,12,Kochalska,13505105062019,ela,False,4,R1,650
+1562,1991,False,Albert,12,Lisowski,18372905072019,alek,False,4,R1,6
+1563,1998,True,Ewelina,12,Nosowska,17065624082019,ewelinka,False,4,R1,39
+1564,1985,False,Piotr,12,Fokalski,3395822012010,piotrek - w czasie spaceru z psem,False,4,R1,684
+1565,1981,False,Bartosz,12,Moskalski,4350130012010,bartek gdy poszedł po kanapkę,False,4,R1,68
+1566,1982,False,Janek,12,Grzegorczyk,2510001012010,bach,False,4,R1,81
+1567,1976,True,Elżbieta,12,Kochalska,13505905062019,ela,False,4,R1,1023
+1568,1991,False,Albert,12,Lisowski,18373705072019,alek,False,4,R1,9
+1569,1998,True,Ewelina,12,Nosowska,17070424082019,ewelinka,False,4,R1,451
+1570,1985,False,Piotr,12,Fokalski,3400622012010,piotrek - w czasie spaceru z psem,False,4,R1,772
+1571,1981,False,Bartosz,12,Moskalski,4350930012010,bartek gdy poszedł po kanapkę,False,4,R1,320
+1572,1982,False,Janek,12,Grzegorczyk,2510801012010,bach,False,4,R1,20
+1573,1976,True,Elżbieta,12,Kochalska,13510605062019,ela,False,4,R1,11
+1574,1991,False,Albert,12,Lisowski,18374505072019,alek,False,4,R1,4
+1575,1998,True,Ewelina,12,Nosowska,17071124082019,ewelinka,False,4,R1,1023
+1576,1985,False,Piotr,12,Fokalski,3401422012010,piotrek - w czasie spaceru z psem,False,4,R1,587
+1577,1981,False,Bartosz,12,Moskalski,4351730012010,bartek gdy poszedł po kanapkę,False,4,R1,338
+1578,1982,False,Janek,12,Grzegorczyk,2511601012010,bach,False,4,R1,20
+1579,1976,True,Elżbieta,12,Kochalska,13511405062019,ela,False,4,R1,12
+1580,1991,False,Albert,12,Lisowski,18375305072019,alek,False,4,R1,4
+1581,1998,True,Ewelina,12,Nosowska,17071924082019,ewelinka,False,4,R1,1023
+1582,1985,False,Piotr,12,Fokalski,3402222012010,piotrek - w czasie spaceru z psem,False,4,R1,62
+1583,1981,False,Bartosz,12,Moskalski,4352530012010,bartek gdy poszedł po kanapkę,False,4,R1,62
+1584,1982,False,Janek,12,Grzegorczyk,2512401012010,bach,False,4,R1,65
+1585,1976,True,Elżbieta,12,Kochalska,13512205062019,ela,False,4,R1,1023
+1586,1991,False,Albert,12,Lisowski,18380105072019,alek,False,4,R1,0
+1587,1998,True,Ewelina,12,Nosowska,17072724082019,ewelinka,False,4,R1,710
+1588,1985,False,Piotr,12,Fokalski,3403022012010,piotrek - w czasie spaceru z psem,False,4,R1,74
+1589,1981,False,Bartosz,12,Moskalski,4353330012010,bartek gdy poszedł po kanapkę,False,4,R1,64
+1590,1982,False,Janek,12,Grzegorczyk,2513201012010,bach,False,4,R1,27
+1591,1976,True,Elżbieta,12,Kochalska,13513005062019,ela,False,4,R1,13
+1592,1991,False,Albert,12,Lisowski,18380905072019,alek,False,4,R1,2
+1593,1998,True,Ewelina,12,Nosowska,17073524082019,ewelinka,False,4,R1,40
+1594,1985,False,Piotr,12,Fokalski,3403822012010,piotrek - w czasie spaceru z psem,False,4,R1,1023
+1595,1981,False,Bartosz,12,Moskalski,4354130012010,bartek gdy poszedł po kanapkę,False,4,R1,698
+1596,1982,False,Janek,12,Grzegorczyk,2514001012010,bach,False,4,R1,124
+1597,1976,True,Elżbieta,12,Kochalska,13513805062019,ela,False,4,R1,1023
+1598,1991,False,Albert,12,Lisowski,18381705072019,alek,False,4,R1,3
+1599,1998,True,Ewelina,12,Nosowska,17074324082019,ewelinka,False,4,R1,494
+1600,1985,False,Piotr,12,Fokalski,3404622012010,piotrek - w czasie spaceru z psem,False,4,R1,566
+1601,1981,False,Bartosz,12,Moskalski,4354930012010,bartek gdy poszedł po kanapkę,False,4,R1,528
+1602,1982,False,Janek,12,Grzegorczyk,2514801012010,bach,False,4,R1,28
+1603,1976,True,Elżbieta,12,Kochalska,13514605062019,ela,False,4,R1,1023
+1604,1991,False,Albert,12,Lisowski,18382505072019,alek,False,4,R1,4
+1605,1998,True,Ewelina,12,Nosowska,17075124082019,ewelinka,False,4,R1,53
+1606,1985,False,Piotr,12,Fokalski,3405422012010,piotrek - w czasie spaceru z psem,False,4,R1,1023
+1607,1981,False,Bartosz,12,Moskalski,4355730012010,bartek gdy poszedł po kanapkę,False,4,R1,60
+1608,1982,False,Janek,12,Grzegorczyk,2515601012010,bach,False,4,R1,28
+1609,1976,True,Elżbieta,12,Kochalska,13515305062019,ela,False,4,R1,13
+1610,1991,False,Albert,12,Lisowski,18383305072019,alek,False,4,R1,6
+1611,1998,True,Ewelina,12,Nosowska,17075924082019,ewelinka,False,4,R1,683
+1612,1985,False,Piotr,12,Fokalski,3410222012010,piotrek - w czasie spaceru z psem,False,4,R1,1023
+1613,1981,False,Bartosz,12,Moskalski,4360530012010,bartek gdy poszedł po kanapkę,False,4,R1,62
+1614,1982,False,Janek,12,Grzegorczyk,2520401012010,bach,False,4,R1,77
+1615,1976,True,Elżbieta,12,Kochalska,13520105062019,ela,False,4,R1,1023
+1616,1991,False,Albert,12,Lisowski,18384105072019,alek,False,4,R1,2
+1617,1998,True,Ewelina,12,Nosowska,17080624082019,ewelinka,False,4,R1,1023
+1618,1985,False,Piotr,12,Fokalski,3410922012010,piotrek - w czasie spaceru z psem,False,4,R1,1023
+1619,1981,False,Bartosz,12,Moskalski,4361330012010,bartek gdy poszedł po kanapkę,False,4,R1,394
+1620,1982,False,Janek,12,Grzegorczyk,2521101012010,bach,False,4,R1,34
+1621,1976,True,Elżbieta,12,Kochalska,13520905062019,ela,False,4,R1,13
+1622,1991,False,Albert,12,Lisowski,18384905072019,alek,False,4,R1,3
+1623,1998,True,Ewelina,12,Nosowska,17081424082019,ewelinka,False,4,R1,340
+1624,1985,False,Piotr,12,Fokalski,3411722012010,piotrek - w czasie spaceru z psem,False,4,R1,1023
+1625,1981,False,Bartosz,12,Moskalski,4362130012010,bartek gdy poszedł po kanapkę,False,4,R1,63
+1626,1982,False,Janek,12,Grzegorczyk,2522001012010,bach,False,4,R1,27
+1627,1976,True,Elżbieta,12,Kochalska,13521705062019,ela,False,4,R1,1023
+1628,1991,False,Albert,12,Lisowski,18385705072019,alek,False,4,R1,1
+1629,1998,True,Ewelina,12,Nosowska,17082224082019,ewelinka,False,4,R1,44
+1630,1985,False,Piotr,12,Fokalski,3412522012010,piotrek - w czasie spaceru z psem,False,4,R1,974
+1631,1981,False,Bartosz,12,Moskalski,4362930012010,bartek gdy poszedł po kanapkę,False,4,R1,426
+1632,1982,False,Janek,12,Grzegorczyk,2522701012010,bach,False,4,R1,40
+1633,1976,True,Elżbieta,12,Kochalska,13522505062019,ela,False,4,R1,1023
+1634,1991,False,Albert,12,Lisowski,18390505072019,alek,False,4,R1,6
+1635,1998,True,Ewelina,12,Nosowska,17083024082019,ewelinka,False,4,R1,35
+1636,1985,False,Piotr,12,Fokalski,3413322012010,piotrek - w czasie spaceru z psem,False,4,R1,73
+1637,1981,False,Bartosz,12,Moskalski,4363730012010,bartek gdy poszedł po kanapkę,False,4,R1,399
+1638,1982,False,Janek,12,Grzegorczyk,2523501012010,bach,False,4,R1,155
+1639,1976,True,Elżbieta,12,Kochalska,13523305062019,ela,False,4,R1,12
+1640,1991,False,Albert,12,Lisowski,18391205072019,alek,False,4,R1,7
+1641,1998,True,Ewelina,12,Nosowska,17083824082019,ewelinka,False,4,R1,562
+1642,1985,False,Piotr,12,Fokalski,3414122012010,piotrek - w czasie spaceru z psem,False,4,R1,1023
+1643,1981,False,Bartosz,12,Moskalski,4364530012010,bartek gdy poszedł po kanapkę,False,4,R1,129
+1644,1982,False,Janek,12,Grzegorczyk,2524301012010,bach,False,4,R1,31
+1645,1976,True,Elżbieta,12,Kochalska,13524105062019,ela,False,4,R1,1023
+1646,1991,False,Albert,12,Lisowski,18392005072019,alek,False,4,R1,6
+1647,1998,True,Ewelina,12,Nosowska,17084624082019,ewelinka,False,4,R1,720
+1648,1985,False,Piotr,12,Fokalski,3414922012010,piotrek - w czasie spaceru z psem,False,4,R1,979
+1649,1981,False,Bartosz,12,Moskalski,4365330012010,bartek gdy poszedł po kanapkę,False,4,R1,440
+1650,1982,False,Janek,12,Grzegorczyk,2525101012010,bach,False,4,R1,22
+1651,1976,True,Elżbieta,12,Kochalska,13524805062019,ela,False,4,R1,1023
+1652,1991,False,Albert,12,Lisowski,18392805072019,alek,False,4,R1,5
+1653,1998,True,Ewelina,12,Nosowska,17085324082019,ewelinka,False,4,R1,1023
+1654,1985,False,Piotr,12,Fokalski,3415722012010,piotrek - w czasie spaceru z psem,False,4,R1,154
+1655,1981,False,Bartosz,12,Moskalski,4370130012010,bartek gdy poszedł po kanapkę,False,4,R1,88
+1656,1982,False,Janek,12,Grzegorczyk,2525901012010,bach,False,4,R1,27
+1657,1976,True,Elżbieta,12,Kochalska,13525605062019,ela,False,4,R1,11
+1658,1991,False,Albert,12,Lisowski,18393605072019,alek,False,4,R1,3
+1659,1998,True,Ewelina,12,Nosowska,17090124082019,ewelinka,False,4,R1,39
+1660,1985,False,Piotr,12,Fokalski,3420522012010,piotrek - w czasie spaceru z psem,False,4,R1,994
+1661,1981,False,Bartosz,12,Moskalski,4370930012010,bartek gdy poszedł po kanapkę,False,4,R1,461
+1662,1982,False,Janek,12,Grzegorczyk,2530701012010,bach,False,4,R1,185
+1663,1976,True,Elżbieta,12,Kochalska,13530405062019,ela,False,4,R1,473
+1664,1991,False,Albert,12,Lisowski,18394405072019,alek,False,4,R1,6
+1665,1998,True,Ewelina,12,Nosowska,17090924082019,ewelinka,False,4,R1,39
+1666,1985,False,Piotr,12,Fokalski,3421322012010,piotrek - w czasie spaceru z psem,False,4,R1,1023
+1667,1981,False,Bartosz,12,Moskalski,4371730012010,bartek gdy poszedł po kanapkę,False,4,R1,77
+1668,1982,False,Janek,12,Grzegorczyk,2531501012010,bach,False,4,R1,29
+1669,1976,True,Elżbieta,12,Kochalska,13531205062019,ela,True,4,R1,1023
+1670,1991,False,Albert,12,Lisowski,18395205072019,alek,False,4,R1,2
+1671,1998,True,Ewelina,12,Nosowska,17091724082019,ewelinka,False,4,R1,40
+1672,1985,False,Piotr,12,Fokalski,3422122012010,piotrek - w czasie spaceru z psem,False,4,R1,953
+1673,1981,False,Bartosz,12,Moskalski,4372530012010,bartek gdy poszedł po kanapkę,False,4,R1,369
+1674,1982,False,Janek,12,Grzegorczyk,2532301012010,bach,False,4,R1,135
+1675,1976,True,Elżbieta,12,Kochalska,13532005062019,ela,True,4,R1,677
+1676,1991,False,Albert,12,Lisowski,18400005072019,alek,False,4,R1,7
+1677,1998,True,Ewelina,12,Nosowska,17092524082019,ewelinka,False,4,R1,330
+1678,1985,False,Piotr,12,Fokalski,3422922012010,piotrek - w czasie spaceru z psem,False,4,R1,685
+1679,1981,False,Bartosz,12,Moskalski,4373230012010,bartek gdy poszedł po kanapkę,False,4,R1,407
+1680,1982,False,Janek,12,Grzegorczyk,2533101012010,bach,False,4,R1,77
+1681,1976,True,Elżbieta,12,Kochalska,13532805062019,ela,False,4,R1,13
+1682,1991,False,Albert,12,Lisowski,18400805072019,alek,False,4,R1,10
+1683,1998,True,Ewelina,12,Nosowska,17093324082019,ewelinka,False,4,R1,117
+1684,1985,False,Piotr,12,Fokalski,3423722012010,piotrek - w czasie spaceru z psem,False,4,R1,793
+1685,1981,False,Bartosz,12,Moskalski,4374030012010,bartek gdy poszedł po kanapkę,False,4,R1,743
+1686,1982,False,Janek,12,Grzegorczyk,2533901012010,bach,False,4,R1,30
+1687,1976,True,Elżbieta,12,Kochalska,13533605062019,ela,False,4,R1,13
+1688,1991,False,Albert,12,Lisowski,18401605072019,alek,False,4,R1,1
+1689,1998,True,Ewelina,12,Nosowska,17094124082019,ewelinka,False,4,R1,763
+1690,1985,False,Piotr,12,Fokalski,3424422012010,piotrek - w czasie spaceru z psem,False,4,R1,895
+1691,1981,False,Bartosz,12,Moskalski,4374930012010,bartek gdy poszedł po kanapkę,False,4,R1,227
+1692,1982,False,Janek,12,Grzegorczyk,2534701012010,bach,False,4,R1,133
+1693,1976,True,Elżbieta,12,Kochalska,13534305062019,ela,False,4,R1,12
+1694,1991,False,Albert,12,Lisowski,18402405072019,alek,False,4,R1,6
+1695,1998,True,Ewelina,12,Nosowska,17094824082019,ewelinka,False,4,R1,899
+1696,1985,False,Piotr,12,Fokalski,3425222012010,piotrek - w czasie spaceru z psem,False,4,R1,1023
+1697,1981,False,Bartosz,12,Moskalski,4375630012010,bartek gdy poszedł po kanapkę,False,4,R1,335
+1698,1982,False,Janek,12,Grzegorczyk,2535501012010,bach,False,4,R1,102
+1699,1976,True,Elżbieta,12,Kochalska,13535105062019,ela,False,4,R1,1023
+1700,1991,False,Albert,12,Lisowski,18403205072019,alek,False,4,R1,3
+1701,1998,True,Ewelina,12,Nosowska,17095624082019,ewelinka,False,4,R1,45
+1702,1985,False,Piotr,12,Fokalski,3430022012010,piotrek - w czasie spaceru z psem,False,4,R1,826
+1703,1981,False,Bartosz,12,Moskalski,4380430012010,bartek gdy poszedł po kanapkę,False,4,R1,394
+1704,1982,False,Janek,12,Grzegorczyk,2540301012010,bach,False,4,R1,30
+1705,1976,True,Elżbieta,12,Kochalska,13535905062019,ela,False,4,R1,45
+1706,1991,False,Albert,12,Lisowski,18404005072019,alek,False,4,R1,7
+1707,1998,True,Ewelina,12,Nosowska,17100424082019,ewelinka,False,4,R1,91
+1708,1985,False,Piotr,12,Fokalski,3430822012010,piotrek - w czasie spaceru z psem,False,4,R1,790
+1709,1981,False,Bartosz,12,Moskalski,4381330012010,bartek gdy poszedł po kanapkę,False,4,R1,316
+1710,1982,False,Janek,12,Grzegorczyk,2541101012010,bach,False,4,R1,29
+1711,1976,True,Elżbieta,12,Kochalska,13540705062019,ela,False,4,R1,1023
+1712,1991,False,Albert,12,Lisowski,18404805072019,alek,False,4,R1,6
+1713,1998,True,Ewelina,12,Nosowska,17101224082019,ewelinka,False,4,R1,310
+1714,1985,False,Piotr,12,Fokalski,3431622012010,piotrek - w czasie spaceru z psem,False,4,R1,91
+1715,1981,False,Bartosz,12,Moskalski,4382030012010,bartek gdy poszedł po kanapkę,False,4,R1,365
+1716,1982,False,Janek,12,Grzegorczyk,2541801012010,bach,False,4,R1,219
+1717,1976,True,Elżbieta,12,Kochalska,13541505062019,ela,False,4,R1,1023
+1718,1991,False,Albert,12,Lisowski,18405605072019,alek,False,4,R1,4
+1719,1998,True,Ewelina,12,Nosowska,17102024082019,ewelinka,False,4,R1,39
+1720,1985,False,Piotr,12,Fokalski,3432422012010,piotrek - w czasie spaceru z psem,False,4,R1,965
+1721,1981,False,Bartosz,12,Moskalski,4382830012010,bartek gdy poszedł po kanapkę,False,4,R1,342
+1722,1982,False,Janek,12,Grzegorczyk,2542701012010,bach,False,4,R1,57
+1723,1976,True,Elżbieta,12,Kochalska,13542305062019,ela,False,4,R1,1023
+1724,1991,False,Albert,12,Lisowski,18410405072019,alek,False,4,R1,4
+1725,1998,True,Ewelina,12,Nosowska,17102824082019,ewelinka,False,4,R1,35
+1726,1985,False,Piotr,12,Fokalski,3433222012010,piotrek - w czasie spaceru z psem,False,4,R1,1023
+1727,1981,False,Bartosz,12,Moskalski,4383630012010,bartek gdy poszedł po kanapkę,False,4,R1,346
+1728,1982,False,Janek,12,Grzegorczyk,2543401012010,bach,False,4,R1,30
+1729,1976,True,Elżbieta,12,Kochalska,13543105062019,ela,False,4,R1,1023
+1730,1991,False,Albert,12,Lisowski,18411205072019,alek,False,4,R1,6
+1731,1998,True,Ewelina,12,Nosowska,17103624082019,ewelinka,False,4,R1,932
+1732,1985,False,Piotr,12,Fokalski,3434022012010,piotrek - w czasie spaceru z psem,False,4,R1,835
+1733,1981,False,Bartosz,12,Moskalski,4384430012010,bartek gdy poszedł po kanapkę,False,4,R1,43
+1734,1982,False,Janek,12,Grzegorczyk,2544201012010,bach,False,4,R1,137
+1735,1976,True,Elżbieta,12,Kochalska,13543905062019,ela,False,4,R1,1023
+1736,1991,False,Albert,12,Lisowski,18412005072019,alek,False,4,R1,6
+1737,1998,True,Ewelina,12,Nosowska,17104424082019,ewelinka,False,4,R1,70
+1738,1985,False,Piotr,12,Fokalski,3434822012010,piotrek - w czasie spaceru z psem,False,4,R1,495
+1739,1981,False,Bartosz,12,Moskalski,4385230012010,bartek gdy poszedł po kanapkę,False,4,R1,380
+1740,1982,False,Janek,12,Grzegorczyk,2545001012010,bach,False,4,R1,204
+1741,1976,True,Elżbieta,12,Kochalska,13544605062019,ela,False,4,R1,1023
+1742,1991,False,Albert,12,Lisowski,18412805072019,alek,False,4,R1,6
+1743,1998,True,Ewelina,12,Nosowska,17105124082019,ewelinka,False,4,R1,36
+1744,1985,False,Piotr,12,Fokalski,3435622012010,piotrek - w czasie spaceru z psem,False,4,R1,891
+1745,1981,False,Bartosz,12,Moskalski,4390030012010,bartek gdy poszedł po kanapkę,False,4,R1,485
+1746,1982,False,Janek,12,Grzegorczyk,2545801012010,bach,False,4,R1,30
+1747,1976,True,Elżbieta,12,Kochalska,13545405062019,ela,False,4,R1,11
+1748,1991,False,Albert,12,Lisowski,18413605072019,alek,False,4,R1,4
+1749,1998,True,Ewelina,12,Nosowska,17105924082019,ewelinka,False,4,R1,145
+1750,1985,False,Piotr,12,Fokalski,3440422012010,piotrek - w czasie spaceru z psem,False,4,R1,704
+1751,1981,False,Bartosz,12,Moskalski,4390830012010,bartek gdy poszedł po kanapkę,False,4,R1,780
+1752,1982,False,Janek,12,Grzegorczyk,2550601012010,bach,False,4,R1,19
+1753,1976,True,Elżbieta,12,Kochalska,13550205062019,ela,False,4,R1,15
+1754,1991,False,Albert,12,Lisowski,18414405072019,alek,False,4,R1,8
+1755,1998,True,Ewelina,12,Nosowska,17110724082019,ewelinka,False,4,R1,587
+1756,1985,False,Piotr,12,Fokalski,3441222012010,piotrek - w czasie spaceru z psem,False,4,R1,565
+1757,1981,False,Bartosz,12,Moskalski,4391630012010,bartek gdy poszedł po kanapkę,False,4,R1,569
+1758,1982,False,Janek,12,Grzegorczyk,2551401012010,bach,False,4,R1,147
+1759,1976,True,Elżbieta,12,Kochalska,13551005062019,ela,False,4,R1,1023
+1760,1991,False,Albert,12,Lisowski,18415205072019,alek,False,4,R1,8
+1761,1998,True,Ewelina,12,Nosowska,17111524082019,ewelinka,False,4,R1,37
+1762,1985,False,Piotr,12,Fokalski,3442022012010,piotrek - w czasie spaceru z psem,False,4,R1,1023
+1763,1981,False,Bartosz,12,Moskalski,4392430012010,bartek gdy poszedł po kanapkę,False,4,R1,393
+1764,1982,False,Janek,12,Grzegorczyk,2552201012010,bach,False,4,R1,82
+1765,1976,True,Elżbieta,12,Kochalska,13551805062019,ela,False,4,R1,12
+1766,1991,False,Albert,12,Lisowski,18420005072019,alek,False,4,R1,5
+1767,1998,True,Ewelina,12,Nosowska,17112324082019,ewelinka,False,4,R1,1023
+1768,1985,False,Piotr,12,Fokalski,3442822012010,piotrek - w czasie spaceru z psem,False,4,R1,886
+1769,1981,False,Bartosz,12,Moskalski,4393230012010,bartek gdy poszedł po kanapkę,False,4,R1,54
+1770,1982,False,Janek,12,Grzegorczyk,2474101012010,bach,False,5,R2,1023
+1771,1976,True,Elżbieta,12,Kochalska,13474205062019,ela,False,5,R2,1023
+1772,1991,False,Albert,12,Lisowski,18341805072019,alek,False,5,R2,2
+1773,1998,True,Ewelina,12,Nosowska,17034624082019,ewelinka,False,5,R2,1023
+1774,1985,False,Piotr,12,Fokalski,3364822012010,piotrek - w czasie spaceru z psem,False,5,R2,64
+1775,1981,False,Bartosz,12,Moskalski,4315030012010,bartek gdy poszedł po kanapkę,False,5,R2,49
+1776,1982,False,Janek,12,Grzegorczyk,2474901012010,bach,False,5,R2,1023
+1777,1976,True,Elżbieta,12,Kochalska,13474905062019,ela,False,5,R2,13
+1778,1991,False,Albert,12,Lisowski,18342605072019,alek,False,5,R2,5
+1779,1998,True,Ewelina,12,Nosowska,17035324082019,ewelinka,False,5,R2,1023
+1780,1985,False,Piotr,12,Fokalski,3365622012010,piotrek - w czasie spaceru z psem,False,5,R2,85
+1781,1981,False,Bartosz,12,Moskalski,4315830012010,bartek gdy poszedł po kanapkę,False,5,R2,1023
+1782,1982,False,Janek,12,Grzegorczyk,2475701012010,bach,False,5,R2,1023
+1783,1976,True,Elżbieta,12,Kochalska,13475705062019,ela,False,5,R2,860
+1784,1991,False,Albert,12,Lisowski,18343405072019,alek,False,5,R2,5
+1785,1998,True,Ewelina,12,Nosowska,17040124082019,ewelinka,False,5,R2,1023
+1786,1985,False,Piotr,12,Fokalski,3370422012010,piotrek - w czasie spaceru z psem,False,5,R2,87
+1787,1981,False,Bartosz,12,Moskalski,4320630012010,bartek gdy poszedł po kanapkę,False,5,R2,65
+1788,1982,False,Janek,12,Grzegorczyk,2480501012010,bach,False,5,R2,1023
+1789,1976,True,Elżbieta,12,Kochalska,13480505062019,ela,False,5,R2,13
+1790,1991,False,Albert,12,Lisowski,18344205072019,alek,False,5,R2,11
+1791,1998,True,Ewelina,12,Nosowska,17040924082019,ewelinka,False,5,R2,1023
+1792,1985,False,Piotr,12,Fokalski,3371222012010,piotrek - w czasie spaceru z psem,False,5,R2,57
+1793,1981,False,Bartosz,12,Moskalski,4321430012010,bartek gdy poszedł po kanapkę,False,5,R2,40
+1794,1982,False,Janek,12,Grzegorczyk,2481301012010,bach,False,5,R2,1023
+1795,1976,True,Elżbieta,12,Kochalska,13481305062019,ela,False,5,R2,317
+1796,1991,False,Albert,12,Lisowski,18345005072019,alek,False,5,R2,2
+1797,1998,True,Ewelina,12,Nosowska,17041724082019,ewelinka,False,5,R2,1023
+1798,1985,False,Piotr,12,Fokalski,3372022012010,piotrek - w czasie spaceru z psem,False,5,R2,84
+1799,1981,False,Bartosz,12,Moskalski,4322230012010,bartek gdy poszedł po kanapkę,False,5,R2,61
+1800,1982,False,Janek,12,Grzegorczyk,2482101012010,bach,False,5,R2,1023
+1801,1976,True,Elżbieta,12,Kochalska,13482105062019,ela,False,5,R2,13
+1802,1991,False,Albert,12,Lisowski,18345805072019,alek,False,5,R2,5
+1803,1998,True,Ewelina,12,Nosowska,17042624082019,ewelinka,False,5,R2,1023
+1804,1985,False,Piotr,12,Fokalski,3372822012010,piotrek - w czasie spaceru z psem,False,5,R2,86
+1805,1981,False,Bartosz,12,Moskalski,4323030012010,bartek gdy poszedł po kanapkę,False,5,R2,1023
+1806,1982,False,Janek,12,Grzegorczyk,2482901012010,bach,False,5,R2,31
+1807,1976,True,Elżbieta,12,Kochalska,13482905062019,ela,False,5,R2,1023
+1808,1991,False,Albert,12,Lisowski,18350605072019,alek,False,5,R2,2
+1809,1998,True,Ewelina,12,Nosowska,17043424082019,ewelinka,True,5,R2,1023
+1810,1985,False,Piotr,12,Fokalski,3373522012010,piotrek - w czasie spaceru z psem,True,5,R2,964
+1811,1981,False,Bartosz,12,Moskalski,4323830012010,bartek gdy poszedł po kanapkę,False,5,R2,305
+1812,1982,False,Janek,12,Grzegorczyk,2483701012010,bach,False,5,R2,1023
+1813,1976,True,Elżbieta,12,Kochalska,13483705062019,ela,True,5,R2,709
+1814,1991,False,Albert,12,Lisowski,18351405072019,alek,False,5,R2,8
+1815,1998,True,Ewelina,12,Nosowska,17044124082019,ewelinka,True,5,R2,1023
+1816,1985,False,Piotr,12,Fokalski,3374422012010,piotrek - w czasie spaceru z psem,True,5,R2,87
+1817,1981,False,Bartosz,12,Moskalski,4324530012010,bartek gdy poszedł po kanapkę,False,5,R2,61
+1818,1982,False,Janek,12,Grzegorczyk,2484501012010,bach,False,5,R2,24
+1819,1976,True,Elżbieta,12,Kochalska,13484505062019,ela,True,5,R2,1023
+1820,1991,False,Albert,12,Lisowski,18352205072019,alek,False,5,R2,5
+1821,1998,True,Ewelina,12,Nosowska,17045024082019,ewelinka,True,5,R2,1023
+1822,1985,False,Piotr,12,Fokalski,3375122012010,piotrek - w czasie spaceru z psem,False,5,R2,80
+1823,1981,False,Bartosz,12,Moskalski,4325430012010,bartek gdy poszedł po kanapkę,False,5,R2,1023
+1824,1982,False,Janek,12,Grzegorczyk,2485301012010,bach,False,5,R2,1023
+1825,1976,True,Elżbieta,12,Kochalska,13485305062019,ela,True,5,R2,12
+1826,1991,False,Albert,12,Lisowski,18353005072019,alek,False,5,R2,7
+1827,1998,True,Ewelina,12,Nosowska,17045824082019,ewelinka,True,5,R2,656
+1828,1985,False,Piotr,12,Fokalski,3380022012010,piotrek - w czasie spaceru z psem,False,5,R2,79
+1829,1981,False,Bartosz,12,Moskalski,4330130012010,bartek gdy poszedł po kanapkę,False,5,R2,1023
+1830,1982,False,Janek,12,Grzegorczyk,2490101012010,bach,False,5,R2,29
+1831,1976,True,Elżbieta,12,Kochalska,13490005062019,ela,True,5,R2,13
+1832,1991,False,Albert,12,Lisowski,18353805072019,alek,False,5,R2,4
+1833,1998,True,Ewelina,12,Nosowska,17050524082019,ewelinka,False,5,R2,1023
+1834,1985,False,Piotr,12,Fokalski,3380722012010,piotrek - w czasie spaceru z psem,False,5,R2,1023
+1835,1981,False,Bartosz,12,Moskalski,4330930012010,bartek gdy poszedł po kanapkę,False,5,R2,59
+1836,1982,False,Janek,12,Grzegorczyk,2490901012010,bach,False,5,R2,848
+1837,1976,True,Elżbieta,12,Kochalska,13490805062019,ela,True,5,R2,1023
+1838,1991,False,Albert,12,Lisowski,18354605072019,alek,False,5,R2,3
+1839,1998,True,Ewelina,12,Nosowska,17051324082019,ewelinka,False,5,R2,1023
+1840,1985,False,Piotr,12,Fokalski,3381522012010,piotrek - w czasie spaceru z psem,False,5,R2,56
+1841,1981,False,Bartosz,12,Moskalski,4331730012010,bartek gdy poszedł po kanapkę,False,5,R2,40
+1842,1982,False,Janek,12,Grzegorczyk,2491701012010,bach,False,5,R2,1023
+1843,1976,True,Elżbieta,12,Kochalska,13491605062019,ela,False,5,R2,1023
+1844,1991,False,Albert,12,Lisowski,18355405072019,alek,False,5,R2,4
+1845,1998,True,Ewelina,12,Nosowska,17052124082019,ewelinka,False,5,R2,621
+1846,1985,False,Piotr,12,Fokalski,3382322012010,piotrek - w czasie spaceru z psem,False,5,R2,71
+1847,1981,False,Bartosz,12,Moskalski,4332530012010,bartek gdy poszedł po kanapkę,False,5,R2,64
+1848,1982,False,Janek,12,Grzegorczyk,2492501012010,bach,False,5,R2,32
+1849,1976,True,Elżbieta,12,Kochalska,13492405062019,ela,False,5,R2,1023
+1850,1991,False,Albert,12,Lisowski,18360205072019,alek,False,5,R2,1
+1851,1998,True,Ewelina,12,Nosowska,17052924082019,ewelinka,False,5,R2,810
+1852,1985,False,Piotr,12,Fokalski,3383122012010,piotrek - w czasie spaceru z psem,False,5,R2,52
+1853,1981,False,Bartosz,12,Moskalski,4333330012010,bartek gdy poszedł po kanapkę,False,5,R2,63
+1854,1982,False,Janek,12,Grzegorczyk,2493201012010,bach,False,5,R2,1023
+1855,1976,True,Elżbieta,12,Kochalska,13493205062019,ela,False,5,R2,1023
+1856,1991,False,Albert,12,Lisowski,18361005072019,alek,False,5,R2,4
+1857,1998,True,Ewelina,12,Nosowska,17053724082019,ewelinka,False,5,R2,579
+1858,1985,False,Piotr,12,Fokalski,3383922012010,piotrek - w czasie spaceru z psem,False,5,R2,72
+1859,1981,False,Bartosz,12,Moskalski,4334230012010,bartek gdy poszedł po kanapkę,False,5,R2,56
+1860,1982,False,Janek,12,Grzegorczyk,2494101012010,bach,False,5,R2,1023
+1861,1976,True,Elżbieta,12,Kochalska,13494005062019,ela,False,5,R2,105
+1862,1991,False,Albert,12,Lisowski,18361805072019,alek,False,5,R2,5
+1863,1998,True,Ewelina,12,Nosowska,17054524082019,ewelinka,False,5,R2,498
+1864,1985,False,Piotr,12,Fokalski,3384722012010,piotrek - w czasie spaceru z psem,False,5,R2,1023
+1865,1981,False,Bartosz,12,Moskalski,4334930012010,bartek gdy poszedł po kanapkę,False,5,R2,1023
+1866,1982,False,Janek,12,Grzegorczyk,2494901012010,bach,False,5,R2,1023
+1867,1976,True,Elżbieta,12,Kochalska,13494805062019,ela,False,5,R2,1023
+1868,1991,False,Albert,12,Lisowski,18362605072019,alek,False,5,R2,3
+1869,1998,True,Ewelina,12,Nosowska,17055324082019,ewelinka,False,5,R2,967
+1870,1985,False,Piotr,12,Fokalski,3385522012010,piotrek - w czasie spaceru z psem,False,5,R2,65
+1871,1981,False,Bartosz,12,Moskalski,4335830012010,bartek gdy poszedł po kanapkę,False,5,R2,1023
+1872,1982,False,Janek,12,Grzegorczyk,2495701012010,bach,False,5,R2,26
+1873,1976,True,Elżbieta,12,Kochalska,13495605062019,ela,False,5,R2,1023
+1874,1991,False,Albert,12,Lisowski,18363405072019,alek,False,5,R2,3
+1875,1998,True,Ewelina,12,Nosowska,17060124082019,ewelinka,False,5,R2,388
+1876,1985,False,Piotr,12,Fokalski,3390322012010,piotrek - w czasie spaceru z psem,False,5,R2,94
+1877,1981,False,Bartosz,12,Moskalski,4340630012010,bartek gdy poszedł po kanapkę,False,5,R2,1023
+1878,1982,False,Janek,12,Grzegorczyk,2500401012010,bach,False,5,R2,1023
+1879,1976,True,Elżbieta,12,Kochalska,13500405062019,ela,False,5,R2,1023
+1880,1991,False,Albert,12,Lisowski,18364205072019,alek,False,5,R2,6
+1881,1998,True,Ewelina,12,Nosowska,17060824082019,ewelinka,False,5,R2,1023
+1882,1985,False,Piotr,12,Fokalski,3391122012010,piotrek - w czasie spaceru z psem,False,5,R2,67
+1883,1981,False,Bartosz,12,Moskalski,4341330012010,bartek gdy poszedł po kanapkę,False,5,R2,1023
+1884,1982,False,Janek,12,Grzegorczyk,2501301012010,bach,False,5,R2,23
+1885,1976,True,Elżbieta,12,Kochalska,13501105062019,ela,False,5,R2,1023
+1886,1991,False,Albert,12,Lisowski,18365005072019,alek,False,5,R2,1
+1887,1998,True,Ewelina,12,Nosowska,17061624082019,ewelinka,False,5,R2,1023
+1888,1985,False,Piotr,12,Fokalski,3391922012010,piotrek - w czasie spaceru z psem,False,5,R2,84
+1889,1981,False,Bartosz,12,Moskalski,4342130012010,bartek gdy poszedł po kanapkę,False,5,R2,1023
+1890,1982,False,Janek,12,Grzegorczyk,2502001012010,bach,False,5,R2,29
+1891,1976,True,Elżbieta,12,Kochalska,13501905062019,ela,False,5,R2,1023
+1892,1991,False,Albert,12,Lisowski,18365805072019,alek,False,5,R2,5
+1893,1998,True,Ewelina,12,Nosowska,17062424082019,ewelinka,False,5,R2,1023
+1894,1985,False,Piotr,12,Fokalski,3392722012010,piotrek - w czasie spaceru z psem,False,5,R2,71
+1895,1981,False,Bartosz,12,Moskalski,4343030012010,bartek gdy poszedł po kanapkę,False,5,R2,995
+1896,1982,False,Janek,12,Grzegorczyk,2502801012010,bach,False,5,R2,27
+1897,1976,True,Elżbieta,12,Kochalska,13502705062019,ela,False,5,R2,1023
+1898,1991,False,Albert,12,Lisowski,18370505072019,alek,False,5,R2,7
+1899,1998,True,Ewelina,12,Nosowska,17063224082019,ewelinka,False,5,R2,1023
+1900,1985,False,Piotr,12,Fokalski,3393522012010,piotrek - w czasie spaceru z psem,False,5,R2,52
+1901,1981,False,Bartosz,12,Moskalski,4343730012010,bartek gdy poszedł po kanapkę,False,5,R2,61
+1902,1982,False,Janek,12,Grzegorczyk,2503601012010,bach,False,5,R2,1023
+1903,1976,True,Elżbieta,12,Kochalska,13503505062019,ela,False,5,R2,13
+1904,1991,False,Albert,12,Lisowski,18371405072019,alek,False,5,R2,6
+1905,1998,True,Ewelina,12,Nosowska,17064024082019,ewelinka,False,5,R2,513
+1906,1985,False,Piotr,12,Fokalski,3394322012010,piotrek - w czasie spaceru z psem,False,5,R2,198
+1907,1981,False,Bartosz,12,Moskalski,4344530012010,bartek gdy poszedł po kanapkę,False,5,R2,60
+1908,1982,False,Janek,12,Grzegorczyk,2504401012010,bach,False,5,R2,24
+1909,1976,True,Elżbieta,12,Kochalska,13504305062019,ela,False,5,R2,1023
+1910,1991,False,Albert,12,Lisowski,18372105072019,alek,False,5,R2,0
+1911,1998,True,Ewelina,12,Nosowska,17064824082019,ewelinka,False,5,R2,546
+1912,1985,False,Piotr,12,Fokalski,3395122012010,piotrek - w czasie spaceru z psem,False,5,R2,60
+1913,1981,False,Bartosz,12,Moskalski,4345330012010,bartek gdy poszedł po kanapkę,False,5,R2,61
+1914,1982,False,Janek,12,Grzegorczyk,2505201012010,bach,False,5,R2,20
+1915,1976,True,Elżbieta,12,Kochalska,13505105062019,ela,False,5,R2,1023
+1916,1991,False,Albert,12,Lisowski,18372905072019,alek,False,5,R2,2
+1917,1998,True,Ewelina,12,Nosowska,17065624082019,ewelinka,False,5,R2,631
+1918,1985,False,Piotr,12,Fokalski,3395822012010,piotrek - w czasie spaceru z psem,False,5,R2,1023
+1919,1981,False,Bartosz,12,Moskalski,4350130012010,bartek gdy poszedł po kanapkę,False,5,R2,57
+1920,1982,False,Janek,12,Grzegorczyk,2510001012010,bach,False,5,R2,1023
+1921,1976,True,Elżbieta,12,Kochalska,13505905062019,ela,False,5,R2,1023
+1922,1991,False,Albert,12,Lisowski,18373705072019,alek,False,5,R2,5
+1923,1998,True,Ewelina,12,Nosowska,17070424082019,ewelinka,False,5,R2,134
+1924,1985,False,Piotr,12,Fokalski,3400622012010,piotrek - w czasie spaceru z psem,False,5,R2,64
+1925,1981,False,Bartosz,12,Moskalski,4350930012010,bartek gdy poszedł po kanapkę,False,5,R2,1023
+1926,1982,False,Janek,12,Grzegorczyk,2510801012010,bach,False,5,R2,1023
+1927,1976,True,Elżbieta,12,Kochalska,13510605062019,ela,False,5,R2,10
+1928,1991,False,Albert,12,Lisowski,18374505072019,alek,False,5,R2,6
+1929,1998,True,Ewelina,12,Nosowska,17071124082019,ewelinka,False,5,R2,1023
+1930,1985,False,Piotr,12,Fokalski,3401422012010,piotrek - w czasie spaceru z psem,False,5,R2,99
+1931,1981,False,Bartosz,12,Moskalski,4351730012010,bartek gdy poszedł po kanapkę,False,5,R2,56
+1932,1982,False,Janek,12,Grzegorczyk,2511601012010,bach,False,5,R2,20
+1933,1976,True,Elżbieta,12,Kochalska,13511405062019,ela,False,5,R2,13
+1934,1991,False,Albert,12,Lisowski,18375305072019,alek,False,5,R2,1
+1935,1998,True,Ewelina,12,Nosowska,17071924082019,ewelinka,False,5,R2,1023
+1936,1985,False,Piotr,12,Fokalski,3402222012010,piotrek - w czasie spaceru z psem,False,5,R2,62
+1937,1981,False,Bartosz,12,Moskalski,4352530012010,bartek gdy poszedł po kanapkę,False,5,R2,62
+1938,1982,False,Janek,12,Grzegorczyk,2512401012010,bach,False,5,R2,1023
+1939,1976,True,Elżbieta,12,Kochalska,13512205062019,ela,False,5,R2,1023
+1940,1991,False,Albert,12,Lisowski,18380105072019,alek,False,5,R2,7
+1941,1998,True,Ewelina,12,Nosowska,17072724082019,ewelinka,False,5,R2,1023
+1942,1985,False,Piotr,12,Fokalski,3403022012010,piotrek - w czasie spaceru z psem,False,5,R2,1023
+1943,1981,False,Bartosz,12,Moskalski,4353330012010,bartek gdy poszedł po kanapkę,False,5,R2,1023
+1944,1982,False,Janek,12,Grzegorczyk,2513201012010,bach,False,5,R2,26
+1945,1976,True,Elżbieta,12,Kochalska,13513005062019,ela,False,5,R2,14
+1946,1991,False,Albert,12,Lisowski,18380905072019,alek,False,5,R2,1
+1947,1998,True,Ewelina,12,Nosowska,17073524082019,ewelinka,False,5,R2,277
+1948,1985,False,Piotr,12,Fokalski,3403822012010,piotrek - w czasie spaceru z psem,False,5,R2,67
+1949,1981,False,Bartosz,12,Moskalski,4354130012010,bartek gdy poszedł po kanapkę,False,5,R2,58
+1950,1982,False,Janek,12,Grzegorczyk,2514001012010,bach,False,5,R2,20
+1951,1976,True,Elżbieta,12,Kochalska,13513805062019,ela,False,5,R2,523
+1952,1991,False,Albert,12,Lisowski,18381705072019,alek,False,5,R2,7
+1953,1998,True,Ewelina,12,Nosowska,17074324082019,ewelinka,False,5,R2,394
+1954,1985,False,Piotr,12,Fokalski,3404622012010,piotrek - w czasie spaceru z psem,False,5,R2,91
+1955,1981,False,Bartosz,12,Moskalski,4354930012010,bartek gdy poszedł po kanapkę,False,5,R2,53
+1956,1982,False,Janek,12,Grzegorczyk,2514801012010,bach,False,5,R2,1023
+1957,1976,True,Elżbieta,12,Kochalska,13514605062019,ela,False,5,R2,1023
+1958,1991,False,Albert,12,Lisowski,18382505072019,alek,False,5,R2,1
+1959,1998,True,Ewelina,12,Nosowska,17075124082019,ewelinka,False,5,R2,336
+1960,1985,False,Piotr,12,Fokalski,3405422012010,piotrek - w czasie spaceru z psem,False,5,R2,90
+1961,1981,False,Bartosz,12,Moskalski,4355730012010,bartek gdy poszedł po kanapkę,False,5,R2,59
+1962,1982,False,Janek,12,Grzegorczyk,2515601012010,bach,False,5,R2,28
+1963,1976,True,Elżbieta,12,Kochalska,13515305062019,ela,False,5,R2,13
+1964,1991,False,Albert,12,Lisowski,18383305072019,alek,False,5,R2,6
+1965,1998,True,Ewelina,12,Nosowska,17075924082019,ewelinka,False,5,R2,1023
+1966,1985,False,Piotr,12,Fokalski,3410222012010,piotrek - w czasie spaceru z psem,False,5,R2,62
+1967,1981,False,Bartosz,12,Moskalski,4360530012010,bartek gdy poszedł po kanapkę,False,5,R2,61
+1968,1982,False,Janek,12,Grzegorczyk,2520401012010,bach,False,5,R2,27
+1969,1976,True,Elżbieta,12,Kochalska,13520105062019,ela,False,5,R2,734
+1970,1991,False,Albert,12,Lisowski,18384105072019,alek,False,5,R2,8
+1971,1998,True,Ewelina,12,Nosowska,17080624082019,ewelinka,False,5,R2,1023
+1972,1985,False,Piotr,12,Fokalski,3410922012010,piotrek - w czasie spaceru z psem,False,5,R2,66
+1973,1981,False,Bartosz,12,Moskalski,4361330012010,bartek gdy poszedł po kanapkę,False,5,R2,1023
+1974,1982,False,Janek,12,Grzegorczyk,2521101012010,bach,False,5,R2,1023
+1975,1976,True,Elżbieta,12,Kochalska,13520905062019,ela,False,5,R2,13
+1976,1991,False,Albert,12,Lisowski,18384905072019,alek,False,5,R2,6
+1977,1998,True,Ewelina,12,Nosowska,17081424082019,ewelinka,False,5,R2,151
+1978,1985,False,Piotr,12,Fokalski,3411722012010,piotrek - w czasie spaceru z psem,False,5,R2,91
+1979,1981,False,Bartosz,12,Moskalski,4362130012010,bartek gdy poszedł po kanapkę,False,5,R2,1023
+1980,1982,False,Janek,12,Grzegorczyk,2522001012010,bach,False,5,R2,1023
+1981,1976,True,Elżbieta,12,Kochalska,13521705062019,ela,False,5,R2,1023
+1982,1991,False,Albert,12,Lisowski,18385705072019,alek,False,5,R2,7
+1983,1998,True,Ewelina,12,Nosowska,17082224082019,ewelinka,False,5,R2,452
+1984,1985,False,Piotr,12,Fokalski,3412522012010,piotrek - w czasie spaceru z psem,False,5,R2,259
+1985,1981,False,Bartosz,12,Moskalski,4362930012010,bartek gdy poszedł po kanapkę,False,5,R2,1023
+1986,1982,False,Janek,12,Grzegorczyk,2522701012010,bach,False,5,R2,25
+1987,1976,True,Elżbieta,12,Kochalska,13522505062019,ela,False,5,R2,485
+1988,1991,False,Albert,12,Lisowski,18390505072019,alek,False,5,R2,11
+1989,1998,True,Ewelina,12,Nosowska,17083024082019,ewelinka,False,5,R2,531
+1990,1985,False,Piotr,12,Fokalski,3413322012010,piotrek - w czasie spaceru z psem,False,5,R2,66
+1991,1981,False,Bartosz,12,Moskalski,4363730012010,bartek gdy poszedł po kanapkę,False,5,R2,831
+1992,1982,False,Janek,12,Grzegorczyk,2523501012010,bach,False,5,R2,1023
+1993,1976,True,Elżbieta,12,Kochalska,13523305062019,ela,False,5,R2,13
+1994,1991,False,Albert,12,Lisowski,18391205072019,alek,False,5,R2,6
+1995,1998,True,Ewelina,12,Nosowska,17083824082019,ewelinka,False,5,R2,1023
+1996,1985,False,Piotr,12,Fokalski,3414122012010,piotrek - w czasie spaceru z psem,False,5,R2,98
+1997,1981,False,Bartosz,12,Moskalski,4364530012010,bartek gdy poszedł po kanapkę,False,5,R2,1023
+1998,1982,False,Janek,12,Grzegorczyk,2524301012010,bach,False,5,R2,1023
+1999,1976,True,Elżbieta,12,Kochalska,13524105062019,ela,False,5,R2,1023
+2000,1991,False,Albert,12,Lisowski,18392005072019,alek,False,5,R2,5
+2001,1998,True,Ewelina,12,Nosowska,17084624082019,ewelinka,False,5,R2,1023
+2002,1985,False,Piotr,12,Fokalski,3414922012010,piotrek - w czasie spaceru z psem,False,5,R2,68
+2003,1981,False,Bartosz,12,Moskalski,4365330012010,bartek gdy poszedł po kanapkę,False,5,R2,1023
+2004,1982,False,Janek,12,Grzegorczyk,2525101012010,bach,False,5,R2,22
+2005,1976,True,Elżbieta,12,Kochalska,13524805062019,ela,False,5,R2,633
+2006,1991,False,Albert,12,Lisowski,18392805072019,alek,False,5,R2,4
+2007,1998,True,Ewelina,12,Nosowska,17085324082019,ewelinka,False,5,R2,1023
+2008,1985,False,Piotr,12,Fokalski,3415722012010,piotrek - w czasie spaceru z psem,False,5,R2,84
+2009,1981,False,Bartosz,12,Moskalski,4370130012010,bartek gdy poszedł po kanapkę,False,5,R2,763
+2010,1982,False,Janek,12,Grzegorczyk,2525901012010,bach,False,5,R2,27
+2011,1976,True,Elżbieta,12,Kochalska,13525605062019,ela,False,5,R2,12
+2012,1991,False,Albert,12,Lisowski,18393605072019,alek,False,5,R2,8
+2013,1998,True,Ewelina,12,Nosowska,17090124082019,ewelinka,False,5,R2,306
+2014,1985,False,Piotr,12,Fokalski,3420522012010,piotrek - w czasie spaceru z psem,False,5,R2,64
+2015,1981,False,Bartosz,12,Moskalski,4370930012010,bartek gdy poszedł po kanapkę,False,5,R2,1023
+2016,1982,False,Janek,12,Grzegorczyk,2530701012010,bach,False,5,R2,1023
+2017,1976,True,Elżbieta,12,Kochalska,13530405062019,ela,False,5,R2,1023
+2018,1991,False,Albert,12,Lisowski,18394405072019,alek,False,5,R2,7
+2019,1998,True,Ewelina,12,Nosowska,17090924082019,ewelinka,False,5,R2,535
+2020,1985,False,Piotr,12,Fokalski,3421322012010,piotrek - w czasie spaceru z psem,False,5,R2,93
+2021,1981,False,Bartosz,12,Moskalski,4371730012010,bartek gdy poszedł po kanapkę,False,5,R2,1023
+2022,1982,False,Janek,12,Grzegorczyk,2531501012010,bach,False,5,R2,29
+2023,1976,True,Elżbieta,12,Kochalska,13531205062019,ela,True,5,R2,1023
+2024,1991,False,Albert,12,Lisowski,18395205072019,alek,False,5,R2,4
+2025,1998,True,Ewelina,12,Nosowska,17091724082019,ewelinka,False,5,R2,1023
+2026,1985,False,Piotr,12,Fokalski,3422122012010,piotrek - w czasie spaceru z psem,False,5,R2,87
+2027,1981,False,Bartosz,12,Moskalski,4372530012010,bartek gdy poszedł po kanapkę,False,5,R2,1023
+2028,1982,False,Janek,12,Grzegorczyk,2532301012010,bach,False,5,R2,1023
+2029,1976,True,Elżbieta,12,Kochalska,13532005062019,ela,True,5,R2,15
+2030,1991,False,Albert,12,Lisowski,18400005072019,alek,False,5,R2,5
+2031,1998,True,Ewelina,12,Nosowska,17092524082019,ewelinka,False,5,R2,1023
+2032,1985,False,Piotr,12,Fokalski,3422922012010,piotrek - w czasie spaceru z psem,False,5,R2,90
+2033,1981,False,Bartosz,12,Moskalski,4373230012010,bartek gdy poszedł po kanapkę,False,5,R2,58
+2034,1982,False,Janek,12,Grzegorczyk,2533101012010,bach,False,5,R2,1023
+2035,1976,True,Elżbieta,12,Kochalska,13532805062019,ela,False,5,R2,13
+2036,1991,False,Albert,12,Lisowski,18400805072019,alek,False,5,R2,2
+2037,1998,True,Ewelina,12,Nosowska,17093324082019,ewelinka,False,5,R2,1023
+2038,1985,False,Piotr,12,Fokalski,3423722012010,piotrek - w czasie spaceru z psem,False,5,R2,75
+2039,1981,False,Bartosz,12,Moskalski,4374030012010,bartek gdy poszedł po kanapkę,False,5,R2,1023
+2040,1982,False,Janek,12,Grzegorczyk,2533901012010,bach,False,5,R2,29
+2041,1976,True,Elżbieta,12,Kochalska,13533605062019,ela,False,5,R2,922
+2042,1991,False,Albert,12,Lisowski,18401605072019,alek,False,5,R2,2
+2043,1998,True,Ewelina,12,Nosowska,17094124082019,ewelinka,False,5,R2,1023
+2044,1985,False,Piotr,12,Fokalski,3424422012010,piotrek - w czasie spaceru z psem,False,5,R2,92
+2045,1981,False,Bartosz,12,Moskalski,4374930012010,bartek gdy poszedł po kanapkę,False,5,R2,1023
+2046,1982,False,Janek,12,Grzegorczyk,2534701012010,bach,False,5,R2,1023
+2047,1976,True,Elżbieta,12,Kochalska,13534305062019,ela,False,5,R2,1023
+2048,1991,False,Albert,12,Lisowski,18402405072019,alek,False,5,R2,4
+2049,1998,True,Ewelina,12,Nosowska,17094824082019,ewelinka,False,5,R2,1023
+2050,1985,False,Piotr,12,Fokalski,3425222012010,piotrek - w czasie spaceru z psem,False,5,R2,69
+2051,1981,False,Bartosz,12,Moskalski,4375630012010,bartek gdy poszedł po kanapkę,False,5,R2,1023
+2052,1982,False,Janek,12,Grzegorczyk,2535501012010,bach,False,5,R2,1023
+2053,1976,True,Elżbieta,12,Kochalska,13535105062019,ela,False,5,R2,1023
+2054,1991,False,Albert,12,Lisowski,18403205072019,alek,False,5,R2,5
+2055,1998,True,Ewelina,12,Nosowska,17095624082019,ewelinka,False,5,R2,551
+2056,1985,False,Piotr,12,Fokalski,3430022012010,piotrek - w czasie spaceru z psem,False,5,R2,96
+2057,1981,False,Bartosz,12,Moskalski,4380430012010,bartek gdy poszedł po kanapkę,False,5,R2,1023
+2058,1982,False,Janek,12,Grzegorczyk,2540301012010,bach,False,5,R2,1023
+2059,1976,True,Elżbieta,12,Kochalska,13535905062019,ela,False,5,R2,1023
+2060,1991,False,Albert,12,Lisowski,18404005072019,alek,False,5,R2,7
+2061,1998,True,Ewelina,12,Nosowska,17100424082019,ewelinka,False,5,R2,1023
+2062,1985,False,Piotr,12,Fokalski,3430822012010,piotrek - w czasie spaceru z psem,False,5,R2,82
+2063,1981,False,Bartosz,12,Moskalski,4381330012010,bartek gdy poszedł po kanapkę,False,5,R2,1023
+2064,1982,False,Janek,12,Grzegorczyk,2541101012010,bach,False,5,R2,30
+2065,1976,True,Elżbieta,12,Kochalska,13540705062019,ela,False,5,R2,1023
+2066,1991,False,Albert,12,Lisowski,18404805072019,alek,False,5,R2,4
+2067,1998,True,Ewelina,12,Nosowska,17101224082019,ewelinka,False,5,R2,1023
+2068,1985,False,Piotr,12,Fokalski,3431622012010,piotrek - w czasie spaceru z psem,False,5,R2,85
+2069,1981,False,Bartosz,12,Moskalski,4382030012010,bartek gdy poszedł po kanapkę,False,5,R2,1023
+2070,1982,False,Janek,12,Grzegorczyk,2541801012010,bach,False,5,R2,19
+2071,1976,True,Elżbieta,12,Kochalska,13541505062019,ela,False,5,R2,1023
+2072,1991,False,Albert,12,Lisowski,18405605072019,alek,False,5,R2,14
+2073,1998,True,Ewelina,12,Nosowska,17102024082019,ewelinka,False,5,R2,1023
+2074,1985,False,Piotr,12,Fokalski,3432422012010,piotrek - w czasie spaceru z psem,False,5,R2,98
+2075,1981,False,Bartosz,12,Moskalski,4382830012010,bartek gdy poszedł po kanapkę,False,5,R2,1023
+2076,1982,False,Janek,12,Grzegorczyk,2542701012010,bach,False,5,R2,1023
+2077,1976,True,Elżbieta,12,Kochalska,13542305062019,ela,False,5,R2,1023
+2078,1991,False,Albert,12,Lisowski,18410405072019,alek,False,5,R2,10
+2079,1998,True,Ewelina,12,Nosowska,17102824082019,ewelinka,False,5,R2,398
+2080,1985,False,Piotr,12,Fokalski,3433222012010,piotrek - w czasie spaceru z psem,False,5,R2,64
+2081,1981,False,Bartosz,12,Moskalski,4383630012010,bartek gdy poszedł po kanapkę,False,5,R2,1023
+2082,1982,False,Janek,12,Grzegorczyk,2543401012010,bach,False,5,R2,31
+2083,1976,True,Elżbieta,12,Kochalska,13543105062019,ela,False,5,R2,1023
+2084,1991,False,Albert,12,Lisowski,18411205072019,alek,False,5,R2,7
+2085,1998,True,Ewelina,12,Nosowska,17103624082019,ewelinka,False,5,R2,1023
+2086,1985,False,Piotr,12,Fokalski,3434022012010,piotrek - w czasie spaceru z psem,False,5,R2,105
+2087,1981,False,Bartosz,12,Moskalski,4384430012010,bartek gdy poszedł po kanapkę,False,5,R2,43
+2088,1982,False,Janek,12,Grzegorczyk,2544201012010,bach,False,5,R2,20
+2089,1976,True,Elżbieta,12,Kochalska,13543905062019,ela,False,5,R2,401
+2090,1991,False,Albert,12,Lisowski,18412005072019,alek,False,5,R2,5
+2091,1998,True,Ewelina,12,Nosowska,17104424082019,ewelinka,False,5,R2,1023
+2092,1985,False,Piotr,12,Fokalski,3434822012010,piotrek - w czasie spaceru z psem,False,5,R2,294
+2093,1981,False,Bartosz,12,Moskalski,4385230012010,bartek gdy poszedł po kanapkę,False,5,R2,1023
+2094,1982,False,Janek,12,Grzegorczyk,2545001012010,bach,False,5,R2,1023
+2095,1976,True,Elżbieta,12,Kochalska,13544605062019,ela,False,5,R2,431
+2096,1991,False,Albert,12,Lisowski,18412805072019,alek,False,5,R2,6
+2097,1998,True,Ewelina,12,Nosowska,17105124082019,ewelinka,False,5,R2,607
+2098,1985,False,Piotr,12,Fokalski,3435622012010,piotrek - w czasie spaceru z psem,False,5,R2,96
+2099,1981,False,Bartosz,12,Moskalski,4390030012010,bartek gdy poszedł po kanapkę,False,5,R2,1023
+2100,1982,False,Janek,12,Grzegorczyk,2545801012010,bach,False,5,R2,1023
+2101,1976,True,Elżbieta,12,Kochalska,13545405062019,ela,False,5,R2,10
+2102,1991,False,Albert,12,Lisowski,18413605072019,alek,False,5,R2,7
+2103,1998,True,Ewelina,12,Nosowska,17105924082019,ewelinka,False,5,R2,1023
+2104,1985,False,Piotr,12,Fokalski,3440422012010,piotrek - w czasie spaceru z psem,False,5,R2,1023
+2105,1981,False,Bartosz,12,Moskalski,4390830012010,bartek gdy poszedł po kanapkę,False,5,R2,45
+2106,1982,False,Janek,12,Grzegorczyk,2550601012010,bach,False,5,R2,20
+2107,1976,True,Elżbieta,12,Kochalska,13550205062019,ela,False,5,R2,1023
+2108,1991,False,Albert,12,Lisowski,18414405072019,alek,False,5,R2,7
+2109,1998,True,Ewelina,12,Nosowska,17110724082019,ewelinka,False,5,R2,1023
+2110,1985,False,Piotr,12,Fokalski,3441222012010,piotrek - w czasie spaceru z psem,False,5,R2,91
+2111,1981,False,Bartosz,12,Moskalski,4391630012010,bartek gdy poszedł po kanapkę,False,5,R2,37
+2112,1982,False,Janek,12,Grzegorczyk,2551401012010,bach,False,5,R2,27
+2113,1976,True,Elżbieta,12,Kochalska,13551005062019,ela,False,5,R2,1023
+2114,1991,False,Albert,12,Lisowski,18415205072019,alek,False,5,R2,8
+2115,1998,True,Ewelina,12,Nosowska,17111524082019,ewelinka,False,5,R2,1023
+2116,1985,False,Piotr,12,Fokalski,3442022012010,piotrek - w czasie spaceru z psem,False,5,R2,98
+2117,1981,False,Bartosz,12,Moskalski,4392430012010,bartek gdy poszedł po kanapkę,False,5,R2,1023
+2118,1982,False,Janek,12,Grzegorczyk,2552201012010,bach,False,5,R2,1023
+2119,1976,True,Elżbieta,12,Kochalska,13551805062019,ela,False,5,R2,12
+2120,1991,False,Albert,12,Lisowski,18420005072019,alek,False,5,R2,3
+2121,1998,True,Ewelina,12,Nosowska,17112324082019,ewelinka,False,5,R2,1023
+2122,1985,False,Piotr,12,Fokalski,3442822012010,piotrek - w czasie spaceru z psem,False,5,R2,1023
+2123,1981,False,Bartosz,12,Moskalski,4393230012010,bartek gdy poszedł po kanapkę,False,5,R2,52

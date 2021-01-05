@@ -15,7 +15,7 @@ app.layout = html.Div(children=[
                          html.P('''Visualising time series with Plotly - Dash'''),
                          html.P('''Pick one or more stocks from the dropdown below.'''),
                      ]),  # Define the left element
-                     html.Div(className='eight columns div-for-charts bg-grey',children= c.components)  # Define the right element
+                     html.Div(className='eight columns div-for-charts bg-grey',children=[c.components])  # Define the right element
                  ]),
     ]);
 
