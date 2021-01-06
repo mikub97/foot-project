@@ -10,6 +10,7 @@ dash-core-components==1.10.0
 dash-html-components==1.0.3
 dash-renderer==1.4.1
 dash-table==4.7.0
+dash-daq==0.5.0
 dashboard==0.0.6
 databases==0.4.1
 dcc==0.1.0

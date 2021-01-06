@@ -4,6 +4,27 @@ import traceback
 
 import requests
 
+sql_insert_traces = """Insert into traces (USERID,BIRTHDATE,DISABLED,FIRSTNAME,SECONDNAME,TRACENAME,TRACEID ,TRACETIME ,L0, L1, L2, R0, R1, R2) values (?,?,?,?,?,?,?,?,?, ?, ?, ?, ?,?);"""
+
+sql_create_traces_table = """CREATE TABLE IF NOT EXISTS traces (
+                                      userid integer NOT NULL,
+                                      birthdate TEXT(10)  NULL,
+                                      disabled INTEGER  NULL,
+                                      firstname TEXT  NULL,
+                                      secondname TEXT NULL,
+                                      TRACEID TEXT NULL,
+                                      TRACENAME TEXT NULL,
+                                      TRACETIME REAL,
+                                      L0 REAL, L1 REAL, L2 REAL, R0 REAL, R1 REAL, R2 REAL); """
+
+sql_create_users_table = """CREATE TABLE IF NOT EXISTS users (
+                                          userid integer NOT NULL,
+                                          birthdate TEXT(10)  NULL,
+                                          disabled INTEGER  NULL,
+                                          firstname TEXT  NULL,
+                                          secondname TEXT NULL); """
+sql_insert_users = """Insert into users (USERID,BIRTHDATE,DISABLED,FIRSTNAME,SECONDNAME)
+                          values (?,?,?,?,?);"""
 
 def create_connection(db_file):
     """ create a database connection to the SQLite database
@@ -33,23 +54,45 @@ def create_table(conn, create_table_sql):
     except sqlite3.Error as e:
         print(e)
 
+def static_user_info(conn):
+    cur = conn.cursor();
+    cur.execute("DROP TABLE IF EXISTS USERS")
+    create_table(conn,sql_create_users_table);
+    for user_id in range(1, 7):
+        try:
+            response = requests.get(f'http://tesla.iem.pw.edu.pl:9080/v2/monitor/{user_id}')
+            data = response.json()
+        except Exception:
+            print("Error during getting the json")
+        birthdate = data["birthdate"]
+        disabled = data["disabled"]
+        firstname = data["firstname"]
+        secondname = data["lastname"]
+        uId = data["id"]
+        cur.execute(sql_insert_users, (uId,birthdate,disabled,firstname,secondname));
+    conn.commit();
+
+def get_users(c) :
+    c.execute("SELECT * FROM USERS")
+    rows = c.fetchall()
+    users=[]
+    for row in rows:
+        l = list(row);
+        u={
+            "id": l[0],
+            "bithdate": l[1],
+            "disabled": l[2],
+            "firstname":l[3],
+            "secondname": l[4]
+        }
+        users.append(u)
+
+    return users;
+
 def main():
     database = "realtime.db"
-
-    sql_insert_measurements = """Insert into traces (USERID,BIRTHDATE,DISABLED,FIRSTNAME,SECONDNAME,TRACENAME,TRACEID ,TRACETIME ,L0, L1, L2, R0, R1, R2) values (?,?,?,?,?,?,?,?,?, ?, ?, ?, ?,?);"""
-
-    sql_create_traces_table ="""CREATE TABLE IF NOT EXISTS traces (
-                                        userid integer NOT NULL,
-                                        birthdate TEXT(10)  NULL,
-                                        disabled INTEGER  NULL,
-                                        firstname TEXT  NULL,
-                                        secondname TEXT NULL,
-                                        TRACEID TEXT NULL,
-                                        TRACENAME TEXT NULL,
-                                        TRACETIME REAL,
-                                        L0 REAL, L1 REAL, L2 REAL, R0 REAL, R1 REAL, R2 REAL); """
-
     conn = create_connection(database)
+    static_user_info(conn)
     if conn is not None:
         # create projects table
         create_table(conn, sql_create_traces_table)
@@ -63,7 +106,6 @@ def main():
                 data = response.json()
             except Exception :
                 print("Error during getting the json")
-
             birthdate = data["birthdate"]
             disabled = data["disabled"]
             firstname = data["firstname"]
@@ -84,7 +126,7 @@ def main():
             # """Insert into traces
             # (USERID,BIRTHDATE,DISABLED,FIRSTNAME,SECONDNAME,TRACENAME,TRACEID TRACETIME ,L0, L1, L2, R0, R1, R2) values (?,?,?,?,?,?,?,?,?, ?, ?, ?, ?,?);"""
             try:
-                cur.execute(sql_insert_measurements,(uId,birthdate,disabled,firstname,secondname,traceName,traceId,traceTime, L0, L1, L2, R0, R1, R2))
+                cur.execute(sql_insert_traces,(uId,birthdate,disabled,firstname,secondname,traceName,traceId,traceTime, L0, L1, L2, R0, R1, R2))
 
             except:
                 traceback.print_exc();
