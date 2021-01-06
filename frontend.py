@@ -5,15 +5,15 @@ from dash.dependencies import Input, Output
 import plotly.graph_objs as go
 import pandas as pd
  
-df = pd.read_csv('data/sensors.csv')
- 
+
 app = dash.Dash()
  
- 
+df = pd.read_csv('data/sensors.csv')
+
 lastname_options = []
 for lastname in df['lastname'].unique():
     lastname_options.append({'label':str(lastname),'value':lastname})
- 
+
 app.layout = html.Div([
     dcc.Graph(id='graph-with-slider'),
     dcc.Dropdown(id='patient-picker',options=lastname_options,value=df['lastname'].min())
@@ -35,7 +35,7 @@ def update_figure(selected_patient):
             marker={'size': 15},
             name=sensor_name
         ))
- 
+    print(traces)
     return {
         'data': traces,
         'layout': go.Layout(

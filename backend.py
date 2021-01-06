@@ -9,61 +9,62 @@ import sqlite3
 from collections import deque
 
 #Init
-time = 10 #Secs on PLOT
+time = 1 #Secs on PLOT
 L0, L1, L2, R0, R1, R2 = [], [], [], [], [],[]
 plot = np.arange(time)
 conn = sqlite3.connect("realtime.db", check_same_thread=False)#DB connection
 c = conn.cursor()
 
+df = pd.read_csv('data/sensors.csv')
 sensors = ["L0","L1","L2","R0","R1","R2",]
+lastname_options = []
+for lastname in df['lastname'].unique():
+    lastname_options.append({'label': str(lastname), 'value': lastname})
+
 app = dash.Dash(__name__,assets_url_path="assets") #Here we implement the app but for now smth really basic is included
 
-feet_graphs = []
-
-for s in sensors:
-    feet_graphs.append(
-        dcc.Graph(
-        id = "real-time-plot-"+s,
-        animate = True,
-        )
-    );
 app.layout = html.Div([
     html.H1("Real time plot"),
-    # dcc.Graph(
-    #     id = "real-time-plot",
-    #     animate = True,
-    # ),
-    feet_graphs[0],
+    dcc.Graph(
+        id = "real-time-plot",
+        animate = True,
+    ),
     dcc.Interval(
         id = 'plot-update',
         interval = 1000
-    )
+    ),
+    dcc.Dropdown(id='patient-picker',options=lastname_options,value=lastname_options[0]['label'])
+
 ])
 
-@app.callback(Output("real-time-plot-L0","figure"),
-            [Input("plot-update", "n_intervals")])
-
-def update(input_data):
+@app.callback(Output("real-time-plot","figure"),
+            [Input("plot-update", "n_intervals"),
+             Input('patient-picker', 'value')])
+def update(data,selected_patient):
     print("update plot")
-    dataSQL = []
-    c.execute("SELECT ID,T,L0 FROM 'traces' ORDER BY T DESC LIMIT 30")
-
+    c.execute("SELECT TRACETIME,L0,L1,L2,R0,R1,R2 FROM 'traces' WHERE SECONDNAME = '"+selected_patient+"' ORDER BY TRACETIME DESC LIMIT 30")
     rows = c.fetchall()
     dataSQL = [list(row) for row in rows]
-    labels = ["ID","T","L0"]
+    labels = ["T","L0",'L1','L2','R0','R1','R2']
     df = pd.DataFrame.from_records(dataSQL, columns=labels)
     print(df)
-    X = df["T"]
-    Y = df["L0"]
+    data = []
+    for s in sensors:
+        X = df["T"]
+        Y = df[s]
 
-    data_plot = go.Scatter(
-        x = list(X),
-        y = list(Y),
-        name = "Scatter",
-        mode = "lines",
-    )
-    return{"data":[data_plot], "layout":go.Layout(xaxis= dict(range = [min(X), max(X)]),
-                                                        yaxis = dict(range = [min(Y), max(Y)]))}
+        data.append(go.Scatter(
+            x = list(X),
+            y = list(Y),
+            name = s,
+            mode='lines',
+            opacity=0.7,
+            marker={'size': 15},
+        ))
+    return{"data":data, "layout":go.Layout(
+                    xaxis= dict(range = [min(X), max(X)]),
+                    yaxis = dict(range = [min(Y), max(Y)]),
+                    hovermode='closest' )}
 
 
 app.run_server()
