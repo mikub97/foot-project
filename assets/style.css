@@ -615,7 +615,13 @@ a {
   width: 10px !important;
   display: block !important;
 }
-
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height : 30%;
+  width : 30%;
+}
 /* Track */
 ::-webkit-scrollbar-track {
   background: #1e1e1e !important;
