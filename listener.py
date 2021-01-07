@@ -91,22 +91,16 @@ def get_users(c) :
 
     return users;
 
-def main():
-    database = "realtime.db"
-    conn = create_connection(database)
-    static_user_info(conn)
-    if conn is not None:
-        # create projects table
-        create_table(conn, sql_create_traces_table)
+def fetch_data(conn):
     cur = conn.cursor()
 
     ID = 0
-    while(True):
-        for user_id in range(1,7):
+    while (True):
+        for user_id in range(1, 7):
             try:
                 response = requests.get(f'http://tesla.iem.pw.edu.pl:9080/v2/monitor/{user_id}')
                 data = response.json()
-            except Exception :
+            except Exception:
                 traceback.print_exc();
                 print("Check the VPN connection")
                 exit()
@@ -115,8 +109,8 @@ def main():
             firstname = data["firstname"]
             secondname = data["lastname"]
             uId = data["id"]
-            traceId =  data["trace"]["id"]
-            traceName= data["trace"]["name"]
+            traceId = data["trace"]["id"]
+            traceName = data["trace"]["name"]
             traceTime = time.time()
             L0 = data["trace"]["sensors"][0]["value"]
             L1 = data["trace"]["sensors"][1]["value"]
@@ -124,13 +118,14 @@ def main():
             R0 = data["trace"]["sensors"][3]["value"]
             R1 = data["trace"]["sensors"][4]["value"]
             R2 = data["trace"]["sensors"][5]["value"]
-            ID = ID+1
-            print(ID,traceTime, L0, L1, L2, R0, R1, R2)
+            ID = ID + 1
+            print(ID, traceTime, L0, L1, L2, R0, R1, R2)
 
             # """Insert into traces
             # (USERID,BIRTHDATE,DISABLED,FIRSTNAME,SECONDNAME,TRACENAME,TRACEID TRACETIME ,L0, L1, L2, R0, R1, R2) values (?,?,?,?,?,?,?,?,?, ?, ?, ?, ?,?);"""
             try:
-                cur.execute(sql_insert_traces,(uId,birthdate,disabled,firstname,secondname,traceName,traceId,traceTime, L0, L1, L2, R0, R1, R2))
+                cur.execute(sql_insert_traces, (
+                uId, birthdate, disabled, firstname, secondname, traceName, traceId, traceTime, L0, L1, L2, R0, R1, R2))
 
             except:
                 traceback.print_exc();
@@ -138,5 +133,13 @@ def main():
                 exit()
         conn.commit()
         time.sleep(1)
+def main():
+    database = "realtime.db"
+    conn = create_connection(database)
+    static_user_info(conn)
+    if conn is not None:
+        # create projects table
+        create_table(conn, sql_create_traces_table)
+    fetch_data(conn)
 if __name__ == '__main__':
     main()

@@ -9,6 +9,7 @@ table{
 }
 H3{
     text-align: center;
+    margin-top: 10px;
 }
 
 div {
@@ -16,7 +17,7 @@ div {
 }
 .img {
   display: block;
-    margin: 0 auto;
+   margin: 0 auto;
   height : 100%;
   width : 100%;
 }
@@ -501,14 +502,19 @@ a {
 .div-user-controls {
   padding-left: 55px;
   padding-top: 64px;
+  background-color: #666666;
 }
 .div-for-dropdown {
   padding-top: 12px;
   padding-bottom: 12px;
+  margin-top: 12px;
+  background-color: #666666;
+  
 }
 .div-for-slider {
   width: 97%;
   text-align: center;
+  background-color: #666666;
 }
 .logo {
   height: 50px;

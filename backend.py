@@ -21,7 +21,7 @@ patient_picker_options = []
 for user in users:
     patient_picker_options.append({'label': str(user['firstname'] + " " + user['secondname']), 'value':user['secondname']})
 
-app = dash.Dash(__name__,assets_url_path="assets",) #Here we implement the app but for now smth really basic is included
+app = dash.Dash(__name__,assets_url_path="assets",) 
 
 #################################################### MENU ####################################################
 
@@ -94,18 +94,18 @@ control_div = html.Div([
                 html.Div([html.Span(html.H3("VIEW HISTORICAL DATA"))], className="four columns")],className="twelve columns"),
             html.Div([
                 html.Label("Real time values"),
-                daq.BooleanSwitch(id='real_switch',on=True),
+                daq.BooleanSwitch(id='real_switch',on=True, color = "#666666",),
                 html.Label('Refresh rate'),
-                dcc.Slider(id='refresh_slider', value=20, min=10, max=40, step=1),
+                dcc.Slider(id='refresh_slider', value=20, min=10, max=40, step=1,),
             ], className="three columns"),
 
             html.Div([
                 html.Label("Settle time-0 "),
                 html.Div([
                     html.Div(dcc.Input(placeholder="time0"),className="six columns"),
-                    html.Div(daq.BooleanSwitch(id='time0_switch',on=True),className="six columns")],className="twelve columns"),
+                    html.Div(daq.BooleanSwitch(id='time0_switch',on=True,color = "#666666",),className="six columns")],className="twelve columns"),
                 html.Div(html.Label('How many last values?')),
-                dcc.Slider(id='time-period', value=20, min=10, max=40, step=1),
+                dcc.Slider(id='time-period', value=20, min=10, max=40, step=1,),
             ], className="four columns"),
             html.Div([
                 html.Div([
