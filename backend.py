@@ -36,7 +36,11 @@ menu_div = html.Div([
 
 #################################################### PATIENT INFO, STATISTICAL DATA, AND THE PICTURE OF FEET ####################################################
 
-statistical_vs = ['avg','min','max','sth',"some",'avg1','min1','max1','sth1',"some1",'avg2','min2','max2','sth2',"some2",'avg3','min3','max3','sth3',"some3",'avg4','min4','max4','sth4',"some4"]
+statistical_vs = ['avg','min','max','sth',"some",
+                  'avg1','min1','max1','sth1',"some1",
+                  'avg2','min2','max2','sth2',"some2",
+                  'avg3','min3','max3','sth3',"some3",
+                  'avg4','min4','max4','sth4',"some4"]
 nrows=5
 patient_info = ["firstname","secondname",'birthdate','is disabled?']
 
@@ -76,8 +80,9 @@ patient_div =html.Div([
                         ([html.Tr([html.Td(val),html.Td(val+"_v",id=val+"_v")]) for val in statistical_vs][nrows*3:nrows*4])),className="three columns")])
 
         ], className="seven columns"),
-        html.Div([html.Img(src=app.get_asset_url('table.png'),className="img"),html.Img(src=app.get_asset_url('foot.png'),className="img")],className="two columns")
-    ],className="patient_details")
+    html.Div([html.Img(src=app.get_asset_url('table.png'), className="img"),
+              html.Img(src=app.get_asset_url('feet.png'), className="img")], className="two columns")
+],className="patient_details")
 
 
 #################################################### CONTROL AREA - BUTTONS, SLIDERS AND SO ON ####################################################
@@ -143,6 +148,7 @@ def update_output(on):
         return 'Display real-time values is on'
     else:
         return 'Display real-time values is off'
+
 
 
 @app.callback(Output("real-time-plot","figure"),

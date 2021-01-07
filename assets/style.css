@@ -7,6 +7,9 @@ table{
 .logo{
 
 }
+H3{
+    text-align: center;
+}
 
 div {
     /*margin: 0 auto;*/
@@ -19,7 +22,8 @@ div {
 }
 
 button{
-        margin: 0 auto;
+    margin: 0 auto;
+
 }
 /*!* Table of contents ––––––––––––––––––––––––––––––––––––––––––––––––––*/
 /*Taken from https://codepen.io/chriddyp/pen/bWLwgP.css*/
@@ -54,9 +58,7 @@ button{
   box-sizing: border-box;
 }
 
-H3{
-    text-align: center;
-}
+
 /*!* For devices larger than 400px *!*/
 @media (min-width: 400px) {
     .container {
