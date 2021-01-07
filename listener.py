@@ -63,7 +63,9 @@ def static_user_info(conn):
             response = requests.get(f'http://tesla.iem.pw.edu.pl:9080/v2/monitor/{user_id}')
             data = response.json()
         except Exception:
-            print("Error during getting the json")
+            traceback.print_exc();
+            print("Check the VPN connection")
+            exit()
         birthdate = data["birthdate"]
         disabled = data["disabled"]
         firstname = data["firstname"]
@@ -105,7 +107,9 @@ def main():
                 response = requests.get(f'http://tesla.iem.pw.edu.pl:9080/v2/monitor/{user_id}')
                 data = response.json()
             except Exception :
-                print("Error during getting the json")
+                traceback.print_exc();
+                print("Check the VPN connection")
+                exit()
             birthdate = data["birthdate"]
             disabled = data["disabled"]
             firstname = data["firstname"]

@@ -23,34 +23,45 @@ for user in users:
 
 app = dash.Dash(__name__,assets_url_path="assets",) #Here we implement the app but for now smth really basic is included
 
+statistical_values = ['avg','min','max','sth','avg1','min1','max1','sth1','avg2','min2','max2','sth2','avg3','min3','max3','sth4']
+nrows=4
+patient_info = ["firstname","secondname",'birthdate','is disabled?']
 app.layout = html.Div([
     html.H1("Real time plot"),
+    html.Div([
+        html.Div([
+            dcc.Dropdown(id='patient-picker', options=patient_picker_options, value=users[0]['secondname']),
+            html.H3("PATIENT INFO"),
+            html.Table(
+                ([html.Tr([html.Td(val), html.Td(val + "_value", id=val + "_value")]) for val in patient_info]))
+        ], className="two columns"),
+        html.Div([
+            html.Span(html.H3("STATISTICAL DATA")),
+            html.Div(
+                html.Table(
+                    # Header
+                    [html.Tr([html.Th(col) for col in ["MEASURE","VALUE"]])] +
+                    # Body
+                    ([html.Tr([html.Td(val),html.Td(val+"_value",id=val+"_value")]) for val in statistical_values][0:nrows])),className="three columns")
+            ,
+            html.Div(
+                html.Table(
+                    # Header
+                    [html.Tr([html.Th(col) for col in ["MEASURE","VALUE"]])] +
+                    # Body
+                    ([html.Tr([html.Td(val),html.Td(val+"_value",id=val+"_value")]) for val in statistical_values][nrows:nrows*2])),className="three columns"),
+            html.Div(
+                html.Table(
+                    # Header
+                    [html.Tr([html.Th(col) for col in ["MEASURE","VALUE"]])] +
+                    # Body
+                    ([html.Tr([html.Td(val),html.Td(val+"_value",id=val+"_value")]) for val in statistical_values][nrows*2:nrows*3])),className="three columns"),
 
-    html.Div([
-        dcc.Dropdown(id='patient-picker', options=patient_picker_options, value=users[0]['secondname']),
-        html.Label("............................................................................"),
-        html.Label("PATIENT'S BASIC INFORMATION :"),
-        html.Label("............................................................................"),
-        html.Label(" NAME : JACEK "),
-        html.Label(" SURNAME : TRZASKOWSKI "),
-        html.Label(" IS DISABLED? : YES "),
-        html.Label(" BIRTHDAY : 1333 "),
-    ], className="three columns"),
-    html.Div([
-        html.Label("............................................................................"),
-        html.Label("----------STATISTICAL DATA-------------:"),
-        html.Label("............................................................................"),
-        html.Label(" L0 AVG = 23423423 "),
-        html.Label(" L1 AVG = 23423423 "),
-        html.Label(" L2 AVG = 23423423 "),
-        html.Label(" etc... "),
-    ], className="five columns"),
-    html.Img(src=app.get_asset_url('table_foot.png'),className="img"),
-    html.Div(dcc.Graph(id = "real-time-plot",animate = True)),
-    # html.Div([
-    #             html.Img(src=app.get_asset_url('table.png'),className="img"),
-    #             html.Img(src=app.get_asset_url('foot.png'), className="img")
-    #         ],className="three columns"),
+
+        ], className="six columns"),
+        html.Div(html.Img(src=app.get_asset_url('table_foot.png'),className="img"),className="four columns")
+    ],className="patient_details"),
+    html.Div(dcc.Graph(id = "real-time-plot",animate = True),className="twelve columns"),
     dcc.Interval(
         id = 'plot-update',
         interval = 1000
