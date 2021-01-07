@@ -88,39 +88,36 @@ patient_div =html.Div([
 #################################################### CONTROL AREA - BUTTONS, SLIDERS AND SO ON ####################################################
 
 control_div = html.Div([
-        html.Div([
-            html.Label('How many last values?'),
-            dcc.Slider(id='time-period', value=20, min=10, max=40, step=1),
-            html.Label('Refresh rate'),
-            dcc.Slider(id='refresh_slider', value=20, min=10, max=40, step=1),
-            html.Label("Real time values"),
-            daq.BooleanSwitch(id='real_switch',on=True)] ,className="four columns"),
-        html.Div([
             html.Div([
-                html.Table(
-                        [html.Tr([html.Td("From when?"),html.Td(dcc.Input(id="from"))]),
-                          html.Tr([html.Td("Till when"), html.Td(dcc.Input(id="till"))]),]),
-                html.Button('Submit(online in non-real-time)', id='submit-historical'),
-            ],className="six columns"),
+                html.Div([html.Span(html.H3("REAL-TIME MEASUREMENT"), className="logo")], className="four columns"),
+                html.Div([html.Span(html.H3("DISPLAY SETTINGS"))], className="four columns"),
+                html.Div([html.Span(html.H3("VIEW HISTORICAL DATA"))], className="four columns")],className="twelve columns"),
+            html.Div([
+                html.Label("Real time values"),
+                daq.BooleanSwitch(id='real_switch',on=True),
+                html.Label('Refresh rate'),
+                dcc.Slider(id='refresh_slider', value=20, min=10, max=40, step=1),
+            ], className="three columns"),
 
             html.Div([
-                html.Table(
-                    [html.Tr([html.Td("blablabdsla"), html.Td(dcc.Input(id="bldsa"))]),
-                     html.Tr([html.Td("blablabla"), html.Td(dcc.Input(id="blabla"))]),
-                     ]),
-                html.Button('Submit blabla', id='submit-blabla'),
-            ], className="six columns")
-        ],className="eight columns")
-        # html.Div([
-        #     html.Button('Real-Time Values', id='real-time-run'),
-        #     html.Label("Refresh time"),
-        #     dcc.Input(id="refresh_time"),
-        #     html.Label("From when?"),
-        #     dcc.Input(id="from"),
-        #     html.Label("Until when?"),
-        #     dcc.Input(id="until"),
-        #     html.Button('Submit(online in non-real-time)', id='submit-historical')], className="three columns")
-])
+                html.Label("Settle time-0 "),
+                html.Div([
+                    html.Div(dcc.Input(placeholder="time0"),className="six columns"),
+                    html.Div(daq.BooleanSwitch(id='time0_switch',on=True),className="six columns")],className="twelve columns"),
+                html.Div(html.Label('How many last values?')),
+                dcc.Slider(id='time-period', value=20, min=10, max=40, step=1),
+            ], className="four columns"),
+            html.Div([
+                html.Div([
+                    html.Div(html.Label("From when?"),className="six columns"),
+                    html.Div(dcc.Input(placeholder="time0"),className="six columns")],className="twelve columns"),
+                html.Div([
+                    html.Div(html.Label("Untill when?"), className="six columns"),
+                    html.Div(dcc.Input(placeholder="time1"), className="six columns")], className="twelve columns"),
+                html.Button('Visualize', id='visualize-historical'),
+                html.Button('Recalculate measures', id='recalc-historical'),
+            ], className="four columns"),
+],className="twelve columns")
 
 
 
