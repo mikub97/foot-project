@@ -5,12 +5,13 @@ certifi==2020.12.5
 chardet==4.0.0
 click==7.1.2
 cycler==0.10.0
+daq==0.4.2
 dash==1.12.0
 dash-core-components==1.10.0
+dash-daq==0.5.0
 dash-html-components==1.0.3
 dash-renderer==1.4.1
 dash-table==4.7.0
-dash-daq==0.5.0
 dashboard==0.0.6
 databases==0.4.1
 dcc==0.1.0
