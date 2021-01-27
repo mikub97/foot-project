@@ -5,7 +5,8 @@ import datetime
 import pandas as pd
 import requests
 
-sql_insert_traces = """Insert into traces (USERID,BIRTHDATE,DISABLED,FIRSTNAME,SECONDNAME,TRACENAME,TRACEID ,TRACETIME ,L0, L1, L2, R0, R1, R2) values (?,?,?,?,?,?,?,?,?, ?, ?, ?, ?,?);"""
+sql_insert_traces = """Insert into traces (USERID,BIRTHDATE,DISABLED,FIRSTNAME,SECONDNAME,TRACENAME,TRACEID ,TRACETIME ,L0, L1, L2, R0, R1, R2,
+                        L0_ANOMALY, L1_ANOMALY, L2_ANOMALY, R0_ANOMALY, R1_ANOMALY, R2_ANOMALY) values (?,?,?,?,?,?,?,?,?, ?, ?, ?, ?,?,?, ?, ?, ?, ?,?);"""
 
 sql_create_traces_table = """CREATE TABLE IF NOT EXISTS traces (
                                       userid integer NOT NULL,
@@ -16,6 +17,7 @@ sql_create_traces_table = """CREATE TABLE IF NOT EXISTS traces (
                                       TRACEID TEXT NULL,
                                       TRACENAME TEXT NULL,
                                       TRACETIME TEXT ,
+                                      L0_ANOMALY integer, L1_ANOMALY integer, L2_ANOMALY integer, R0_ANOMALY integer, R1_ANOMALY integer, R2_ANOMALY integer,
                                       L0 REAL, L1 REAL, L2 REAL, R0 REAL, R1 REAL, R2 REAL); """
 
 sql_create_users_table = """CREATE TABLE IF NOT EXISTS users (
@@ -95,21 +97,28 @@ def get_users(c) :
 
 def getTraces(conn, patient):
     c = conn.cursor()
-    c.execute("SELECT TRACETIME,L0,L1,L2,R0,R1,R2 FROM 'traces' WHERE SECONDNAME = '" + str(
+    c.execute("SELECT TRACETIME,L0,L1,L2,R0,R1,R2,L0_ANOMALY,L1_ANOMALY,L2_ANOMALY,R0_ANOMALY,R1_ANOMALY,R2_ANOMALY  FROM 'traces' WHERE SECONDNAME = '" + str(
         patient) + "' ORDER BY TRACETIME DESC ")
     rows = c.fetchall()
     dataSQL = [list(row) for row in rows]
-    labels = ["T", "L0", 'L1', 'L2', 'R0', 'R1', 'R2']
+    labels = ["T", "L0", 'L1', 'L2', 'R0', 'R1', 'R2',"L0_ANOMALY","L1_ANOMALY","L2_ANOMALY","R0_ANOMALY","R1_ANOMALY","R2_ANOMALY"]
     df = pd.DataFrame.from_records(dataSQL, columns=labels)
     return df
+
+def getUserInfo(conn, surname):
+    c = conn.cursor()
+    c.execute("SELECT * FROM 'users' WHERE SECONDNAME = '" + str(
+        surname)+"'")
+    row = c.fetchall()[0]
+    return row
 
 def getTracesBetween(conn, patient, from_when,till_when):
     c = conn.cursor()
     c.execute(
-        '''SELECT TRACETIME,L0,L1,L2,R0,R1,R2 FROM TRACES WHERE SECONDNAME = ? AND TRACETIME BETWEEN ? AND ? ORDER BY TRACETIME DESC;''',(str(patient),from_when,till_when))
+        '''SELECT TRACETIME,L0,L1,L2,R0,R1,R2,L0_ANOMALY,L1_ANOMALY,L2_ANOMALY,R0_ANOMALY,R1_ANOMALY,R2_ANOMALY  FROM TRACES WHERE SECONDNAME = ? AND TRACETIME BETWEEN ? AND ? ORDER BY TRACETIME DESC;''',(str(patient),from_when,till_when))
     rows = c.fetchall()
     dataSQL = [list(row) for row in rows]
-    labels = ["T", "L0", 'L1', 'L2', 'R0', 'R1', 'R2']
+    labels = ["T", "L0", 'L1', 'L2', 'R0', 'R1', 'R2',"L0_ANOMALY","L1_ANOMALY","L2_ANOMALY","R0_ANOMALY","R1_ANOMALY","R2_ANOMALY"]
     df = pd.DataFrame.from_records(dataSQL, columns=labels)
     return df
 def fetch_data(conn):
@@ -139,12 +148,19 @@ def fetch_data(conn):
             R0 = data["trace"]["sensors"][3]["value"]
             R1 = data["trace"]["sensors"][4]["value"]
             R2 = data["trace"]["sensors"][5]["value"]
+            L0_a = data["trace"]["sensors"][0]["anomaly"]
+            L1_a = data["trace"]["sensors"][1]["anomaly"]
+            L2_a = data["trace"]["sensors"][2]["anomaly"]
+            R0_a = data["trace"]["sensors"][3]["anomaly"]
+            R1_a = data["trace"]["sensors"][4]["anomaly"]
+            R2_a = data["trace"]["sensors"][5]["anomaly"]
+
             ID = ID + 1
             # """Insert into traces
             # (USERID,BIRTHDATE,DISABLED,FIRSTNAME,SECONDNAME,TRACENAME,TRACEID TRACETIME ,L0, L1, L2, R0, R1, R2) values (?,?,?,?,?,?,?,?,?, ?, ?, ?, ?,?);"""
             try:
                 cur.execute(sql_insert_traces, (
-                uId, birthdate, disabled, firstname, secondname, traceName, traceId, traceDate, L0, L1, L2, R0, R1, R2))
+                uId, birthdate, disabled, firstname, secondname, traceName, traceId, traceDate, L0, L1, L2, R0, R1, R2,L0_a, L1_a, L2_a, R0_a, R1_a, R2_a))
 
             except:
                 traceback.print_exc();
@@ -157,6 +173,9 @@ def prepare():
     database = "realtime.db"
     conn = create_connection(database)
     static_user_info(conn)
+    if conn is not None:
+        # create projects table
+        create_table(conn, sql_create_traces_table)
 
 def main():
     database = "realtime.db"
