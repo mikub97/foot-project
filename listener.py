@@ -1,7 +1,8 @@
 import sqlite3
 import time
 import traceback
-
+import datetime
+import pandas as pd
 import requests
 
 sql_insert_traces = """Insert into traces (USERID,BIRTHDATE,DISABLED,FIRSTNAME,SECONDNAME,TRACENAME,TRACEID ,TRACETIME ,L0, L1, L2, R0, R1, R2) values (?,?,?,?,?,?,?,?,?, ?, ?, ?, ?,?);"""
@@ -14,7 +15,7 @@ sql_create_traces_table = """CREATE TABLE IF NOT EXISTS traces (
                                       secondname TEXT NULL,
                                       TRACEID TEXT NULL,
                                       TRACENAME TEXT NULL,
-                                      TRACETIME REAL,
+                                      TRACETIME TEXT ,
                                       L0 REAL, L1 REAL, L2 REAL, R0 REAL, R1 REAL, R2 REAL); """
 
 sql_create_users_table = """CREATE TABLE IF NOT EXISTS users (
@@ -71,6 +72,7 @@ def static_user_info(conn):
         firstname = data["firstname"]
         secondname = data["lastname"]
         uId = data["id"]
+
         cur.execute(sql_insert_users, (uId,birthdate,disabled,firstname,secondname));
     conn.commit();
 
@@ -91,6 +93,25 @@ def get_users(c) :
 
     return users;
 
+def getTraces(conn, patient):
+    c = conn.cursor()
+    c.execute("SELECT TRACETIME,L0,L1,L2,R0,R1,R2 FROM 'traces' WHERE SECONDNAME = '" + str(
+        patient) + "' ORDER BY TRACETIME DESC ")
+    rows = c.fetchall()
+    dataSQL = [list(row) for row in rows]
+    labels = ["T", "L0", 'L1', 'L2', 'R0', 'R1', 'R2']
+    df = pd.DataFrame.from_records(dataSQL, columns=labels)
+    return df
+
+def getTracesBetween(conn, patient, from_when,till_when):
+    c = conn.cursor()
+    c.execute(
+        '''SELECT TRACETIME,L0,L1,L2,R0,R1,R2 FROM TRACES WHERE SECONDNAME = ? AND TRACETIME BETWEEN ? AND ? ORDER BY TRACETIME DESC;''',(str(patient),from_when,till_when))
+    rows = c.fetchall()
+    dataSQL = [list(row) for row in rows]
+    labels = ["T", "L0", 'L1', 'L2', 'R0', 'R1', 'R2']
+    df = pd.DataFrame.from_records(dataSQL, columns=labels)
+    return df
 def fetch_data(conn):
     cur = conn.cursor()
 
@@ -111,7 +132,7 @@ def fetch_data(conn):
             uId = data["id"]
             traceId = data["trace"]["id"]
             traceName = data["trace"]["name"]
-            traceTime = time.time()
+            traceDate = datetime.datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S')
             L0 = data["trace"]["sensors"][0]["value"]
             L1 = data["trace"]["sensors"][1]["value"]
             L2 = data["trace"]["sensors"][2]["value"]
@@ -119,13 +140,11 @@ def fetch_data(conn):
             R1 = data["trace"]["sensors"][4]["value"]
             R2 = data["trace"]["sensors"][5]["value"]
             ID = ID + 1
-            print(ID, traceTime, L0, L1, L2, R0, R1, R2)
-
             # """Insert into traces
             # (USERID,BIRTHDATE,DISABLED,FIRSTNAME,SECONDNAME,TRACENAME,TRACEID TRACETIME ,L0, L1, L2, R0, R1, R2) values (?,?,?,?,?,?,?,?,?, ?, ?, ?, ?,?);"""
             try:
                 cur.execute(sql_insert_traces, (
-                uId, birthdate, disabled, firstname, secondname, traceName, traceId, traceTime, L0, L1, L2, R0, R1, R2))
+                uId, birthdate, disabled, firstname, secondname, traceName, traceId, traceDate, L0, L1, L2, R0, R1, R2))
 
             except:
                 traceback.print_exc();
@@ -133,6 +152,12 @@ def fetch_data(conn):
                 exit()
         conn.commit()
         time.sleep(1)
+
+def prepare():
+    database = "realtime.db"
+    conn = create_connection(database)
+    static_user_info(conn)
+
 def main():
     database = "realtime.db"
     conn = create_connection(database)
