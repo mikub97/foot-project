@@ -85,12 +85,14 @@ control_div = html.Div([
             #     html.Div([html.Span(html.H3("CONTROLING DATA DISPLAY"))], className="four columns")],className="twelve columns"),
             html.Div([
                 html.Div([
+                    html.Label("From when?"),
                     dcc.Input(id='time1-input', placeholder="%Y-%m-%d %H:%M:%S"),
+                    html.Label("Untill when?"),
                     dcc.Input(id='time2-input', placeholder="%Y-%m-%d %H:%M:%S"),
                     html.Div(html.Label('How many last values?')),
-                    dcc.Slider(id='time-period', value=20, min=5, max=100, step=1),
+                    dcc.Slider(id='time-period', value=5, min=5, max=100, step=1),
                     html.Div(id='time-period-value')
-                ],className="twelve columns"),
+                ],className="six columns"),
             ], className="twelve columns"),
 ],className="twelve columns")
 
