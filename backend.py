@@ -53,15 +53,15 @@ statistical_vs = ['L0_avg','L0_med','L0_min','L0_max','L0_q1','L0_q3',
                   'avg2','min2','max2','sth2',"some2",
                   'avg3','min3','max3','sth3',"some3",
                   'avg4','min4','max4','sth4',"some4"]
-
-patient_info = ["Firstname : ","Secondname : ",'Birthdate : ','Is disabled? ']
+patient_info_str = ["Firstname : ","Secondname : ",'Birthdate : ','Is disabled? ']
+patient_info = ["firstname","secondname",'birthdate','is disabled?']
 patient_div =html.Div([
         html.Div([
             dcc.Dropdown(id='patient-picker', options=patient_picker_options, value=users[0]['secondname'], placeholder="Select a user",),
             html.H3("PATIENT INFO"),
             html.Table(
                 ([html.Tr([
-                    html.Td(val), html.Td([],id=val + "_v")]) for val in patient_info])
+                    html.Td(s), html.Td([],id=val + "_v")]) for val,s in zip(patient_info,patient_info_str)])
             ),
             html.Div([
             html.Div([],id="interal-switch-info"),
