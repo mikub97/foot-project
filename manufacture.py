@@ -20,11 +20,6 @@ def createScatterPlot(df):
             marker={'size': 15},
         ))
     fig = go.Figure(data=data)
-    fig.update_layout(go.Layout(
-        xaxis=dict(range=[min(X), max(X)]),         ## wronng !
-        yaxis=dict(range=[min(Y), max(Y)]),         ## wronng !
-        hovermode='closest'))
-
     anomal = df[((df['L0_ANOMALY']==1) |(df['L1_ANOMALY']==1) |(df['L2_ANOMALY']==1) |(df['R0_ANOMALY']==1) |(df['R1_ANOMALY']==1) |(df['R2_ANOMALY']==1))].values.tolist()
     annot = []
     for r in anomal:
@@ -36,11 +31,13 @@ def createScatterPlot(df):
                 xanchor="left",
                 xshift=10,
                 opacity=0.7))
+    # print(min(df[sensors].values.min(axis=1)), max(df[sensors].values.max(axis=1)))
 
     fig.update_layout(
-            xaxis=dict(type="date"),
-            yaxis=dict(type="linear"),
-            annotations=annot
+            xaxis=dict(title="time",range=[min(df['T']), max(df['T'])], type="date"),
+            yaxis=dict(title= "preasure",range = [min(df[sensors].values.min(axis=1)), max(df[sensors].values.max(axis=1))+20],type="linear"),
+            annotations=annot,
+            hovermode='closest'
     )
     return fig
 
@@ -63,9 +60,13 @@ def createBoxPlot(df):
         )
     box_plot.update_layout(
         title='Sensor Statistics',
+        xaxis=dict(
+            title="sensor",
+        ),
         yaxis=dict(
-            autorange=False,
-            range=[0,1050],
+            title="preasure",
+            type="linear",
+            autorange=True,
             showgrid=True,
             zeroline=True,
             dtick=5,

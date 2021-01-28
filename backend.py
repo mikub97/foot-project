@@ -53,36 +53,8 @@ statistical_vs = ['L0_avg','L0_med','L0_min','L0_max','L0_q1','L0_q3',
                   'avg2','min2','max2','sth2',"some2",
                   'avg3','min3','max3','sth3',"some3",
                   'avg4','min4','max4','sth4',"some4"]
-table = dash_table.DataTable(id="statistical_table")
-nrows=5
+
 patient_info = ["firstname","secondname",'birthdate','is disabled?']
-tab =  html.Div([
-                html.Div(
-                    html.Table(
-                        # Header
-                        [html.Tr([html.Th(col) for col in ["MEASURE","VALUE"]])] +
-                        # Body
-                        ([html.Tr([html.Td(val),html.Td(val+"_v",id=val+"_v")]) for val in statistical_vs][0:nrows])),className="three columns")
-                ,
-                html.Div(
-                    html.Table(
-                        # Header
-                        [html.Tr([html.Th(col) for col in ["MEASURE","VALUE"]])] +
-                        # Body
-                        ([html.Tr([html.Td(val),html.Td(val+"_v",id=val+"_v")]) for val in statistical_vs][nrows:nrows*2])),className="three columns"),
-                html.Div(
-                    html.Table(
-                        # Header
-                        [html.Tr([html.Th(col) for col in ["MEASURE","VALUE"]])] +
-                        # Body
-                        ([html.Tr([html.Td(val),html.Td(val+"_v",id=val+"_v")]) for val in statistical_vs][nrows*2:nrows*3])),className="three columns"),
-                html.Div(
-                    html.Table(
-                        # Header
-                        [html.Tr([html.Th(col) for col in ["MEASURE","VALUE"]])] +
-                        # Body
-                        ([html.Tr([html.Td(val),html.Td(val+"_v",id=val+"_v")]) for val in statistical_vs][nrows*3:nrows*4])),className="three columns")
-            ])
 patient_div =html.Div([
         html.Div([
             dcc.Dropdown(id='patient-picker', options=patient_picker_options, value=users[0]['secondname'], placeholder="Select a user",),
@@ -106,19 +78,19 @@ patient_div =html.Div([
 
 #################################################### CONTROL AREA - BUTTONS, SLIDERS AND SO ON ####################################################
 
+dff = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/solar.csv')
 control_div = html.Div([
+            # html.Div([
+            #     html.Div([html.Span(html.H3("ANONAMALY"))], className="eight columns"),
+            #     html.Div([html.Span(html.H3("CONTROLING DATA DISPLAY"))], className="four columns")],className="twelve columns"),
             html.Div([
-                html.Div([html.Span(html.H3("ANONAMALY"))], className="eight columns"),
-                html.Div([html.Span(html.H3("CONTROLING DATA DISPLAY"))], className="four columns")],className="twelve columns"),
-            html.Div([
-                html.Div([html.Span(html.H3("Something"))], className="eight columns"),
                 html.Div([
                     dcc.Input(id='time1-input', placeholder="%Y-%m-%d %H:%M:%S"),
                     dcc.Input(id='time2-input', placeholder="%Y-%m-%d %H:%M:%S"),
                     html.Div(html.Label('How many last values?')),
                     dcc.Slider(id='time-period', value=20, min=5, max=100, step=1),
                     html.Div(id='time-period-value')
-                ],className="four columns"),
+                ],className="twelve columns"),
             ], className="twelve columns"),
 ],className="twelve columns")
 
@@ -194,8 +166,7 @@ def update_output(value):
     return 'You have selected "{}"'.format(value)
 
 @app.callback(
-    [Output("statistical_table", "data"),
-    Output("table-switch-info","children")],
+    Output("table-switch-info","children"),
     [Input("table-switch-","on")],
 )
 def toggle_interval(n, disabled):
