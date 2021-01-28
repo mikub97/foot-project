@@ -63,8 +63,9 @@ patient_div =html.Div([
                 ([html.Tr([
                     html.Td(val), html.Td([],id=val + "_v")]) for val in patient_info])
             ),
+            html.Div([
             html.Div([],id="interal-switch-info"),
-            daq.BooleanSwitch(id='interval-switch', on=False, color="#666666", ),
+            daq.BooleanSwitch(id='interval-switch', on=False, color="#666666", )],style={"margin-top":"10px"}),
 
         ], className="three columns"),
         html.Div([
