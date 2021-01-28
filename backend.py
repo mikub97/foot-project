@@ -54,7 +54,7 @@ statistical_vs = ['L0_avg','L0_med','L0_min','L0_max','L0_q1','L0_q3',
                   'avg3','min3','max3','sth3',"some3",
                   'avg4','min4','max4','sth4',"some4"]
 
-patient_info = ["firstname","secondname",'birthdate','is disabled?']
+patient_info = ["Firstname : ","Secondname : ",'Birthdate : ','Is disabled? ']
 patient_div =html.Div([
         html.Div([
             dcc.Dropdown(id='patient-picker', options=patient_picker_options, value=users[0]['secondname'], placeholder="Select a user",),

@@ -51,7 +51,7 @@ def createScatterPlot(df):
                                 x=r[0],
                                 y=1.06,
                                 showarrow=False,
-                                text='A!',
+                                text='!',
                                 textangle=0,
                                 xref="x",
                                 yref="paper"
@@ -80,7 +80,7 @@ def createBoxPlot(df):
             title="sensor",
         ),
         yaxis=dict(
-            title="preasure",
+            title="pressure",
             type="linear",
             autorange=True,
             tickmode="array",
