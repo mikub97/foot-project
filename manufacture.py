@@ -4,48 +4,64 @@ import plotly .graph_objs as go
 from listener import getTracesBetween, getTraces
 
 sensors = ["L0","L1","L2","R0","R1","R2"]
-
+colors = ['rgba(99, 160, 203, 0.5)', 'rgba(255, 166, 87, 0.5)', 'rgba(108, 189, 108, 0.5)',
+          'rgba(226, 104, 105, 0.5)', 'rgba(180, 149, 209, 0.5)', 'rgba(175, 137, 129, 0.5)']
 def createScatterPlot(df):
     # print(df)
     data = []
-    for s in sensors:
+
+    for sensor, cls in zip(sensors, colors):
         X = df["T"]
-        Y = df[s]
+        Y = df[sensor]
         data.append(go.Scatter(
             x=list(X),
             y=list(Y),
-            name=s,
+            name=sensor,
             mode='lines',
+            fillcolor=cls,
             opacity=0.7,
             marker={'size': 15},
         ))
     fig = go.Figure(data=data)
-    anomal = df[((df['L0_ANOMALY']==1) |(df['L1_ANOMALY']==1) |(df['L2_ANOMALY']==1) |(df['R0_ANOMALY']==1) |(df['R1_ANOMALY']==1) |(df['R2_ANOMALY']==1))].values.tolist()
-    annot = []
-    for r in anomal:
-        annot.append(dict(
-                showarrow=True,
-                x=r[0],
-                y=500,
-                text="ANOMALY ! ",
-                xanchor="left",
-                xshift=10,
-                opacity=0.7))
-    # print(min(df[sensors].values.min(axis=1)), max(df[sensors].values.max(axis=1)))
-
-    fig.update_layout(
-            xaxis=dict(title="time",range=[min(df['T']), max(df['T'])], type="date"),
-            yaxis=dict(title= "preasure",range = [min(df[sensors].values.min(axis=1)), max(df[sensors].values.max(axis=1))+20],type="linear"),
-            annotations=annot,
+    try:
+        fig.update_layout(
+            margin=dict(t=150),
+            xaxis=dict(title="time", range=[min(df['T']), max(df['T'])], type="date"),
+            yaxis=dict(title="preasure",
+                       range=[min(df[sensors].values.min(axis=1)), max(df[sensors].values.max(axis=1)) + 20],
+                       type="linear"),
+            # annotations=annot,
             hovermode='closest'
-    )
+        )
+    except:
+        print('Error, df is empty')
+    anomal = df[((df['L0_ANOMALY']==1) |(df['L1_ANOMALY']==1) |(df['L2_ANOMALY']==1) |(df['R0_ANOMALY']==1) |(df['R1_ANOMALY']==1) |(df['R2_ANOMALY']==1))].values.tolist()
+    for r in anomal:
+        fig.add_shape(type='line',
+                      x0=r[0],
+                      y0=0,
+                      x1=r[0],
+                      y1=1,
+                      line=dict(color='red', dash='dot'),
+                      xref='x',
+                      yref='paper'
+                      )
+        fig.add_annotation(dict(font=dict(color="black", size=12),
+                                # x=x_loc,
+                                x=r[0],
+                                y=1.06,
+                                showarrow=False,
+                                text='A!',
+                                textangle=0,
+                                xref="x",
+                                yref="paper"
+                                ))
+
     return fig
 
 
 def createBoxPlot(df):
 
-    colors = ['rgba(99, 160, 203, 0.5)', 'rgba(255, 166, 87, 0.5)', 'rgba(108, 189, 108, 0.5)',
-              'rgba(226, 104, 105, 0.5)', 'rgba(180, 149, 209, 0.5)', 'rgba(175, 137, 129, 0.5)']
     box_plot = go.Figure()
     for sensor, cls in zip(sensors, colors):
         box_plot.add_trace(go.Box(
@@ -67,8 +83,10 @@ def createBoxPlot(df):
             title="preasure",
             type="linear",
             autorange=True,
+            tickmode="array",
             showgrid=True,
             zeroline=True,
+            nticks=10,
             dtick=5,
             gridcolor='rgb(255, 255, 255)',
             gridwidth=1,
