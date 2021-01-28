@@ -27,7 +27,7 @@ def createScatterPlot(df):
         fig.update_layout(
             margin=dict(t=150),
             xaxis=dict(title="time", range=[min(df['T']), max(df['T'])], type="date"),
-            yaxis=dict(title="preasure",
+            yaxis=dict(title="pressure",
                        range=[min(df[sensors].values.min(axis=1)), max(df[sensors].values.max(axis=1)) + 20],
                        type="linear"),
             # annotations=annot,

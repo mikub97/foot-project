@@ -79,11 +79,8 @@ patient_div =html.Div([
 
 #################################################### CONTROL AREA - BUTTONS, SLIDERS AND SO ON ####################################################
 
-dff = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/solar.csv')
 control_div = html.Div([
-            # html.Div([
-            #     html.Div([html.Span(html.H3("ANONAMALY"))], className="eight columns"),
-            #     html.Div([html.Span(html.H3("CONTROLING DATA DISPLAY"))], className="four columns")],className="twelve columns"),
+
             html.Div([
                 html.Div([
                     html.Label("From when?"),
