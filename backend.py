@@ -165,16 +165,6 @@ def toggle_interval(n, disabled):
 def update_output(value):
     return 'You have selected "{}"'.format(value)
 
-@app.callback(
-    Output("table-switch-info","children"),
-    [Input("table-switch-","on")],
-)
-def toggle_interval(n, disabled):
-    if n:
-        state = "on"
-    else:
-        state="off"
-    return (n,"Pause on plots' updating is "+state)
 
 
 
