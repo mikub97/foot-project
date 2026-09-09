@@ -12,7 +12,7 @@ Run `python fetch_data.py` once to download and ingest the data, then
 import asyncio
 import time
 
-from dash import Dash, Input, Output, State, ctx, dcc, html, set_props
+from dash import Dash, Input, Output, ctx, dcc, html, set_props
 from dash.exceptions import PreventUpdate
 
 import figures
