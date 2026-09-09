@@ -1,30 +1,10 @@
+/* Walking process analysis — dashboard styles.
+   Lines 1..N below are this app's own rules; the block that follows is the
+   Skeleton grid the layout's "three columns" / "twelve columns" classes use. */
 
-table{
-    font-size : 0.85vw;
-    margin: 0 auto;
-}
-
-.logo{
-
-}
-H3{
+H3 {
     text-align: center;
     margin-top: 10px;
-}
-
-div {
-    /*margin: 0 auto;*/
-}
-.img {
-  display: block;
-   margin: 0 auto;
-  height : 100%;
-  width : 100%;
-}
-
-button{
-    margin: 0 auto;
-
 }
 /*!* Table of contents ––––––––––––––––––––––––––––––––––––––––––––––––––*/
 /*Taken from https://codepen.io/chriddyp/pen/bWLwgP.css*/
@@ -452,9 +432,9 @@ html, body{
 body {
   background-color: #1E1E1E;
   color: #d8d8d8;
-  height: 100%;
   margin: 0;
   padding: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
 }
 
 .react-entry-point{
@@ -462,110 +442,121 @@ body {
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: "Open Sans Semi Bold";
   letter-spacing: 2.1px;
-  font-size: 21px;
-  padding-left: 12px;
+  font-size: 15px;
+  color: #ffffff;
+  padding-left: 0;
 }
-p {
-  font-family: "Open Sans Light";
-  font-weight: 400;
-  font-size: 14px;
-  padding-left: 12px;
+
+.container-fluid {
+  padding: 12px 18px 4px;
+  max-width: 1800px;
+  margin: 0 auto;
 }
-a {
-  text-decoration: none;
+
+.row {
+  margin-bottom: 6px;
 }
-.bg-grey{
-  background-color: #31302F;
-}
-.text-padding{
-  padding: 5px;
-}
-/* Graph Layout ––––––––––––––––––––––––––––––––––––––––––––––––––*/
-.div-for-charts{
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  width: 100%;
-}
-#histogram {
-  flex-grow: 1
-}
-#map-graph {
-  flex-grow: 2
-}
-.mapboxgl-canvas, .mapboxgl-map {
-  min-width: 100%;
-}
-/* Graph Control Objects ––––––––––––––––––––––––––––––––––––––––––––––––––*/
-.div-user-controls {
-  padding-left: 55px;
-  padding-top: 64px;
-  background-color: #666666;
-}
-.div-for-dropdown {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  margin-top: 12px;
-  background-color: #666666;
-  
-}
-.div-for-slider {
-  width: 97%;
-  text-align: center;
-  background-color: #666666;
-}
+
 .logo {
-  height: 50px;
-  padding-bottom: 12px;
-}
-.Select-control, .Select-menu-outer, .Select-multi-value-wrapper, .select-up, .is-open .Select-control {
-  background-color: #1E1E1E;
-  color: white;
-
+  letter-spacing: 3px;
+  font-size: 19px;
 }
 
-#modelselector .Select-control{
-  max-height: 82px;
-  overflow-y: auto;
-  margin: 0px 0px -3px 0px;
-  border: 0.5px solid #dbdbdb44;
+.subtitle {
+  display: block;
+  text-align: right;
+  color: #898781;
+  font-size: 12px;
+  padding-top: 14px;
 }
 
-.Select-control{
-  border: 0.5px solid #dbdbdb44;
+/* Panels –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.panel {
+  background-color: #232322;
+  border: 1px solid #2c2c2a;
+  border-radius: 4px;
+  padding: 10px 14px 16px;
+  box-sizing: border-box;
 }
 
-.has-value.Select--single>.Select-control .Select-value .Select-value-label, .has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label {
-  color: white;
-  background: #1E1E1E;
-  background-color: #1E1E1E;
+.hint {
+  color: #898781;
+  font-size: 11px;
+  margin-bottom: 8px;
 }
-._dash-app-content {
-  overflow-x: hidden;
-  overflow-y: hidden;
-  position: relative;
+
+.footer {
+  color: #898781;
+  font-size: 11px;
+  padding: 10px 2px 16px;
+  border-top: 1px solid #2c2c2a;
+  margin-top: 6px;
 }
-.has-value.Select--single>.Select-control .Select-value .Select-value-label, .has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-labeln {
+
+/* Subject info table –––––––––––––––––––––––––––––––––––––– */
+.info-table {
+  width: 100%;
+  font-size: 12px;
+  margin: 8px 0 0;
+}
+
+.info-table td {
+  border-bottom: 1px solid #2c2c2a;
+  padding: 4px 2px;
+}
+
+.info-label {
+  color: #898781;
+}
+
+.info-value {
+  color: #ffffff;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.stream-status {
+  color: #c3c2b7;
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+  padding: 6px 0 10px;
+}
+
+/* Controls –––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Dash 4 themes all of its own controls off one variable; retint it to the
+   chart palette rather than reaching into component internals. */
+:root {
+  --Dash-Fill-Interactive-Strong: #3987e5;
+}
+
+/* Native inputs (the pause checkbox, the speed radios) use accent-color. */
+input[type="checkbox"], input[type="radio"] {
+  accent-color: #3987e5;
+}
+
+.dash-slider-mark {
+  color: #898781 !important;
+}
+
+label {
+  color: #898781;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+
+.toggle label {
   color: #d8d8d8;
-  font-weight: 400;
-  font-size: 14px;
+  margin-right: 14px;
+  cursor: pointer;
 }
 
-.Input.DateInput_1 {
-  background-color: #1e1e1e;
-}
-
-#date {
-  background-color: #1e1e1e;
-  font-family: "Open Sans Light";
-  font-weight: 400;
-  color: #dbdbdb;
-  border: 0.5px solid #dbdbdb44;
-}
-
-#date-picker{
+input[type="number"] {
+  background-color: #1E1E1E;
+  color: #d8d8d8;
+  border: 1px solid #3a3a38;
+  border-radius: 3px;
   width: 100%;
 }
 
@@ -573,45 +564,8 @@ a {
   display: none;
 }
 
-.DateInput.DateInput_1{
-  width: 100%;
-}
-
-.SingleDatePickerInput__withBorder{
-  border:none;
-}
-
-.DateInput.DateInput_1 {
-  background-color: #1e1e1e;
-}
-
-.SingleDatePickerInput__withBorder {
-  border-radius: 3px;
-  color: #dbdbdb;
-  background: #1e1e1e;
-  background-color: #1e1e1e;
-}
-
-.SingleDatePickerInput.SingleDatePickerInput_1.SingleDatePickerInput__withBorder.SingleDatePickerInput__withBorder_2 {
-  border: 0.0px solid #dbdbdb;
-  display: block;
-}
-
-.SingleDatePicker_1 {
-  border: 0.0px solid #dbdbdb;
-  display: block;
-}
-
-.SingleDatePicker_picker, .SingleDatePicker_picker_1, .SingleDatePicker_picker__directionLeft,
-.SingleDatePicker_picker__directionLeft_2{
-  filter:invert(100%);
-}
-
 /* For Mobile Phones and small screens ––––––––––––––––––––––––––––––––––––––––––––––––––*/
 @media only screen and (max-width: 768px) {
-  .four, .eight {
-      min-width: 100%;
- }
   h1, h2, h3, p {
       text-align: center;
  }
@@ -620,29 +574,8 @@ a {
       margin: 0px;
       overflow-y: scroll;
   }
-  .div-for-charts {
-      padding: 0px;
-      width: 100%;
+  .subtitle {
       text-align: center;
- }
-
- .div-user-controls {
-    padding: 32px;
- }
-
- .side-by-side{
-    display: inline-block;
-    width: 48%;
-  }
-
-
- .side-by-side-right{
-    display: inline-block;
-    width: 48%;
-    float:right;
-  }
-  .div-for-charts{
-    margin: 0px;
   }
 }
 

@@ -1,0 +1,4 @@
+# Test-only dependencies. The dashboard itself needs requirements.txt.
+# After installing, fetch the browser once with: playwright install chromium
+playwright>=1.40
+pytest>=8.0

@@ -1,0 +1,7 @@
+# Downloaded PhysioNet recordings (fetch with `python fetch_data.py`)
+data/
+# Ingested SQLite database
+gait.db
+__pycache__/
+*.pyc
+.venv/
