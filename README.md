@@ -132,6 +132,9 @@ fetch_data.py  CLI for downloading and ingesting
 tests/         end-to-end browser checks
 ```
 
+[docs/architecture.md](docs/architecture.md) has the data-flow diagrams, the
+database schema, and where to make common changes.
+
 ## Tests
 
 The UI is driven entirely by WebSocket pushes, so the tests drive a real browser:
