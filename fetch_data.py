@@ -30,6 +30,13 @@ def main(argv=None):
     parser.add_argument(
         "--force", action="store_true", help="re-download files already on disk"
     )
+    parser.add_argument(
+        "--dual-task",
+        action="store_true",
+        help="also fetch each subject's dual-task walk (walk 10, Ga study only): "
+        "the same person walking while counting backwards in sevens. Defaults to "
+        f"{','.join(gaitdata.DUAL_TASK_SUBJECTS)}, which are the subjects that have it.",
+    )
     args = parser.parse_args(argv)
 
     if args.list:
@@ -43,15 +50,23 @@ def main(argv=None):
         print(f"\n{len(demographics)} subjects.")
         return 0
 
-    subjects = args.subjects.split(",") if args.subjects else None
+    if args.subjects:
+        subjects = args.subjects.split(",")
+    elif args.dual_task:
+        subjects = gaitdata.DUAL_TASK_SUBJECTS
+    else:
+        subjects = None
+
+    walks = ((gaitdata.USUAL_WALK, gaitdata.DUAL_TASK_WALK) if args.dual_task
+             else (gaitdata.USUAL_WALK,))
 
     print(f"Downloading from {gaitdata.BASE_URL}")
-    gaitdata.download(subject_ids=subjects, force=args.force)
+    gaitdata.download(subject_ids=subjects, force=args.force, walks=walks)
 
     print("\nIngesting into", gaitdata.DB_PATH)
-    ingested = gaitdata.ingest(subject_ids=subjects)
+    ingested = gaitdata.ingest(subject_ids=subjects, walks=walks)
 
-    print(f"\nReady: {len(ingested)} subjects. Start the dashboard with `python app.py`.")
+    print(f"\nReady: {len(ingested)} recordings. Start the dashboard with `python app.py`.")
     return 0
 
 
