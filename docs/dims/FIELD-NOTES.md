@@ -272,3 +272,26 @@ the hardcoded **"ROI Synchrony Over Time for Video GaPt03"** sitting directly
 above two foot-force traces. That is the clearest single illustration of the
 `timeseries.js:82` finding.
 
+## 2026-09-10 — what I did not reach
+
+**04:20 `NOTE`** Stated plainly so the report is not read as complete.
+
+- **Phase 2's dual-task ingest was not built.** `record_filename()` still
+  hardcodes `_01`, so the `_10` serial-7 recordings — the cognitive-load
+  contrast, and the whole point of the embodied-cognition framing — are still
+  not in `gait.db`. The DTW proposal in
+  [#24](https://github.com/dims-network/dims/issues/24) argues from data I have
+  verified exists in the dataset but have not yet ingested. That is the next
+  thing to do, and it is work on *my* project, not on DIMS.
+- **E5, the ELAN round-trip, was not run.** DIMS ships an ELAN tab and my
+  `_anomaly_spans()` already produces tier-shaped `(start, end)` ranges, so this
+  is close — but "shipped" is not "tested", and I have claimed only the former.
+- **E7, multi-stream clock alignment, was not run.** This is the one that
+  decides whether my IMU work can live here, and it is the open question the
+  report ends on.
+- **E1's cold-start figure is honest but favourable to me**: 3 minutes on the
+  coder path, on a machine that already had Python, git and a warm pip cache.
+
+**04:20 `NOTE`** Regression check on my own project: `8 passed` against a live
+`app.py`. The adapter is additive — no existing module changed.
+
