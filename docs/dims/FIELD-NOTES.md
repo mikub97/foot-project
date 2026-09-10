@@ -99,3 +99,45 @@ self-registering file", "Add an analysis" = "one Python class". There is a
 `window.DIMS` browser API and a host runtime owning "the shared time axis, the
 tab lifecycle, the video" — which is the seam my foot-map renderer needs.
 
+**03:47 `INCONSISTENCY` — the public site is three minor versions stale** —
+severity: high, cost: one line.
+*Location:* <https://dims-network.github.io/> vs `pyproject.toml`.
+*Expected:* the front page names the current release.
+*Actual:* the page says **v1.0.1** (twice); the repository is **v1.4.1**.
+*Why it matters to an outsider:* the version on the front page is the number I
+would cite in a methods section and pin in a study config. Getting it wrong is
+not cosmetic.
+
+**03:47 `BUG` (documentation) — the front page still quotes a figure the project
+already retracted** — severity: high, cost: one sentence.
+*Location:* <https://dims-network.github.io/> — "signals score about 0.25, not 0".
+*Expected:* the site agrees with the code and the changelog.
+*Actual:* `CHANGELOG.md` for v1.4.1 says exactly this number was removed from the
+README because it "merged a mean with a 95th percentile and generalised one
+study's measurement into a range", and that "The README no longer quotes a
+number". The website was never updated, so the retracted figure is still the
+first quantitative claim a new reader meets.
+*Repro:* `curl -s https://dims-network.github.io/ | grep 0.25`
+*Fix:* apply the same correction the README got; or, better, generate the site's
+claims from the same source as the docs so the two cannot drift again.
+*Note:* I believed this figure on first read and wrote it into my own notes at
+03:45 as a reason to change my plans. That is the actual cost of a stale site.
+
+**03:47 `ATTENTION` — I disturbed your environment and put it back.**
+`pip install -e ./dims`, run verbatim from `setup.html`, went into your **conda
+base env** and uninstalled the `dims-network` already there (recorded 1.1.0),
+replacing it with an editable install pointing into my throwaway clone. I
+restored it: `dims-network` is editable again from
+`/Users/m11/Documents/codes/DIMS_ALL/dims`, your own checkout, now recording
+1.4.1 (that directory is at 1.4.1; the 1.1.0 was stale install-time metadata).
+Your checkout itself was never read or modified — outsider discipline, and it
+may hold unpublished work. All my work is now in an isolated venv.
+*The finding underneath:* `setup.html` gives `pip install -e ./dims` with **no
+virtual environment step**. On a machine with conda or a system Python that is a
+global mutation, and for the one reader most likely to already have a DIMS
+install — a returning user — it silently replaces it. A `python -m venv` line
+before the `pip` line would cost nothing.
+
+**03:47 `NOTE`** Isolated venv install: 10 s, clean. Console scripts provided:
+`dims-analysis`, `dims-case`, `dims-builder`.
+
