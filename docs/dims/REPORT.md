@@ -80,23 +80,40 @@ timestamp to a picture, and so is a pressure map** — and DIMS's playhead did n
 have to be told the difference. That seam generalises to pose skeletons,
 spectrograms and gaze heatmaps.
 
-**Proposed: a DTW alignment tab** ([#24](https://github.com/dims-network/dims/issues/24)).
-DIMS asks *how much* two signals are coupled; DTW asks *how one must be warped in
-time to match the other*, and the warping path is the finding. The claim that
-makes it general — **a pair of streams need not be a pair of people** — extends a
-position DIMS already takes with cross-effector networks. gaitpdb carries the
-case: the same person walking normally and walking while counting backwards in
-sevens, so cognitive load becomes a displacement in a DTW gait space.
+**Built: a DTW gait space** — `opt/step_dtw.py` + `tabs/dtw-tab.js` in the case
+repo. DIMS asks *how much* two signals are coupled; DTW asks *how one must be
+warped in time to match the other*. Each participant appears twice — walking, and
+walking while counting backwards in sevens — and the line between their two
+points is the effect of the load on their gait.
 
-The honest constraint is the interesting part: gaitpdb participants never walked
-together, so any synchrony between two of them is spurious by construction. That
-makes surrogate pairing mandatory, and DIMS's chance-level machinery already
-solves that problem — hence the question in #24 about whether it is reusable.
+![DTW gait space](images/dtw-gait-space.png)
+
+18 recordings, 153 pairs, 20 Hz, 10 % Sakoe-Chiba band. The 2-D embedding
+explains **88.2 %** of the distances. A person under load sits closer to
+themselves (**0.110**, n=6) than two people who never met (**0.191**, n=147) —
+**p = 0.063** over 20 000 permutations, so *suggestive, not significant*, and one
+participant (GaCo13) is a clear outlier driving much of the spread.
+
+The null is not an afterthought here: these participants never walked together,
+so a distance between two of them measures nothing about coordination — it *is*
+the chance level, and it is the only defensible baseline this dataset offers.
+
+**Where it belongs is itself a finding.** I was about to open a PR putting this
+in the core. `contracts/step.md` says *"Most analyses are the second kind"* —
+study-owned `opt/step_<id>.py` — and gives the test my analysis fails: its input
+is the study's own upstream pipeline. So it runs through DIMS's own
+`build_assets.py`, writing via `assets.resolve` and `results.write_payload`. **The
+contract told an outsider not to contribute upstream, and it was right.** That is
+a point in DIMS's favour, and it is why
+[#24](https://github.com/dims-network/dims/issues/24) stays a question — whether
+a *general* DTW step is wanted — rather than becoming a PR.
 
 ## 4 · Decisions I took
 
 | Decision | Why | If you disagree |
 |---|---|---|
+| Claimed the dual-task contrast applied to my subjects | **Wrong.** `_10` is 404 for all six defaults; only 27 subjects (GaCo13–22, GaPt13–33) have it. Corrected by ingesting a cohort that does. | — |
+| Made no claim about the *direction* of the dual-task effect | Variability rises for 2 of 6 and falls for 4. My own precondition was that it reproduce the known direction; it does not, at n=6. Both directions are in the literature. | — |
 | Decimated 100 Hz → 25 Hz before export | recurrence is O(n²); 12 119 samples is a 147 M-cell matrix per pair. 25 Hz preserves every stride event (fastest feature ≈ 0.1 s). Decimation, not interpolation — an interpolated force is a number nobody measured. | raise `TARGET_HZ` in `dims_adapter/export.py`; the analyses re-reduce for the browser anyway, so the cost is CPU |
 | Paired left foot against right foot for cross-RQA | in a gait recording the two feet *are* the coupled pair | — |
 | Feet in the *full* slot, demographics in the *segment* slot | the feet are the thing that replaces the video; the participant panel is context beside it | swap in `feet-video.js` |
