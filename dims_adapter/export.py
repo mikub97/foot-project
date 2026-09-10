@@ -58,7 +58,32 @@ def export_subject(conn, subject, timeseries_dir, target_hz=TARGET_HZ):
     return list(MEASURES)
 
 
-def build_config(subjects, measures, title="Gait in Parkinson's Disease"):
+def recording_meta(conn, subjects):
+    """Per-recording facts the study's own analyses and tabs need.
+
+    Kept in ``config.json`` rather than re-derived: the DTW step reads the
+    exported CSVs and has no other way to know which two recordings are the
+    same person, which is the entire basis of its within-subject comparison.
+    """
+    import gaitdata as _gd
+    meta = {}
+    for subject in subjects:
+        info = _gd.subject_info(conn, subject)
+        if info is None:
+            continue
+        meta[subject] = {
+            "base": info.base or _gd.split_recording_id(subject)[0],
+            "walk": info.walk,
+            "condition": info.condition_label,
+            "group": info.group_label,
+            "age": info.age,
+            "stride_cv": info.stride_cv,
+        }
+    return meta
+
+
+def build_config(subjects, measures, title="Gait in Parkinson's Disease",
+                 recordings=None):
     """A DIMS ``config.json`` for a study whose recordings have no video.
 
     The pairwise analyses take (left foot, right foot): in a gait recording the
@@ -73,6 +98,12 @@ def build_config(subjects, measures, title="Gait in Parkinson's Disease"):
         "include_RQA": [left, right],
         "include_cRQA": [[left, right]],
         "include_elan": True,
+        # Read by the study-local DTW tab's gate(); the core ignores it.
+        "include_dtw": True,
+        "timeseriesTitle": "Ground reaction force — {videoID}",
+        "recordings": recordings or {},
+        "analysis": {"dtw": {"measure": left, "sample_rate_hz": 20.0,
+                             "band_fraction": 0.10}},
     }
 
 
@@ -99,7 +130,9 @@ def main(argv=None):
 
     config_path = os.path.join(args.case_dir, "config.json")
     with open(config_path, "w") as handle:
-        json.dump(build_config(subjects, MEASURES), handle, indent=2)
+        json.dump(build_config(subjects, MEASURES,
+                               recordings=recording_meta(conn, subjects)),
+                  handle, indent=2)
         handle.write("\n")
     print(f"\nwrote {config_path} — {len(subjects)} recordings at {args.hz:g} Hz")
     return 0

@@ -295,3 +295,72 @@ above two foot-force traces. That is the clearest single illustration of the
 **04:20 `NOTE`** Regression check on my own project: `8 passed` against a live
 `app.py`. The adapter is additive — no existing module changed.
 
+## 2026-09-10 — Phase 5, DTW built
+
+**05:10 `CORRECTION`** I asserted in the report and in
+[#24](https://github.com/dims-network/dims/issues/24) that gaitpdb carries the
+dual-task contrast, implying it applied to my ingested subjects. It does not.
+`_10` is **404 for GaPt03, GaPt04, GaCo01, GaCo02, GaPt05** — every subject I
+had. Scraping the dataset index: **27 recordings have `_10`, all in the `Ga`
+study — GaCo13–22 and GaPt13–33, 21 patients and 6 controls.** All 27 also have
+`_01`, so the pair exists; just not for the six I defaulted to. The general
+claim was right, its application to my data was not, and I only found out by
+trying to fetch the files.
+
+**05:15 `NOTE`** Phase 2 built. `gaitdata` now keys on a *recording*, not a
+subject: `record_filename(subject, walk)`, `recording_id()` and a `walk` column.
+Usual walks keep the bare subject id (`GaPt13`), dual-task walks get
+`GaPt13_10`, so every recording ingested before walks existed keeps its name —
+which is why the existing browser tests still pass unchanged (`8 passed`). The
+two new columns are appended, per the positional-insert gotcha in
+[architecture.md](../architecture.md). `python fetch_data.py --dual-task` fetches
+the pairs. Database rebuilt: 18 recordings, 6 with both conditions.
+
+**05:20 `ATTENTION` — the dual-task contrast does not reproduce cleanly.**
+Stride-time variability rises under load for 2 of 6 and *falls* for 4:
+
+| | usual | dual task |
+|---|---|---|
+| GaCo13 | 3.7% | **14.0%** |
+| GaCo14 | 12.5% | 10.7% |
+| GaCo15 | 9.1% | 7.4% |
+| GaPt13 | 8.5% | **15.9%** |
+| GaPt14 | 10.8% | 9.8% |
+| GaPt15 | 12.2% | 6.6% |
+
+My plan set "reproduces the known direction" as the precondition for claiming
+anything. **It does not**, at n=6. Both directions exist in the literature —
+load can also *reduce* variability by shifting from automatic to deliberate
+control — so this is not evidence of a bug, but it is a reason to make no
+claim about direction. What the DTW tab reports instead is the question this
+data can answer: is a person still recognisably themselves under load?
+
+**05:25 `NOTE` — GaCo13 is an outlier and should be looked at.** Its dual-task
+walk has **52 strides in 115.5 s** against 119 in 121.2 s for its usual walk —
+2.2 s per stride. Either that participant walked very differently, or
+`heel_strikes()` is failing on that recording. It is also the one long line in
+the gait space and it drives most of the spread. Not resolved; flagged.
+
+**05:30 `RESULT` — DTW gait space built, and it belongs in the case repo.**
+I nearly opened a PR putting this in the core. `contracts/step.md` says
+plainly: *"Most analyses are the second kind"* — study-owned `opt/step_<id>.py`
+— and gives the test, which my analysis fails ("its input is that study's own
+upstream pipeline"). So it is `case-gaitpd/opt/step_dtw.py`, gated by
+`include_dtw`, run by DIMS's own `build_assets.py`, writing through
+`assets.resolve` and `results.write_payload` as the contract requires; and
+`tabs/dtw-tab.js` per `contracts/tab.md`. **The contract told me not to
+contribute this upstream, and it was right.** That is a point in DIMS's favour,
+and it is why #24 stays a question rather than becoming a PR.
+
+Result over 18 recordings, 153 pairs, 20 Hz, 10% Sakoe-Chiba band:
+
+- 2-D embedding explains **88.2%** of the distances
+- within-subject (same person, two conditions): **0.110**, n=6
+- between-subject (people who never met): **0.191**, n=147
+- permutation test: **p = 0.063**, 20 000 permutations
+
+So a person under cognitive load stays closer to themselves than to anyone
+else — **suggestive, not significant**, and one outlier drives much of it. The
+honest headline is the method, not the number: the null is built in, because on
+this dataset it is the only defensible thing to compute.
+

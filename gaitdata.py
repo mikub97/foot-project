@@ -38,6 +38,12 @@ DEMOGRAPHICS_FILE = "demographics.txt"
 #: original dashboard pulled from the university mock service.
 DEFAULT_SUBJECTS = ["GaPt03", "GaPt04", "JuPt03", "GaCo01", "JuCo01", "SiCo01"]
 
+#: Subjects recorded walking *and* walking while counting backwards in sevens.
+#: Only 27 subjects in the dataset have both walks (21 patients, 6 controls),
+#: all in the ``Ga`` study; these are three of each. The pair is what makes a
+#: within-subject cognitive-load contrast possible at all.
+DUAL_TASK_SUBJECTS = ["GaPt13", "GaPt14", "GaPt15", "GaCo13", "GaCo14", "GaCo15"]
+
 LEFT_SENSORS = [f"L{i}" for i in range(1, 9)]
 RIGHT_SENSORS = [f"R{i}" for i in range(1, 9)]
 SENSORS = LEFT_SENSORS + RIGHT_SENSORS
@@ -76,9 +82,34 @@ class DataMissing(RuntimeError):
 # Download
 # --------------------------------------------------------------------------
 
-def record_filename(subject_id):
-    """Name of the first walk recorded for ``subject_id`` (always present)."""
-    return f"{subject_id}_01.txt"
+#: Walk ``01`` is a usual walk. Walk ``10``, in the ``Ga`` study only, is the
+#: same subject walking while counting backwards in sevens — a dual task. Both
+#: are quoted from the dataset's ``format.txt``. 27 subjects have the pair
+#: (21 patients, 6 controls); most have only the usual walk.
+USUAL_WALK = "01"
+DUAL_TASK_WALK = "10"
+
+WALK_LABELS = {USUAL_WALK: "usual walking", DUAL_TASK_WALK: "dual task (serial 7s)"}
+
+
+def record_filename(subject_id, walk=USUAL_WALK):
+    """Name of one walk recorded for ``subject_id``."""
+    return f"{subject_id}_{walk}.txt"
+
+
+def recording_id(subject_id, walk=USUAL_WALK):
+    """Key for one recording.
+
+    A usual walk keys on the bare subject id, so every recording ingested
+    before walks existed keeps the name it already had.
+    """
+    return subject_id if walk == USUAL_WALK else f"{subject_id}_{walk}"
+
+
+def split_recording_id(rec_id):
+    """``recording_id`` inverted: ``("GaPt13", "10")``."""
+    base, _, walk = rec_id.partition("_")
+    return base, walk or USUAL_WALK
 
 
 def _get(name, log=print):
@@ -97,23 +128,38 @@ def _get(name, log=print):
     )
 
 
-def download(subject_ids=None, dest=DATA_DIR, force=False, log=print):
-    """Fetch the demographics table and one recording per subject.
+def as_recordings(subject_ids, walks=(USUAL_WALK,)):
+    """``["GaPt13"], ("01", "10")`` -> ``[("GaPt13", "01"), ("GaPt13", "10")]``."""
+    return [(s, w) for s in subject_ids for w in walks]
 
-    Files already on disk are left alone unless ``force`` is set. Returns the
-    list of local recording paths.
+
+def download(subject_ids=None, dest=DATA_DIR, force=False, log=print,
+             walks=(USUAL_WALK,), recordings=None):
+    """Fetch the demographics table and the requested recordings.
+
+    Files already on disk are left alone unless ``force`` is set. A walk the
+    dataset does not have is skipped with a note rather than raising: most
+    subjects have only the usual walk, and asking for the dual task everywhere
+    is the normal way to find out who has it.
     """
-    subject_ids = list(subject_ids or DEFAULT_SUBJECTS)
+    if recordings is None:
+        recordings = as_recordings(list(subject_ids or DEFAULT_SUBJECTS), walks)
     os.makedirs(dest, exist_ok=True)
 
     paths = []
-    for name in [DEMOGRAPHICS_FILE] + [record_filename(s) for s in subject_ids]:
+    for name in [DEMOGRAPHICS_FILE] + [record_filename(s, w) for s, w in recordings]:
         target = os.path.join(dest, name)
         if os.path.exists(target) and not force:
             log(f"  have {name} ({os.path.getsize(target):,} bytes)")
         else:
             log(f"  get  {name} ...")
-            content = _get(name, log=log)
+            try:
+                content = _get(name, log=log)
+            except DataMissing:
+                if name == DEMOGRAPHICS_FILE:
+                    raise
+                log(f"       {name} is not in the dataset — skipped")
+                continue
             with open(target, "wb") as handle:
                 handle.write(content)
             log(f"       {len(content):,} bytes")
@@ -122,15 +168,23 @@ def download(subject_ids=None, dest=DATA_DIR, force=False, log=print):
     return paths
 
 
-def available_subjects(dest=DATA_DIR):
-    """Subject ids whose recording is present locally."""
+def available_recordings(dest=DATA_DIR):
+    """``(subject, walk)`` for every recording file present locally."""
     if not os.path.isdir(dest):
         return []
-    return sorted(
-        name[: -len("_01.txt")]
-        for name in os.listdir(dest)
-        if name.endswith("_01.txt")
-    )
+    found = []
+    for name in os.listdir(dest):
+        if not name.endswith(".txt") or name == DEMOGRAPHICS_FILE:
+            continue
+        stem, _, walk = name[:-4].rpartition("_")
+        if stem and walk.isdigit():
+            found.append((stem, walk))
+    return sorted(found)
+
+
+def available_subjects(dest=DATA_DIR):
+    """Subject ids whose usual walk is present locally."""
+    return sorted({s for s, w in available_recordings(dest) if w == USUAL_WALK})
 
 
 # --------------------------------------------------------------------------
@@ -303,7 +357,11 @@ CREATE TABLE IF NOT EXISTS subjects (
     samples   INTEGER,
     stride_cv REAL,
     stride_median REAL,
-    sensor_peak REAL
+    sensor_peak REAL,
+    -- Appended rather than inserted: the insert is positional, so a new column
+    -- in the middle would silently shift every value after it.
+    base      TEXT,
+    walk      TEXT
 );
 """
 
@@ -339,10 +397,17 @@ def connect(db_path=DB_PATH, read_only=False):
     return sqlite3.connect(db_path, check_same_thread=False)
 
 
-def ingest(subject_ids=None, data_dir=DATA_DIR, db_path=DB_PATH, log=print):
-    """Load recordings and demographics into SQLite. Idempotent per subject."""
-    subject_ids = list(subject_ids or available_subjects(data_dir))
-    if not subject_ids:
+def ingest(subject_ids=None, data_dir=DATA_DIR, db_path=DB_PATH, log=print,
+           walks=None, recordings=None):
+    """Load recordings and demographics into SQLite. Idempotent per recording."""
+    if recordings is None:
+        if subject_ids:
+            recordings = [(s, w) for s, w in available_recordings(data_dir)
+                          if s in set(subject_ids)
+                          and (walks is None or w in walks)]
+        else:
+            recordings = available_recordings(data_dir)
+    if not recordings:
         raise DataMissing(
             f"No recordings in {data_dir} — run `python fetch_data.py` first."
         )
@@ -354,18 +419,19 @@ def ingest(subject_ids=None, data_dir=DATA_DIR, db_path=DB_PATH, log=print):
         conn.execute(SQL_CREATE_TRACES)
         conn.execute(SQL_CREATE_INDEX)
 
-        for subject in subject_ids:
-            path = os.path.join(data_dir, record_filename(subject))
+        for subject, walk in recordings:
+            rec_id = recording_id(subject, walk)
+            path = os.path.join(data_dir, record_filename(subject, walk))
             if not os.path.exists(path):
                 raise DataMissing(f"{path} is missing — run `python fetch_data.py`.")
 
             frame = detect_anomalies(read_record(path))
             rows = [
-                (subject, *row)
+                (rec_id, *row)
                 for row in frame[TRACE_COLUMNS].itertuples(index=False, name=None)
             ]
 
-            conn.execute("DELETE FROM traces WHERE subject = ?;", (subject,))
+            conn.execute("DELETE FROM traces WHERE subject = ?;", (rec_id,))
             conn.executemany(SQL_INSERT_TRACES, rows)
 
             if subject in demographics.index:
@@ -382,9 +448,9 @@ def ingest(subject_ids=None, data_dir=DATA_DIR, db_path=DB_PATH, log=print):
             stride_median = float(np.median(durations)) if durations.size else None
 
             conn.execute(
-                "INSERT OR REPLACE INTO subjects VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?);",
+                "INSERT OR REPLACE INTO subjects VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?);",
                 (
-                    subject,
+                    rec_id,
                     str(info.get("Study", subject[:2])),
                     int(field("Group") or 0),
                     int(field("Gender") or 0),
@@ -395,6 +461,8 @@ def ingest(subject_ids=None, data_dir=DATA_DIR, db_path=DB_PATH, log=print):
                     None if stride_cv != stride_cv else stride_cv,
                     stride_median,
                     float(frame[SENSORS].to_numpy().max()),
+                    subject,
+                    walk,
                 ),
             )
 
@@ -404,14 +472,15 @@ def ingest(subject_ids=None, data_dir=DATA_DIR, db_path=DB_PATH, log=print):
                 if durations.size else 0
             )
             log(
-                f"  {subject}: {len(frame):,} samples over {frame['t'].iloc[-1]:.1f}s, "
+                f"  {rec_id} ({WALK_LABELS.get(walk, walk)}): "
+                f"{len(frame):,} samples over {frame['t'].iloc[-1]:.1f}s, "
                 f"{durations.size} strides, stride-time CV {stride_cv:.1f}%, "
                 f"{irregular} irregular ({100 * irregular / max(durations.size, 1):.1f}%)"
             )
         conn.commit()
     finally:
         conn.close()
-    return subject_ids
+    return [recording_id(s, w) for s, w in recordings]
 
 
 # --------------------------------------------------------------------------
@@ -438,6 +507,8 @@ class Subject:
     stride_cv: float
     stride_median: float
     sensor_peak: float
+    base: str = None
+    walk: str = USUAL_WALK
 
     @property
     def group_label(self):
@@ -452,9 +523,14 @@ class Subject:
         return STUDY_LABELS.get(self.study, self.study)
 
     @property
+    def condition_label(self):
+        return WALK_LABELS.get(self.walk, self.walk)
+
+    @property
     def label(self):
         age = f"{self.age:.0f}y" if self.age else "age n/a"
-        return f"{self.subject} — {self.group_label}, {age}"
+        condition = "" if self.walk == USUAL_WALK else f", {self.condition_label}"
+        return f"{self.subject} — {self.group_label}, {age}{condition}"
 
 
 def subjects(conn):
