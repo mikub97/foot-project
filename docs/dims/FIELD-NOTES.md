@@ -141,3 +141,93 @@ before the `pip` line would cost nothing.
 **03:47 `NOTE`** Isolated venv install: 10 s, clean. Console scripts provided:
 `dims-analysis`, `dims-case`, `dims-builder`.
 
+## 2026-09-10 — Phase 1b/2/3, coder path with my own data
+
+**03:49 `BUG` — the builder's own fix-hint is unreachable** — severity: high,
+cost: 4 lines. `apps/builder/dims_builder/__main__.py` docstring says
+`pip install "dims-network[builder]"`, but line 16
+(`from dims_builder.server import create_app`) raises `ModuleNotFoundError:
+No module named 'flask'` before anything prints. `dims_builder/project.py`
+already does this correctly twice ("Reinstall with: pip install
+'dims-network[builder]'"), so only the entry point is missing it.
+*Fix:* guard that import, print the line the docstring already has.
+
+**03:49 `FRICTION` — `dims-builder --help` starts the server.** No argument
+parsing; it launches the wizard and opens a browser. Cost me a 120 s timeout.
+
+**03:52 `NOTE`** Coder path is *good*. `docs/getting-started.md` is accurate,
+ordered and honest. `dims-case new gaitpd --visibility public` scaffolds in
+under a second. The Private/Public split — pre-commit hook, pre-push hook and a
+CI check to keep recordings of identifiable people out of git — is better than
+anything in my own project.
+
+**03:53 `NOTE`** The data contract is a near-exact match for gaitpdb:
+`{videoID}_{dataType}.csv`, `Time` in seconds ascending. My adapter is 100 lines
+and adds nothing. `getting-started.md` even anticipates the neighbouring
+ecosystem: "Tools that emit milliseconds — several EnvisionBox modules do —
+need a unit change and a rename."
+
+**03:53 `E2` — RESULT: a study with no video works.** This was my headline
+question and the answer is yes. Six recordings, no `.mp4` anywhere, `dims-case`
+→ adapter → `dims-analysis run` → `serve.py`, and the dashboard renders with
+Time series, RQA, Cross-RQA and ELAN tabs live. **This is the finding that
+decides adoption for me**, and it is positive.
+Caveats, all cosmetic: the video panel still renders, labelled
+`Segment (NaNs – NaNs)`; and the browser console logs 4 × 404 for absent
+transcripts/videos. Optional assets should be absent quietly when the config
+does not claim them.
+
+**03:53 `E3`/`E6` — RESULT: 6 recordings, RQA + cross-RQA, 20 s wall clock.**
+12 119 samples at 100 Hz decimated to 25 Hz (3 030 points) before export. The
+analyses downsample again for the browser ("Reduced 3030 -> 432 points, block
+average / density-preserving"). No throughput problem at this scale.
+
+**03:53 `ATTENTION` — my 25 Hz decimation is a decision, not a default.**
+Recurrence is O(n²); 12 119 samples is a 147-million-cell matrix per pair. I
+decimate to 25 Hz, which preserves every stride event (the fastest feature is a
+~0.1 s heel-strike rise) but is my choice, in `dims_adapter/export.py`.
+Decimation, not interpolation — an interpolated force is a number nobody
+measured. *What would change if you disagree:* raise `TARGET_HZ`; the analyses
+will still re-reduce for the browser, so the cost is CPU, not fidelity.
+
+**03:54 `BUG` — the window warning contradicts itself and cries wolf** —
+severity: high, cost: two lines.
+*Location:* `packages/dims-analysis/dims_analysis/common/window.py`, `_warning()`.
+*Actual output:* "the 20 s window was shortened to **20 s**, because a 121.2 s
+recording cannot hold 20 of the requested windows. DET and LAM ... are not
+comparable with an analysis at **20 s**."
+*Payload:* `length_requested_sec: 20.0`, `length_used_sec: 19.9985`.
+Two separate defects:
+1. **Formatting.** `{requested:g}` and `{used:.4g}` both render as `20`, so the
+   sentence says a value was changed to itself. On my data this happened in
+   **12 of 12** warnings — every one that fired.
+2. **Threshold.** `length_moved` fires when the difference exceeds `1e-9` s —
+   one nanosecond. Here the difference is **1.5 ms, 0.0075 %**, and the warning
+   declares DET and LAM "not comparable" over it. It also says the recording
+   "cannot hold 20 of the requested windows" while reporting `n_windows: 102`.
+*Why this matters more than it looks:* DIMS's warnings are, elsewhere, the best
+thing in it — the recurrence-rate plateau warning is genuinely excellent science
+communication. A warning that fires on a 1.5 ms rounding difference teaches
+users to ignore the channel that carries the real ones.
+*Fix:* compare against one sample or a percentage of the window, not 1e-9; and
+format both numbers at a precision that can distinguish them.
+
+**03:54 `BUG` — the time-series chart is titled for a study it is no longer
+about** — severity: medium, cost: ~5 lines.
+`packages/dims-tabs/timeseries.js:82` hardcodes
+`ROI Synchrony Over Time for Video ${videoID}`. My foot-pressure traces are
+labelled as ROI synchrony. `docs/tabs/timeseries.md:31` is admirably honest
+about it — "a leftover from the fNIRS study the tab was first written for and is
+wrong for a tab that plots any measure at all ... **Ignore it**" — but
+documenting a wart is not fixing it, and "ignore it" is advice a reader cannot
+follow when the title is the first thing on the figure. `config.schema.json`
+already carries `title` and `subtitle`, so the plumbing exists.
+*Fix:* default the figure title to the study title, allow an override.
+*Note:* for a project whose stated scope is "multimodal social-interaction
+data", a hardcoded fNIRS label on the most-used tab is the clearest signal of
+where the generality is aspirational.
+
+**03:53 `FRICTION` — `serve.py --port 8137` crashes.** `ValueError: invalid
+literal for int() with base 10: '--port'`; the port is positional
+(`serve.py 8137`). Cost: one restart.
+
